@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(npx:*)",
+      "Bash(npm install:*)",
+      "Bash(pnpm dlx:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(docker volume:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker rm:*)",
+      "Bash(touch:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(pnpm run dev:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

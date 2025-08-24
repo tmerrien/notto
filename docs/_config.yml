@@ -1,0 +1,56 @@
+# GitHub Pages configuration for Notto Documentation
+
+title: Notto Components
+description: Universal UI Component Library - Documentation
+baseurl: "/docs"
+url: "https://yourusername.github.io"
+
+# Theme
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+nav_links:
+  - title: "Overview"
+    url: "/"
+  - title: "Core Components"
+    url: "/components/core"
+  - title: "Layout Components" 
+    url: "/components/layout"
+  - title: "UI Components"
+    url: "/components/ui"
+  - title: "Usage Guidelines"
+    url: "/guides/usage"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Include/Exclude
+include:
+  - _pages
+  - components
+  - guides
+
+exclude:
+  - node_modules
+  - package.json
+  - .git
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Collections
+collections:
+  components:
+    output: true
+    permalink: /:collection/:name/
+  guides:
+    output: true
+    permalink: /:collection/:name/
