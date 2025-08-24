@@ -66,10 +66,14 @@ This is a Next.js 15 application using the App Router, TypeScript, and Tailwind 
 
 ## Development Commands
 
-- `npm run dev` - Start development server with Turbopack (opens at http://localhost:3000)
-- `npm run build` - Build production application
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint checks
+- `pnpm dev` - Start development server with Turbopack (opens at http://localhost:3000)
+- `pnpm build` - Build production application
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint checks
+- `pnpm test` - Run Jest tests
+- `pnpm test:coverage` - Run tests with code coverage (generates Qodana-compatible LCOV reports)
+- `pnpm test:watch` - Run tests in watch mode
+- `pnpm test:coverage:watch` - Run tests with coverage in watch mode
 
 ## Architecture
 
@@ -191,6 +195,126 @@ npx shadcn@latest add button card input
 ### File Naming Convention
 - **ALWAYS kebab-case** for all files and directories
 - Examples: `user-profile.tsx`, `api-client.ts`, `settings-page.tsx`
+
+## QODANA CODE QUALITY INTEGRATION - CRITICAL
+
+### Overview
+This project uses **Qodana for JS 2025.2** for comprehensive code quality analysis with **code coverage integration**. When you see Qodana issues, use this section to fix them systematically.
+
+### 🔧 **How to Handle Qodana Issues (For Claude)**
+
+When the user mentions "Qodana issues" or "code quality problems," follow this workflow:
+
+#### 1. **Extract Current Issues**
+Run this PowerShell script to get current issues:
+```powershell
+powershell -ExecutionPolicy Bypass -File ".\scripts\qodana-extract.ps1"
+```
+
+Or manually check latest workflow:
+```bash
+gh run list --workflow="Qodana" --limit=1
+gh run view [RUN-ID] --log | Select-String "Unused import|Import can be|ESLint.*Error"
+```
+
+#### 2. **Common Issue Patterns & Fixes**
+
+##### A. **ESLint Plugin Missing** (HIGH PRIORITY)
+**Problem**: `Cannot find module 'eslint-plugin-react-hooks'`
+**Fix**: Install missing dependency
+```bash
+pnpm add -D eslint-plugin-react-hooks
+```
+
+##### B. **Unused Import Specifiers** (MEDIUM PRIORITY)
+**Pattern**: "Unused import specifier [NAME]"
+**Fix**: Remove unused imports from files
+```typescript
+// Before
+import { useState, useEffect, UNUSED_ITEM } from 'react'
+
+// After  
+import { useState, useEffect } from 'react'
+```
+
+##### C. **Import Optimization** (LOW PRIORITY)
+**Pattern**: "Import can be shortened"
+**Fix**: Optimize import statements
+```typescript
+// Before
+import { render, screen } from '@testing-library/react'
+import { Button } from '../components/ui/button'
+
+// After (if only using render)
+import { render } from '@testing-library/react'
+```
+
+#### 3. **Priority Order for Fixes**
+1. **HIGH**: ESLint configuration issues (affects linting)
+2. **MEDIUM**: Unused imports (code cleanliness)
+3. **LOW**: Import optimization (minor performance)
+
+#### 4. **Files to Check First**
+- `components/index.tsx` - Often has unused DialogTrigger, useState
+- `__tests__/components.test.tsx` - Import optimization opportunities
+- `__tests__/page.test.tsx` - Unused screen imports
+- Any files with ESLint errors
+
+#### 5. **Testing After Fixes**
+```bash
+# Run tests to ensure no breakage
+pnpm test
+
+# Run linting to verify fixes
+pnpm lint
+
+# Run Qodana locally (if needed)
+# Workflow will run automatically on push
+```
+
+### 🔄 **Integration Workflow**
+1. User reports Qodana issues
+2. Extract issues using script or workflow logs
+3. Prioritize: ESLint config → Unused imports → Optimizations
+4. Apply fixes systematically
+5. Test and verify
+6. Commit changes
+
+### 📊 **Code Coverage Context**
+- **Current Coverage**: ~5.4% (building up with more tests)
+- **Coverage Tool**: Jest with LCOV output for Qodana
+- **Reports Location**: `.qodana/code-coverage/`
+- **Thresholds**: Temporarily disabled during development
+
+### 🚨 **Critical Files for Qodana**
+- `qodana.yaml` - Qodana configuration (DO NOT MODIFY without reason)
+- `jest.config.js` - Test coverage configuration
+- `.github/workflows/qodana_code_quality.yml` - CI/CD integration
+- `scripts/qodana-extract.ps1` - Issue extraction script
+
+### 📋 **Quick Reference Commands**
+```bash
+# Check latest Qodana run
+gh run list --workflow="Qodana" --limit=3
+
+# Extract issues for analysis
+powershell .\scripts\qodana-extract.ps1
+
+# Fix common ESLint issue
+pnpm add -D eslint-plugin-react-hooks
+
+# Run tests after fixes
+pnpm test && pnpm lint
+```
+
+### 💡 **Pro Tips for Claude**
+- Always fix ESLint config issues first (they block other linting)
+- Use `git grep` to find all instances of unused imports
+- Check if removed imports break functionality before committing
+- Qodana runs automatically on push, so fixes will be validated
+- Coverage data appears in Qodana Cloud after successful workflow runs
+
+---
 
 ## SUPABASE INTEGRATION - ADDED
 
