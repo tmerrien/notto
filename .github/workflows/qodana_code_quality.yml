@@ -3,9 +3,10 @@ on:
   workflow_dispatch:
   pull_request:
   push:
-    branches: # Specify your branches here
-      - main # The 'main' branch
-      - 'releases/*' # The release branches
+    branches:
+      - master
+      - main
+      - 'releases/*'
 
 jobs:
   qodana:
@@ -15,14 +16,43 @@ jobs:
       pull-requests: write
       checks: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}  # to check out the actual pull request commit, not the merge commit
-          fetch-depth: 0  # a full history is required for pull request analysis
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+      
+      - name: Install dependencies
+        run: pnpm install
+      
+      - name: Run tests with coverage
+        run: pnpm test:coverage
+      
+      - name: Archive coverage data
+        uses: actions/upload-artifact@v4
+        with:
+          name: jest-coverage-data
+          path: .qodana/code-coverage
+      
       - name: 'Qodana Scan'
-        uses: JetBrains/qodana-action@v2025.1
+        uses: JetBrains/qodana-action@v2025.2
         with:
           pr-mode: false
+          use-caches: true
+          post-pr-comment: true
+          use-annotations: true
+          upload-result: false
+          push-fixes: 'none'
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_1734009880 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
