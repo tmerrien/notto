@@ -5,7 +5,7 @@ import { Button } from '../components/ui/button'
 jest.mock('class-variance-authority', () => ({
   cva: jest.fn(() => jest.fn(() => 'mocked-class')),
   type: {
-    VariantProps: {} as any,
+    VariantProps: {} as Record<string, unknown>,
   },
 }))
 

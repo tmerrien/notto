@@ -154,9 +154,9 @@ export function SqlEditor({
     if (noResults && !isSqlVisible && !isNaturalLanguageMode && !readOnly && !isPending) {
       setIsSqlVisible(true)
     }
-  }, [data, isSqlVisible, isNaturalLanguageMode])
+  }, [data, isSqlVisible, isNaturalLanguageMode, isPending, readOnly])
 
-  const serverErrorMessage = (error as any)?.response?.data?.message || ''
+  const serverErrorMessage = (error as { response?: { data?: { message?: string } } })?.response?.data?.message || ''
   const isReadOnlyError =
     serverErrorMessage.includes('permission denied') || serverErrorMessage.includes('42501')
   const customReadOnlyError = "You can't directly alter your database schema, use chat instead"

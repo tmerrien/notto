@@ -61,20 +61,20 @@ export default function CoreDocsPage() {
                   <tbody className="text-stone-600 dark:text-stone-400">
                     <tr className="border-b border-stone-100 dark:border-stone-900">
                       <td className="p-3">direction</td>
-                      <td className="p-3">'vertical' | 'horizontal'</td>
-                      <td className="p-3">'vertical'</td>
+                      <td className="p-3">&apos;vertical&apos; | &apos;horizontal&apos;</td>
+                      <td className="p-3">&apos;vertical&apos;</td>
                       <td className="p-3">Layout direction</td>
                     </tr>
                     <tr className="border-b border-stone-100 dark:border-stone-900">
                       <td className="p-3">spacing</td>
-                      <td className="p-3">'xs' | 'sm' | 'md' | 'lg' | 'xl'</td>
-                      <td className="p-3">'md'</td>
+                      <td className="p-3">&apos;xs&apos; | &apos;sm&apos; | &apos;md&apos; | &apos;lg&apos; | &apos;xl&apos;</td>
+                      <td className="p-3">&apos;md&apos;</td>
                       <td className="p-3">Gap between children</td>
                     </tr>
                     <tr className="border-b border-stone-100 dark:border-stone-900">
                       <td className="p-3">alignment</td>
-                      <td className="p-3">'start' | 'center' | 'end'</td>
-                      <td className="p-3">'start'</td>
+                      <td className="p-3">&apos;start&apos; | &apos;center&apos; | &apos;end&apos;</td>
+                      <td className="p-3">&apos;start&apos;</td>
                       <td className="p-3">Cross-axis alignment</td>
                     </tr>
                     <tr className="border-b border-stone-100 dark:border-stone-900">

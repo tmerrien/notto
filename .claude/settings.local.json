@@ -14,7 +14,12 @@
       "Bash(pnpm dev:*)",
       "Bash(pnpm run dev:*)",
       "Bash(pnpm add:*)",
-      "Bash(pnpm install:*)"
+      "Bash(pnpm install:*)",
+      "Bash(gh run list:*)",
+      "Bash(powershell:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm test:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

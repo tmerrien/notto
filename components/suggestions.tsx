@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { useGetSuggestions } from '@/hooks/use-suggestions'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Terminal } from 'lucide-react'
@@ -15,7 +16,7 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
   const sortedSuggestions = useMemo(() => {
     if (!suggestions) return []
     const levelOrder = { ERROR: 1, WARN: 2, INFO: 3 }
-    return [...suggestions].sort((a: any, b: any) => {
+    return [...suggestions].sort((a: { level: string }, b: { level: string }) => {
       const levelA = levelOrder[a.level as keyof typeof levelOrder] || 99
       const levelB = levelOrder[b.level as keyof typeof levelOrder] || 99
       return levelA - levelB
@@ -37,7 +38,7 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
     <div className="p-6 pt-4 lg:p-12 lg:pt-12 max-w-3xl mx-auto">
       <h2 className="text-base lg:text-xl font-semibold mb-1">Suggestions</h2>
       <p className="text-muted-foreground mb-4 lg:mb-8 text-sm lg:text-base">
-        Improve your project's security and performance.
+        Improve your project&apos;s security and performance.
       </p>
       {isLoading && (
         <div className="space-y-2">
@@ -52,7 +53,7 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
           <Terminal className="h-4 w-4" />
           <AlertTitle>Error fetching suggestions</AlertTitle>
           <AlertDescription>
-            {(error as any)?.message || 'An unexpected error occurred. Please try again.'}
+            {(error as Error)?.message || 'An unexpected error occurred. Please try again.'}
           </AlertDescription>
         </Alert>
       )}
@@ -60,7 +61,7 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
         <div>
           {sortedSuggestions.length > 0 ? (
             <div>
-              {sortedSuggestions.map((suggestion: any) => (
+              {sortedSuggestions.map((suggestion: { cache_key: string; title: string; level: 'ERROR' | 'WARN' | 'INFO'; detail: string }) => (
                 <div
                   key={suggestion.cache_key}
                   className="py-4 border-b last:border-b-0 group relative"
@@ -85,7 +86,7 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
                     <div className="text-sm text-muted-foreground mt-2 prose prose-sm max-w-none">
                       <ReactMarkdown
                         components={{
-                          code({ inline, children, ...props }: any) {
+                          code({ inline, children, ...props }: { inline?: boolean; children: React.ReactNode; [key: string]: unknown }) {
                             return inline ? (
                               <code className="bg-muted px-1 rounded" {...props}>
                                 {children}

@@ -1,4 +1,5 @@
-import { render, screen } from '@testing-library/react'
+import React from 'react'
+import { render } from '@testing-library/react'
 import Page from '../app/page'
 
 // Mock the Logo component since it might have complex dependencies
@@ -10,7 +11,7 @@ jest.mock('../app/components/core/logo', () => {
 
 // Mock any other complex components that might cause issues
 jest.mock('../components/ui/button', () => ({
-  Button: ({ children, ...props }: any) => (
+  Button: ({ children, ...props }: { children: React.ReactNode; [key: string]: unknown }) => (
     <button {...props}>{children}</button>
   ),
 }))

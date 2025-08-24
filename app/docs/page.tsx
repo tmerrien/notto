@@ -221,7 +221,7 @@ export default function DocsPage() {
                   complex state management, responsive breakpoints
                 </ListItem>
                 <ListItem>
-                  <strong>Benefit:</strong> Developer writes `&lt;Button style="dark"&gt;CLICK&lt;/Button&gt;` 
+                  <strong>Benefit:</strong> Developer writes `&lt;Button style=&quot;dark&quot;&gt;CLICK&lt;/Button&gt;` 
                   and gets full accessibility, dark mode, hover states, and consistent branding
                 </ListItem>
               </List>

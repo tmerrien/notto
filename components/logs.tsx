@@ -189,7 +189,7 @@ export function LogsManager({ projectRef }: { projectRef: string }) {
             <Terminal className="h-4 w-4" />
             <AlertTitle>Error fetching logs</AlertTitle>
             <AlertDescription>
-              {(error as any)?.message ||
+              {(error as Error)?.message ||
                 (typeof logs?.error === 'object' && logs.error?.message) ||
                 'An unexpected error occurred. Please try again.'}
             </AlertDescription>
@@ -215,9 +215,9 @@ export function LogsManager({ projectRef }: { projectRef: string }) {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {(logs.result as any[]).map((log, index) => (
+              {(logs.result as Record<string, unknown>[]).map((log, index) => (
                 <TableRow key={log.id || index} className="group hover:bg-muted/50 relative">
-                  {Object.keys(logs.result?.[0] ?? []).map((key, idx, arr) => {
+                  {Object.keys(logs.result?.[0] ?? []).map((key) => {
                     const value = log[key]
                     const formattedValue = (() => {
                       if (key === 'timestamp' && typeof value === 'number') {

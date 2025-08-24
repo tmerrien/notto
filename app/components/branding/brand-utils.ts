@@ -73,11 +73,14 @@ export function buildComponentClasses(
  */
 export function getColor(path: string): string {
   const parts = path.split('.')
-  let current: any = brandConfig.colors
+  let current: unknown = brandConfig.colors
   
   for (const part of parts) {
-    current = current[part]
-    if (!current) return ''
+    if (current && typeof current === 'object' && part in current) {
+      current = (current as Record<string, unknown>)[part]
+    } else {
+      return ''
+    }
   }
   
   return typeof current === 'string' ? current : ''
