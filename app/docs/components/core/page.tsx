@@ -7,6 +7,8 @@ import { Button } from '@/app/components/ui/button'
 import { Separator } from '@/app/components/ui/separator'
 import { Background } from '@/app/components/layout/background'
 import { Logo } from '@/app/components/core/logo'
+import { PropsTable } from '@/app/docs/components/core/components/props-table'
+import { CodeBlock } from '@/app/components/ui/code-block'
 
 export default function CoreDocsPage() {
   return (
@@ -48,50 +50,37 @@ export default function CoreDocsPage() {
 
             <Section spacing="md">
               <Heading level={5}>PROPS</Heading>
-              <div className="overflow-x-auto">
-                <table className="w-full font-mono text-sm border-collapse">
-                  <thead>
-                    <tr className="border-b border-stone-200 dark:border-stone-800">
-                      <th className="text-left p-3 text-stone-900 dark:text-stone-100">PROP</th>
-                      <th className="text-left p-3 text-stone-900 dark:text-stone-100">TYPE</th>
-                      <th className="text-left p-3 text-stone-900 dark:text-stone-100">DEFAULT</th>
-                      <th className="text-left p-3 text-stone-900 dark:text-stone-100">DESCRIPTION</th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-stone-600 dark:text-stone-400">
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">direction</td>
-                      <td className="p-3">&apos;vertical&apos; | &apos;horizontal&apos;</td>
-                      <td className="p-3">&apos;vertical&apos;</td>
-                      <td className="p-3">Layout direction</td>
-                    </tr>
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">spacing</td>
-                      <td className="p-3">&apos;xs&apos; | &apos;sm&apos; | &apos;md&apos; | &apos;lg&apos; | &apos;xl&apos;</td>
-                      <td className="p-3">&apos;md&apos;</td>
-                      <td className="p-3">Gap between children</td>
-                    </tr>
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">alignment</td>
-                      <td className="p-3">&apos;start&apos; | &apos;center&apos; | &apos;end&apos;</td>
-                      <td className="p-3">&apos;start&apos;</td>
-                      <td className="p-3">Cross-axis alignment</td>
-                    </tr>
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">container</td>
-                      <td className="p-3">boolean</td>
-                      <td className="p-3">false</td>
-                      <td className="p-3">Apply container max-width</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <PropsTable data={[
+                {
+                  name: 'direction',
+                  type: "'vertical' | 'horizontal'",
+                  defaultValue: "'vertical'",
+                  description: 'Layout direction'
+                },
+                {
+                  name: 'spacing',
+                  type: "'xs' | 'sm' | 'md' | 'lg' | 'xl'",
+                  defaultValue: "'md'",
+                  description: 'Gap between children'
+                },
+                {
+                  name: 'alignment',
+                  type: "'start' | 'center' | 'end'",
+                  defaultValue: "'start'",
+                  description: 'Cross-axis alignment'
+                },
+                {
+                  name: 'container',
+                  type: 'boolean',
+                  defaultValue: 'false',
+                  description: 'Apply container max-width'
+                }
+              ]} />
             </Section>
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Section } from '@/app/components/core/section'
+              <CodeBlock>{`import { Section } from '@/app/components/core/section'
 
 // Basic vertical layout
 <Section spacing="lg">
@@ -108,8 +97,7 @@ export default function CoreDocsPage() {
 // Container with max-width
 <Section container spacing="xl">
   <YourPageContent />
-</Section>`}</pre>
-              </div>
+</Section>`}</CodeBlock>
             </Section>
           </Section>
         </Card>
@@ -131,8 +119,7 @@ export default function CoreDocsPage() {
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Link } from '@/app/components/core/link'
+              <CodeBlock>{`import { Link } from '@/app/components/core/link'
 
 // Basic link
 <Link href="/about">ABOUT_US</Link>
@@ -140,8 +127,7 @@ export default function CoreDocsPage() {
 // External link
 <Link href="https://github.com/your-repo">
   GITHUB_REPO
-</Link>`}</pre>
-              </div>
+</Link>`}</CodeBlock>
             </Section>
 
             <Section spacing="md">
@@ -171,15 +157,13 @@ export default function CoreDocsPage() {
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Logo } from '@/app/components/core/logo'
+              <CodeBlock>{`import { Logo } from '@/app/components/core/logo'
 
 // Text logo
 <Logo>NOTTO</Logo>
 
 // Linked logo (typically in header)
-<Logo href="/">NOTTO</Logo>`}</pre>
-              </div>
+<Logo href="/">NOTTO</Logo>`}</CodeBlock>
             </Section>
 
             <Section spacing="md">
@@ -201,8 +185,7 @@ export default function CoreDocsPage() {
             <Heading level={4}>Page Layout Pattern</Heading>
             
             <Section spacing="md">
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Section } from '@/app/components/core/section'
+              <CodeBlock>{`import { Section } from '@/app/components/core/section'
 import { Logo } from '@/app/components/core/logo'
 import { Link } from '@/app/components/core/link'
 import { Heading } from '@/app/components/ui/heading'
@@ -234,8 +217,7 @@ export default function MyPage() {
       </Section>
     </Section>
   )
-}`}</pre>
-              </div>
+}`}</CodeBlock>
             </Section>
           </Section>
         </Card>

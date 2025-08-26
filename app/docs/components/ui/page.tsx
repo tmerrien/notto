@@ -84,32 +84,32 @@ export default function UIDocsPage() {
             
             <Section spacing="md">
               <Heading level={5}>HEADING_HIERARCHY</Heading>
-              <div className="bg-stone-50 dark:bg-stone-900 p-6 rounded-xl border">
+              <Card>
                 <Section spacing="sm">
-                  <div className="text-4xl font-bold tracking-tight">LEVEL_1_MAIN_TITLE</div>
-                  <div className="text-3xl font-bold tracking-tight">Level 2 Subtitle</div>
-                  <div className="text-2xl font-bold tracking-tight">Level 3 Caption</div>
-                  <div className="text-xl font-bold tracking-tight">Level 4 Section</div>
-                  <div className="text-lg font-bold tracking-tight">Level 5 Small</div>
-                  <div className="text-base font-bold tracking-tight">Level 6 Micro</div>
+                  <Heading level={1}>LEVEL_1_MAIN_TITLE</Heading>
+                  <Heading level={2}>Level 2 Subtitle</Heading>
+                  <Heading level={3}>Level 3 Caption</Heading>
+                  <Heading level={4}>Level 4 Section</Heading>
+                  <Heading level={5}>Level 5 Small</Heading>
+                  <Heading level={6}>Level 6 Micro</Heading>
                 </Section>
-              </div>
+              </Card>
             </Section>
 
             <Section spacing="md">
               <Heading level={5}>ACCENT_VARIANT</Heading>
-              <div className="bg-stone-50 dark:bg-stone-900 p-6 rounded-xl border">
+              <Card>
                 <Section direction="horizontal" spacing="lg" alignment="center">
-                  <div>
-                    <div className="text-sm font-mono text-stone-500 mb-2">DEFAULT</div>
+                  <Section spacing="xs">
+                    <Text className="text-sm font-mono text-stone-500">DEFAULT</Text>
                     <Heading level={3}>SAMPLE_HEADING</Heading>
-                  </div>
-                  <div>
-                    <div className="text-sm font-mono text-stone-500 mb-2">ACCENT</div>
+                  </Section>
+                  <Section spacing="xs">
+                    <Text className="text-sm font-mono text-stone-500">ACCENT</Text>
                     <Heading level={3} variant="accent">SAMPLE_HEADING</Heading>
-                  </div>
+                  </Section>
                 </Section>
-              </div>
+              </Card>
             </Section>
           </Section>
         </Card>
@@ -275,23 +275,23 @@ export default function UIDocsPage() {
             <Section spacing="md">
               <Heading level={5}>SEMANTIC_LISTS</Heading>
               <Section direction="horizontal" spacing="lg" alignment="start">
-                <div>
+                <Section spacing="xs">
                   <Text>BULLET_LIST</Text>
                   <List spacing="sm">
                     <ListItem>Universal Design</ListItem>
                     <ListItem>Component Library</ListItem>
                     <ListItem>Technical Stack</ListItem>
                   </List>
-                </div>
+                </Section>
                 
-                <div>
+                <Section spacing="xs">
                   <Text>NUMBERED_LIST</Text>
                   <List variant="numbered" spacing="sm">
                     <ListItem>Initialize System</ListItem>
                     <ListItem>Load Components</ListItem>
                     <ListItem>Deploy Application</ListItem>
                   </List>
-                </div>
+                </Section>
               </Section>
             </Section>
           </Section>

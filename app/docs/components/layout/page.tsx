@@ -6,6 +6,8 @@ import { Link } from '@/app/components/core/link'
 import { Button } from '@/app/components/ui/button'
 import { Separator } from '@/app/components/ui/separator'
 import { Background } from '@/app/components/layout/background'
+import { CodeBlock } from '@/app/components/ui/code-block'
+import { Table, TableHeader, TableBody, TableRow, TableHeaderCell, TableCell } from '@/app/components/core/table'
 
 export default function LayoutDocsPage() {
   return (
@@ -47,8 +49,7 @@ export default function LayoutDocsPage() {
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Layout } from '@/app/components/layout/layout'
+              <CodeBlock>{`import { Layout } from '@/app/components/layout/layout'
 import { Header } from '@/app/components/layout/header'
 import { Content } from '@/app/components/layout/content'
 import { Footer } from '@/app/components/layout/footer'
@@ -69,8 +70,7 @@ export default function RootLayout({ children }) {
       <Footer>...</Footer>
     </Layout>
   )
-}`}</pre>
-              </div>
+}`}</CodeBlock>
             </Section>
           </Section>
         </Card>
@@ -92,8 +92,7 @@ export default function RootLayout({ children }) {
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Header } from '@/app/components/layout/header'
+              <CodeBlock>{`import { Header } from '@/app/components/layout/header'
 import { Logo } from '@/app/components/core/logo'
 import { Nav } from '@/app/components/layout/nav'
 import { NavLink } from '@/app/components/layout/nav-link'
@@ -111,8 +110,7 @@ import { Actions } from '@/app/components/layout/actions'
     <Button variant="ghost">GITHUB</Button>
     <Button>GET_STARTED</Button>
   </Actions>
-</Header>`}</pre>
-              </div>
+</Header>`}</CodeBlock>
             </Section>
           </Section>
         </Card>
@@ -134,16 +132,14 @@ import { Actions } from '@/app/components/layout/actions'
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Nav } from '@/app/components/layout/nav'
+              <CodeBlock>{`import { Nav } from '@/app/components/layout/nav'
 import { NavLink } from '@/app/components/layout/nav-link'
 
 <Nav>
   <NavLink href="/docs">DOCUMENTATION</NavLink>
   <NavLink href="/components">COMPONENTS</NavLink>
   <NavLink href="/guides">GUIDES</NavLink>
-</Nav>`}</pre>
-              </div>
+</Nav>`}</CodeBlock>
             </Section>
           </Section>
         </Card>
@@ -165,13 +161,11 @@ import { NavLink } from '@/app/components/layout/nav-link'
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Content } from '@/app/components/layout/content'
+              <CodeBlock>{`import { Content } from '@/app/components/layout/content'
 
 <Content>
   {children}
-</Content>`}</pre>
-              </div>
+</Content>`}</CodeBlock>
             </Section>
           </Section>
         </Card>
@@ -193,44 +187,41 @@ import { NavLink } from '@/app/components/layout/nav-link'
 
             <Section spacing="md">
               <Heading level={5}>FOOTER_COMPONENTS</Heading>
-              <div className="overflow-x-auto">
-                <table className="w-full font-mono text-sm border-collapse">
-                  <thead>
-                    <tr className="border-b border-stone-200 dark:border-stone-800">
-                      <th className="text-left p-3 text-stone-900 dark:text-stone-100">COMPONENT</th>
-                      <th className="text-left p-3 text-stone-900 dark:text-stone-100">PURPOSE</th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-stone-600 dark:text-stone-400">
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">Footer</td>
-                      <td className="p-3">Main footer container</td>
-                    </tr>
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">FooterNav</td>
-                      <td className="p-3">Navigation columns container</td>
-                    </tr>
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">FooterColumn</td>
-                      <td className="p-3">Individual link column</td>
-                    </tr>
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">FooterLink</td>
-                      <td className="p-3">Footer navigation links</td>
-                    </tr>
-                    <tr className="border-b border-stone-100 dark:border-stone-900">
-                      <td className="p-3">FooterLegal</td>
-                      <td className="p-3">Legal information section</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHeaderCell>COMPONENT</TableHeaderCell>
+                    <TableHeaderCell>PURPOSE</TableHeaderCell>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  <TableRow>
+                    <TableCell>Footer</TableCell>
+                    <TableCell>Main footer container</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>FooterNav</TableCell>
+                    <TableCell>Navigation columns container</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>FooterColumn</TableCell>
+                    <TableCell>Individual link column</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>FooterLink</TableCell>
+                    <TableCell>Footer navigation links</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>FooterLegal</TableCell>
+                    <TableCell>Legal information section</TableCell>
+                  </TableRow>
+                </TableBody>
+              </Table>
             </Section>
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Footer } from '@/app/components/layout/footer'
+              <CodeBlock>{`import { Footer } from '@/app/components/layout/footer'
 import { FooterNav } from '@/app/components/layout/footer-nav'
 import { FooterColumn } from '@/app/components/layout/footer-column'
 import { FooterLink } from '@/app/components/layout/footer-link'
@@ -253,8 +244,7 @@ import { FooterLink } from '@/app/components/layout/footer-link'
       <FooterText>© 2024 YOUR_COMPANY</FooterText>
     </FooterInfo>
   </FooterLegal>
-</Footer>`}</pre>
-              </div>
+</Footer>`}</CodeBlock>
             </Section>
           </Section>
         </Card>
@@ -276,16 +266,14 @@ import { FooterLink } from '@/app/components/layout/footer-link'
 
             <Section spacing="md">
               <Heading level={5}>USAGE_EXAMPLE</Heading>
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Background } from '@/app/components/layout/background'
+              <CodeBlock>{`import { Background } from '@/app/components/layout/background'
 
 <Section container spacing="xl">
   <Background />
   
   {/* Your page content */}
   <Heading level={1}>Page Title</Heading>
-</Section>`}</pre>
-              </div>
+</Section>`}</CodeBlock>
             </Section>
           </Section>
         </Card>
@@ -299,8 +287,7 @@ import { FooterLink } from '@/app/components/layout/footer-link'
             <Heading level={4}>Full Application Structure</Heading>
             
             <Section spacing="md">
-              <div className="bg-stone-900 dark:bg-stone-950 text-stone-100 p-6 rounded-xl font-mono text-sm overflow-x-auto">
-                <pre>{`import { Layout } from '@/app/components/layout/layout'
+              <CodeBlock>{`import { Layout } from '@/app/components/layout/layout'
 import { Header } from '@/app/components/layout/header'
 import { Logo } from '@/app/components/core/logo'
 import { Nav } from '@/app/components/layout/nav'
@@ -352,8 +339,7 @@ export default function RootLayout({ children }) {
       </Footer>
     </Layout>
   )
-}`}</pre>
-              </div>
+}`}</CodeBlock>
             </Section>
           </Section>
         </Card>
