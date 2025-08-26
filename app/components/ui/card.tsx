@@ -1,3 +1,4 @@
+import React from 'react'
 import * as ShadCN from '@/components/ui/card'
 import { brandConfig } from '@/app/components/branding'
 

@@ -1,0 +1,6 @@
+{
+  "local": {
+    "filename": "qodana.yaml",
+    "content": "version: '1.0'\nlinter: 'jetbrains/qodana-js:2025.2'\nprofile:\n  name: qodana.recommended\ninclude:\n  - name: CheckDependencyLicenses\n  - name: JsCoverageInspection\n"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "total": 504,
+  "tools inspection": {
+    "Code Inspection": 504
+  },
+  "linter": "QDJS",
+  "attributes": {
+    "deviceId": "200820300000000-4655-a402-ae8f-b187e74303a4",
+    "jobUrl": "",
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/tmerrien/notto.git",
+        "revisionId": "1e29615387652113c0065d5cf3183f9bc82acf33",
+        "branch": "master"
+      }
+    },
+    "repoUrl": "https://github.com/tmerrien/notto.git"
+  },
+  "linterVersion": "252.25440"
+}

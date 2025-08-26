@@ -1,0 +1,1072 @@
+2025-08-24 17:56:07,182 [     12]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2025-08-24 17:56:07,213 [     43]   INFO - #c.i.p.i.b.AppStarter - Will skip the config import to directory "/root/.config/idea" (exists = true). Current entries: "ide.vmoptions", "options".
+2025-08-24 17:56:07,220 [     50]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 16 ms
+2025-08-24 17:56:07,227 [     57]   INFO - #c.i.p.i.b.AppStarter - IDE: Qodana for JS (build #QDJS-252.25440, Sun, 24 Aug 2025 17:56:07 GMT)
+2025-08-24 17:56:07,228 [     58]   INFO - #c.i.p.i.b.AppStarter - OS: Linux (5.15.167.4-microsoft-standard-wsl2)
+2025-08-24 17:56:07,229 [     59]   INFO - #c.i.p.i.b.AppStarter - JRE: 21.0.8+9-b1038.68, amd64 (JetBrains s.r.o.)
+2025-08-24 17:56:07,229 [     59]   INFO - #c.i.p.i.b.AppStarter - JVM: 21.0.8+9-b1038.68 (OpenJDK 64-Bit Server VM)
+2025-08-24 17:56:07,232 [     62]   INFO - #c.i.p.i.b.AppStarter - PID: 44
+2025-08-24 17:56:07,233 [     63]   INFO - #c.i.p.i.b.AppStarter - desktop: null
+2025-08-24 17:56:07,233 [     63]   INFO - #c.i.p.i.b.AppStarter - toolkit: sun.awt.HeadlessToolkit
+2025-08-24 17:56:07,245 [     75]   INFO - #c.i.p.i.b.AppStarter - JVM options: [abort, vfprintf, -XX:ErrorFile=/root/java_error_in_webstorm_%p.log, -XX:HeapDumpPath=/root/java_error_in_webstorm.hprof, -Xms128m, -XX:JbrShrinkingGcMaxHeapFreeRatio=40, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:+IgnoreUnrecognizedVMOptions, -XX:+UnlockDiagnosticVMOptions, -XX:TieredOldPercentage=100000, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Djdk.nio.maxCachedBufferSize=2097152, -Djava.util.zip.use.nio.for.zip.file.access=true, -Dkotlinx.coroutines.debug=off, -Djava.nio.file.spi.DefaultFileSystemProvider=com.intellij.platform.core.nio.fs.MultiRoutingFileSystemProvider, -Denable.non.commercial.ai.license=true, -Dintellij.plugins.custom.built.in.repository.url=https://buildserver.labs.intellij.net/guestAuth/repository/download/ijplatform_IjPlatform252_WebStorm_InstallersBuild/755082269:id/WS-plugins/plugins.xml, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Djava.awt.headless=true, -Didea.log.path=/mnt/agent/work/6f8e6a04daf4f2df/logs/plugins/, -Ddisabled.plugins.file.path=/opt/idea/disabled_plugins.txt, -Didea.config.path=/root/.config/idea, -Didea.headless.enable.statistics=true, -Didea.headless.statistics.device.id=200820300000000-4655-a402-ae8f-b187e74303a4, -Didea.headless.statistics.salt=08f5b5ce52445c62c05819c4eecabb8b, -Didea.log.path=/data/results/log, -Didea.plugins.path=/data/cache/plugins/252, -Didea.system.path=/data/cache/idea/252, -Dplugin.path=/opt/idea/custom-plugins/KotlinScripting,/opt/idea/custom-plugins/dependencyAnalysis,/opt/idea/custom-plugins/hardcodedPasswords, -Dqodana.automation.guid=8128e172-5214-4498-9175-1a4b581a5682, -Dqodana.coverage.input=.qodana\code-coverage, -XX:MaxRAMPercentage=70, -Xlog:gc*:/data/results/log/gc.log, -Djb.vmOptionsFile=/root/.config/idea/ide.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=WebStorm2025.2, -Djna.boot.library.path=/opt/idea/lib/jna/amd64, -Djna.nosys=true, -Djna.noclasspath=true, -Dpty4j.preferred.native.folder=/opt/idea/lib/pty4j, -Dio.netty.allocator.type=pooled, -Dintellij.platform.runtime.repository.path=/opt/idea/modules/module-descriptors.dat, -Didea.platform.prefix=WebStorm, -Dsplash=true, -Daether.connector.resumeDownloads=false, -Dcompose.swing.render.on.graphics=true, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html.parser=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Dqodana.application=true, -Dintellij.platform.load.app.info.from.resources=true, -Dfus.internal.reduce.initial.delay=true, -Didea.headless.statistics.max.files.to.send=5000, -Djava.awt.headless=true, -Didea.qodana.thirdpartyplugins.accept=true, -Dide.warmup.use.predicates=false, -Dvcs.log.index.enable=false, -Didea.job.launcher.without.timeout=true, -Dscanning.in.smart.mode=false, -Deap.login.enabled=false, -Dsdk.download.consent=true, -Dide.activity.tracking.enable.debug=true, -Deslint.service.expiration.timeout.ms=5000, -Dphp.additional.library.manager.new.updater=true, -Dide.region.url.mapping.expiration.timeout=7200, -Dexternal.system.auto.import.headless.async=true, -Dmaven.default.headless.import=true, -Dqodana.product.name=Qodana for JS, -Dqodana.build.number=QDJS-252.25440, -Dqodana.eap=false, -Dide.native.launcher=true]
+2025-08-24 17:56:07,248 [     78]   INFO - #c.i.p.i.b.AppStarter - args: qodana --config-dir /tmp/qd-effective-config-1603526491 . /data/results
+2025-08-24 17:56:07,248 [     78]   INFO - #c.i.p.i.b.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2025-08-24 17:56:07,249 [     79]   INFO - #c.i.p.i.b.AppStarter - boot library path: /opt/idea/jbr/lib
+2025-08-24 17:56:07,251 [     81]   INFO - #c.i.p.i.b.AppStarter - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/root/.config/idea
+    idea.system.path=/data/cache/idea/252
+    idea.plugins.path=/data/cache/plugins/252 -> java.nio.file.NoSuchFileException: /data/cache/plugins/252
+    idea.log.path=/data/results/log
+2025-08-24 17:56:07,256 [     86]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 6; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4dfbf978[Running, parallelism = 6, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@66bd9b18
+2025-08-24 17:56:07,865 [    695]   INFO - #c.i.i.p.PluginManager - Ignoring cached broken plugins file from an earlier IDE build (WS-252.25440)
+2025-08-24 17:56:07,909 [    739]   INFO - #c.i.i.p.PluginManager - Plugin set resolution:
+Module intellij.json.frontend.split is not enabled because dependency intellij.platform.frontend.split is not available
+Module intellij.yaml.frontend.split is not enabled because dependency intellij.platform.frontend.split is not available
+Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.kotlin.dev is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.groovy.dev is not enabled because dependency org.intellij.groovy is not available
+Module intellij.java.dev is not enabled because dependency com.intellij.java is not available
+Module intellij.less/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.less/watcher is not enabled because dependency com.intellij.plugins.watcher is not available
+Module intellij.sh.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.sh.markdown is not enabled because dependency org.intellij.plugins.markdown is not available
+Module intellij.sh.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.sh.terminal is not enabled because dependency org.jetbrains.plugins.terminal is not available
+Module intellij.editorconfig.frontend.split is not enabled because dependency intellij.platform.frontend.split is not available
+Module intellij.webDeployment/phpStorm is not enabled because dependency com.intellij.modules.phpstorm is not available
+Module intellij.platform.identifiers.highlighting.backend is not enabled because dependency com.jetbrains.codeWithMe is not available
+Module intellij.httpClient.retrofit.minimal is not enabled because dependency com.intellij.java is not available
+Module intellij.ktor.client.minimal is not enabled because dependency com.intellij.java is not available
+Module intellij.httpClient.okhttp.minimal is not enabled because dependency com.intellij.java is not available
+Module intellij.restClient/microservicesUI is not enabled because dependency com.intellij.microservices.ui is not available
+Module intellij.httpClient.grpc is not enabled because dependency idea.plugin.protoeditor is not available
+Module intellij.httpClient.injection.graphql is not enabled because dependency com.intellij.lang.jsgraphql is not available
+Module intellij.postcss/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.grazie.properties is not enabled because dependency intellij.properties.backend is not available
+Module intellij.grazie.markdown is not enabled because dependency org.intellij.plugins.markdown is not available
+Module intellij.grazie.java is not enabled because dependency com.intellij.java is not available
+Module intellij.indexing.shared.ultimate.java is not enabled because dependency com.intellij.java is not available
+Module intellij.vcs.git/terminal is not enabled because dependency org.jetbrains.plugins.terminal is not available
+Module intellij.javascript.debugger.javaee/jsp is not enabled because dependency com.intellij.jsp is not available
+Module intellij.javascript.debugger.javaee is not enabled because dependency com.intellij.javaee is not available
+Module intellij.aqua.runners.cypress is not enabled because dependency intellij.sh.terminal is not available
+Module intellij.javascript.java is not enabled because dependency com.intellij.java is not available
+Module intellij.javascript.devkit is not enabled because dependency intellij.devkit.core is not available
+Module intellij.javascript.impl/diagrams is not enabled because dependency com.intellij.diagram is not available
+Module intellij.database.java is not enabled because dependency com.intellij.java is not available
+Module intellij.database.docker is not enabled because dependency intellij.clouds.docker is not available
+Module intellij.database.backend.split is not enabled because dependency com.jetbrains.codeWithMe is not available
+Module intellij.database.frontend.split is not enabled because dependency intellij.platform.frontend.split is not available
+Module intellij.database.diagrams is not enabled because dependency com.intellij.diagram is not available
+Module intellij.restClient/intelliLangInJs is not enabled because dependency XPathView is not available
+Module intellij.qodana.jvm.swagger is not enabled because dependency com.intellij.swagger is not available
+Module intellij.qodana.jvm.maven is not enabled because dependency org.jetbrains.idea.maven is not available
+Module intellij.qodana.jvm.java is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.jvm.groovy is not enabled because dependency org.intellij.groovy is not available
+Module intellij.qodana.jvm.gradle is not enabled because dependency intellij.qodana.jvm.java is not available
+Module intellij.qodana.jvm.dev is not enabled because dependency intellij.java.dev is not available
+Module intellij.qodana.python.community is not enabled because dependency PythonCore is not available
+Module intellij.qodana.inspectionKts.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.cpp is not enabled because dependency intellij.cidr.projectModel is not available
+Module intellij.qodana.jvm.coverage is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.python.coverage is not enabled because dependency intellij.python is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.qodana.go is not enabled because dependency intellij.go.coverage is not available
+Module intellij.hardcodedPasswords.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.hardcodedPasswords.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.hardcodedPasswords.jvm is not enabled because dependency com.intellij.java is not available
+Module intellij.hardcodedPasswords.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.dependencyAnalysis.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.dependencyAnalysis.python is not enabled because dependency Pythonid is not available
+Module intellij.dependencyAnalysis.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.dependencyAnalysis.jvm is not enabled because dependency org.jetbrains.idea.reposearch is not available
+Module intellij.packageChecker.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.packageChecker.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.packageChecker.java is not enabled because dependency com.intellij.java is not available
+Module intellij.packageChecker.maven is not enabled because dependency intellij.packageChecker.java is not available
+Module intellij.packageChecker.gradle is not enabled because dependency intellij.gradle.dependencyUpdater is not available
+Module intellij.packageChecker.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.packageChecker.amper is not enabled because dependency intellij.packageChecker.java is not available
+Module intellij.vuejs/copyright is not enabled because dependency com.intellij.copyright is not available
+2025-08-24 17:56:07,925 [    755]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDEA CORE (252.25440), Images (252.25440.0), JSON (252.25440.0), YAML (252.25440.0), JavaScript Debugger (252.25440.0), Database Tools and SQL (252.25440.0), DevKit Runtime (252.25440.0), HTML Tools (252.25440.0), Data Editor Support (252.25440.0), IntelliLang (252.25440.0), Qodana (252.25440.0), CSS (252.25440.0), Less (252.25440.0), Shell Script (252.25440.0), TextMate Bundles (252.25440.0), EditorConfig (252.25440.0), Sass (252.25440.0), Mercurial (252.25440.0), FTP/SFTP/WebDAV Connectivity (252.25440.0), WebP Support (252.25440.0), JSONPath (252.25440.0), HTTP Client (252.25440.0), Gherkin (252.25440.0), PostCSS (252.25440.0), Natural Languages (252.25440.0), Configuration Script (252.25440.0), Shared Indexes (252.25440.0), Shared Project Indexes (252.25440.0), Git (252.25440.0), Webpack (252.25440.0), JavaScript and TypeScript (252.25440.0), TSLint (252.25440.0), Tailwind CSS (252.25440.0), Styled Components & Styled JSX (252.25440.0), EJS (252.25440.0), Polymer & Web Components (252.25440.0), React (252.25440.0), Vite (252.25440.0), Prettier (252.25440.0), Cucumber.js (252.25440.0), Next.js (252.25440.0), Karma (252.25440.0), Pug (ex-Jade) (252.25440.0), Node.js (252.25440.0), JavaScript Intention Power Pack (252.25440.0), Handlebars/Mustache (252.25440.0), Package Checker (252.25440.0), Vue.js (252.25440.0), Angular (252.25440.0)
+2025-08-24 17:56:07,925 [    755]   INFO - #c.i.i.p.PluginManager - Loaded custom plugins: Kotlin Scripting Support (252.25440.0), Hardcoded Passwords (252.25440.0), Dependency Analysis (252.25440.0)
+2025-08-24 17:56:07,926 [    756]   INFO - #c.i.i.p.PluginManager - Disabled plugins: Code With Me (252.25440.0)
+2025-08-24 17:56:07,999 [    829]   INFO - #o.j.q.s.i.s.QodanaApplicationStarter - Command line arguments: [qodana, --config-dir, /tmp/qd-effective-config-1603526491, ., /data/results]
+2025-08-24 17:56:08,040 [    870]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+	DEFAULT_PAGE_SIZE: 10485760
+	Direct memory to use, max: 5779750912
+	FilePageCache: regular
+	Regular FilePageCache: 629145600 bytes
+	DirectByteBuffers pool: 104857600 bytes
+2025-08-24 17:56:08,083 [    913]   INFO - #c.i.u.s.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI)
+2025-08-24 17:56:08,095 [    925]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2025-08-24 17:56:08,098 [    928]   INFO - #c.i.o.a.ConfigImportHelper - [i18n] Localization property from registry is null
+2025-08-24 17:56:08,134 [    964]   INFO - c.i.o.u.r.overrides - Plugin com.intellij overrides the registry key floating.codeToolbar.show.without.selection declared by plugin com.intellij.
+2025-08-24 17:56:08,150 [    980]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses names enumerator over mmapped file
+2025-08-24 17:56:08,153 [    983]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2025-08-24 17:56:08,154 [    984]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses OverMMappedFile(pageSize=67108864, acquireStorageOwnership=true) storage for main file records table
+2025-08-24 17:56:08,154 [    984]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2025-08-24 17:56:08,216 [   1046]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846400, 2801 file records, 1245 content blobs
+2025-08-24 17:56:08,226 [   1056]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 233 ms (hash=1630dscjd1pjf, buildTime=1756058167, appVersion=QDJS-252.25440)
+2025-08-24 17:56:08,262 [   1092]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 103 ms, 0 failed attempts, 0 error(s) were recovered
+2025-08-24 17:56:08,296 [   1126]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2025-08-24 17:56:08,319 [   1149]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS.MAX_FILE_LENGTH_TO_CACHE: 1048576
+2025-08-24 17:56:08,370 [   1200]   INFO - #c.i.p.k.b.BackendKernelServiceKt - Backend started Kernel
+2025-08-24 17:56:08,422 [   1252]   INFO - #c.i.s.c.m.SettingsRepositoryToSettingsSyncMigration - No data from settingsRepository in 'settingsRepository' folder => no migration needed
+2025-08-24 17:56:08,434 [   1264]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2025-08-24 17:56:08,435 [   1265]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2025-08-24 17:56:08,446 [   1276]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'FUS'
+2025-08-24 17:56:08,456 [   1286]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'MP'
+2025-08-24 17:56:08,457 [   1287]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'ML'
+2025-08-24 17:56:08,499 [   1329]   WARN - java.util.prefs - Invalid preferences format in /root/.java/.userPrefs/prefs.xml
+2025-08-24 17:56:08,501 [   1331]   INFO - #c.i.i.s.StatisticsRegionSettingsServiceImpl - Statistics. Region code is not_set
+2025-08-24 17:56:08,509 [   1339]   INFO - #fleet.kernel.Transactor - Duration: 134.919646ms, change from: fleet.tracing.runtime.Span$Noop@50726660
+2025-08-24 17:56:08,606 [   1436]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2025-08-24 17:56:08,633 [   1463]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2025-08-24 17:56:08,718 [   1548]   INFO - #c.i.u.i.c.d.IndexWriter - Use com.intellij.util.indexing.contentQueue.dev.MultiThreadedWithSuspendIndexWriter@2f6dd3c2 as (parallel) index writer implementation
+2025-08-24 17:56:08,728 [   1558]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
+2025-08-24 17:56:08,730 [   1560]   INFO - #c.i.u.i.i.SlruIndexStorageCacheProvider - SLRU cache will be used for indexes
+2025-08-24 17:56:08,731 [   1561]   INFO - #c.i.u.i.i.MapIndexStorageCacheProvider$Companion - Default index storage cache provider [com.intellij.util.indexing.impl.SlruIndexStorageCacheProvider@8aba4ad] is used
+2025-08-24 17:56:08,732 [   1562]   INFO - #c.i.u.i.FileBasedIndexImpl - Loading indexes
+2025-08-24 17:56:08,851 [   1681]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2025-08-24 17:56:08,975 [   1805]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids read. Size: 362. Index: 362 Path: /data/cache/idea/252/index/dirty-file-ids.
+2025-08-24 17:56:08,997 [   1827]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'Stubs' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,002 [   1832]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'fileIncludes' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,005 [   1835]   INFO - #c.i.f.n.TrigramIndexFilter - Filter exclude extensions is enabled: CustomizableExcludeExtensions([])
+2025-08-24 17:56:09,006 [   1836]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'Trigram.Index' index (applicable providers: [default, fake-storage]), shards = 1
+2025-08-24 17:56:09,007 [   1837]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'filetypes' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,009 [   1839]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'IdIndex' index (applicable providers: [default, fake-storage]), shards = 1
+2025-08-24 17:56:09,098 [   1928]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'FilenameIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,119 [   1949]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'FrameworkDetectionIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,136 [   1966]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'TodoIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,383 [   2213]   INFO - STDOUT - By using this linter, you agree to
+2025-08-24 17:56:09,383 [   2213]   INFO - STDOUT - - JetBrains Privacy Policy (https://jb.gg/jetbrains-privacy-policy)
+2025-08-24 17:56:09,384 [   2214]   INFO - STDOUT - - Qodana Linters Agreement (https://www.jetbrains.com/legal/docs/agreements/qodana/license/)
+2025-08-24 17:56:09,384 [   2214]   INFO - STDOUT - Licensed to Notto
+2025-08-24 17:56:09,384 [   2214]   INFO - STDOUT - Subscription is active until October 22, 2025.
+2025-08-24 17:56:09,384 [   2214]   INFO - STDOUT - Qodana license plan: Ultimate Plus
+2025-08-24 17:56:09,396 [   2226]   WARN - org.jline - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2025-08-24 17:56:09,427 [   2257]   WARN - org.jline - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2025-08-24 17:56:09,434 [   2264]   INFO - STDOUT -                                         
+2025-08-24 17:56:09,434 [   2264]   INFO - STDOUT -           _              _       
+2025-08-24 17:56:09,434 [   2264]   INFO - STDOUT -          /\ \           /\ \        Qodana for JS 2025.2 RC
+2025-08-24 17:56:09,435 [   2265]   INFO - STDOUT -         /  \ \         /  \ \       Documentation
+2025-08-24 17:56:09,435 [   2265]   INFO - STDOUT -        / /\ \ \       / /\ \ \      https://jb.gg/qodana-docs
+2025-08-24 17:56:09,435 [   2265]   INFO - STDOUT -       / / /\ \ \     / / /\ \ \     Contact us at
+2025-08-24 17:56:09,435 [   2265]   INFO - STDOUT -      / / /  \ \_\   / / /  \ \_\    qodana-support@jetbrains.com
+2025-08-24 17:56:09,436 [   2266]   INFO - STDOUT -     / / / _ / / /  / / /   / / /    Or via our issue tracker
+2025-08-24 17:56:09,436 [   2266]   INFO - STDOUT -    / / / /\ \/ /  / / /   / / /     https://jb.gg/qodana-issue
+2025-08-24 17:56:09,436 [   2266]   INFO - STDOUT -   / / /__\ \ \/  / / /___/ / /      Or share your feedback at our forum
+2025-08-24 17:56:09,436 [   2266]   INFO - STDOUT -  / / /____\ \ \ / / /____\/ /       https://jb.gg/qodana-forum
+2025-08-24 17:56:09,437 [   2267]   INFO - STDOUT -  \/________\_\/ \/_________/     
+2025-08-24 17:56:09,437 [   2267]   INFO - STDOUT -                                                    
+2025-08-24 17:56:09,437 [   2267]   INFO - STDOUT -                                         
+2025-08-24 17:56:09,437 [   2267]   INFO - STDOUT - Starting up Qodana for JS 2025.2 RC (build QDJS-252.25440)…done.
+2025-08-24 17:56:09,438 [   2268]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'html5.custom.attributes.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,481 [   2311]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'XmlTagNames' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,484 [   2314]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'HashFragmentIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,487 [   2317]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'SchemaTypeInheritance' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,491 [   2321]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'XmlNamespaces' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,538 [   2368]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration options: {groupDataThreshold=10000000, dataThreshold=10000000, groupAlertThreshold=6000}
+2025-08-24 17:56:09,539 [   2369]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'HtmlTagIdIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,545 [   2375]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'sql.types.count.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,553 [   2383]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: https://resources.jetbrains.com/storage/ap/fus/metadata/tiger/FUS/groups/QDJS.json
+2025-08-24 17:56:09,602 [   2432]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'sql.routine.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,608 [   2438]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: https://resources.jetbrains.com/storage/ap/fus/metadata/tiger/FUS/groups/QDJS.json
+2025-08-24 17:56:09,626 [   2456]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'DomFileIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,630 [   2460]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'RelaxSymbolIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,646 [   2476]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'CssIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,665 [   2495]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'css.template.selectors' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,671 [   2501]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'editorconfig.index.name' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,683 [   2513]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'json.file.root.values' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,742 [   2572]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'CompassFunctionsIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,742 [   2572]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.execution.environment' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,792 [   2622]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.completion.host' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,795 [   2625]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.headers.values.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,803 [   2633]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.name.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,807 [   2637]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.test.names' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,822 [   2652]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.package.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,826 [   2656]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.custom.single.entry.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,910 [   2740]   INFO - #c.i.i.s.DeviceIdManager - Generating new Device ID for 'MP'
+2025-08-24 17:56:09,910 [   2740]   INFO - #c.i.i.s.e.EventLogConfiguration - Generating new salt for MP
+2025-08-24 17:56:09,950 [   2780]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.implicit.elements.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,975 [   2805]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.string.literal.words.index' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,988 [   2818]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'HtmlScriptSrcIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,993 [   2823]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'WebComponentsIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:09,998 [   2828]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.test.names.extensible' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:10,004 [   2834]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'TypeScriptExternalPathCandidates' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:10,021 [   2851]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'VueNoScriptFilesIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:10,067 [   2897]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'VueComponentStylesIndex' index (applicable providers: [default, fake-storage])
+2025-08-24 17:56:10,114 [   2944]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FilenameIndex(v = 258)
+2025-08-24 17:56:10,117 [   2947]   INFO - #c.i.u.i.FileBasedIndexImpl - Using simple flusher for indexes
+2025-08-24 17:56:10,130 [   2960]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 1385 ms. Initialized indexes: [FilenameIndex, filetypes, Trigram.Index, fileIncludes, FrameworkDetectionIndex, IdIndex, TodoIndex, Stubs, html5.custom.attributes.index, XmlTagNames, SchemaTypeInheritance, XmlNamespaces, HtmlTagIdIndex, sql.types.count.index, HashFragmentIndex, sql.routine.index, RelaxSymbolIndex, DomFileIndex, CssIndex, css.template.selectors, editorconfig.index.name, json.file.root.values, CompassFunctionsIndex, http.request.execution.environment, http.request.headers.values.index, http.request.completion.host, js.test.names, js.custom.single.entry.index, http.request.name.index, js.package.index, js.implicit.elements.index, js.string.literal.words.index, WebComponentsIndex, HtmlScriptSrcIndex, js.test.names.extensible, TypeScriptExternalPathCandidates, VueNoScriptFilesIndex, VueComponentStylesIndex].
+2025-08-24 17:56:10,422 [   3252]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/MP/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:10,424 [   3254]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration options: null
+2025-08-24 17:56:10,602 [   3432]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/MP/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:10,603 [   3433]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:10,778 [   3608]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/MP/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:10,778 [   3608]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:11,172 [   4002]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 1042 ms. Initialized stub indexes: {vue.composition.app.index, postcss.custom.media, es6.exported.index, js.export.default.react.component.index, vue.mixin.binding.index, dom.elementClass, js.used.remote.modules, Less.mixins, js.qualified.shortName, angular2.metadata.module.index, angular2.source.pipe.index, js.nonglobal.symbol.index, sql.column.name, angular2.metadata.node.index, vue.extends.binding.index, js.amd.modules, Css.custom.property, js.local.namespace.members.index, Css.id, sql.table.shortName, JS.global.qualified.elements, js.typedef.index2, js.exported.index, es6.assignment.index, es6.side.effect.import.index, angular2.ivy.module.index, Scss.function, dom.namespaceKey, JS.subclass.stub.index, angular2.metadata.directive.index, angular2.metadata.pipe.index, vue.options.index, sql.names, JS.base.types.index, angular2.ivy.pipe.index, Scss.placeholder.selector, amd.baseUrl.index, amd.requirePaths.index, ts.local.classes, angular2.js.css.custom-property.index, vue.url.index, Scss.mixin, angular2.ivy.directive.index, js.gcl.modules, JS.framework.markers.index, Less.variables, vuex.store.index, ts.global.exported.index, redis.dml.shortName, ts.external.module.name.index, JS.class.implements, Scss.variable, angular2.metadata.className.index, angular2.source.module.index, jade.mixin, Css.ampersand.selector, Css.custom.variable, js.global.symbol.index, js.doc.modules, JS.class.super, angular2.symbol.index, js.element.qualifiedName, vue.global.directives.index, vue.components.index, js.symbol.qualified.names.index, vue.global.filters.index, js.symbol.index2, js.imported.bindings.index, js.lazy.packages, angular2.source.directive.index, vue.id.index, angular2.templateUrl.index, js.class.index2, angular2.js.html.custom-property.index, angular2.metadata.function.index, ts.embedded.content.index, Css.class, js.namespace.index, postcss.custom.selector, Css.attr, js.generics.index, Css.custom.mixin, ts.external.module.index}.
+2025-08-24 17:56:11,310 [   4140]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/ML/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:11,311 [   4141]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration options: null
+2025-08-24 17:56:11,477 [   4307]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/ML/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:11,478 [   4308]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:11,654 [   4484]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/ML/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:11,654 [   4484]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:11,655 [   4485]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration options: {groupDataThreshold=10000000, dataThreshold=10000000, groupAlertThreshold=6000}
+2025-08-24 17:56:11,655 [   4485]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: https://resources.jetbrains.com/storage/ap/fus/metadata/tiger/FUS/groups/QDJS.json
+2025-08-24 17:56:11,697 [   4527]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: https://resources.jetbrains.com/storage/ap/fus/metadata/tiger/FUS/groups/QDJS.json
+2025-08-24 17:56:12,327 [   5157]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/MP/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:12,328 [   5158]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration options: null
+2025-08-24 17:56:12,549 [   5379]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/MP/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:12,549 [   5379]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:12,926 [   5756]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/MP/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:12,926 [   5756]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:13,105 [   5935]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/ML/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:13,106 [   5936]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration options: null
+2025-08-24 17:56:13,279 [   6109]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/ML/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:13,280 [   6110]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:13,763 [   6593]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - com.jetbrains.fus.reporting.model.exceptions.StatsResponseException: Http response status code to get fus reporting configuration: 403. Configuration url: https://resources.jetbrains.com/storage/fus/config/v4/ML/QDJS.json. Product code: QDJS. Product version: 2025.2.
+2025-08-24 17:56:13,763 [   6593]   INFO - #c.i.i.s.e.c.EventLogStatisticsService - Statistics. Configuration metadata product url: null
+2025-08-24 17:56:13,797 [   6627]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project opening stage ...
+2025-08-24 17:56:13,798 [   6628]   INFO - STDOUT - Preparing for the Project opening stage ...
+2025-08-24 17:56:13,901 [   6731]   INFO - #c.i.p.p.ProjectEntitiesStorage - Creating entity for project ProjectId(id=ar7bhb9teib6sf009eqq)
+2025-08-24 17:56:13,914 [   6744]   INFO - #c.i.p.p.ProjectEntitiesStorage - Entity for project ProjectId(id=ar7bhb9teib6sf009eqq) created successfully
+2025-08-24 17:56:13,930 [   6760]   INFO - #c.i.c.ComponentStoreImpl - Project store initialization started for path: /data/project and template: null
+2025-08-24 17:56:13,957 [   6787]   INFO - #c.i.c.ComponentStoreImpl - Project store initialized with paths: [Macro(key=$PROJECT_CONFIG_DIR$, value=/data/project/.idea), Macro(key=$WORKSPACE_FILE$, value=/data/project/.idea/workspace.xml), Macro(key=$PROJECT_FILE$, value=/data/project/.idea/misc.xml), Macro(key=$CACHE_FILE$, value=/data/cache/idea/252/projects/project.15375f63/cache-state.xml), Macro(key=$PRODUCT_WORKSPACE_FILE$, value=/root/.config/idea/workspace/31gw3WWfe7ny4WkyAPgSK6sx0fl.xml)]
+2025-08-24 17:56:14,130 [   6960]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 140 ms
+2025-08-24 17:56:14,241 [   7071]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Load global workspace model from cache in 12 ms
+2025-08-24 17:56:14,292 [   7122]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2025-08-24 17:56:14,293 [   7123]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 32 ms: Sync global entities with project: project
+2025-08-24 17:56:14,472 [   7302]   INFO - #c.i.u.s.JBUIScale - Computed user scale factor: 1.0 (IDE-managed HiDPI)
+2025-08-24 17:56:14,503 [   7333]   INFO - STDOUT - Opening project…Waiting for startup activities
+2025-08-24 17:56:14,524 [   7354]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@29db662b
+2025-08-24 17:56:14,527 [   7357]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2025-08-24 17:56:14,528 [   7358]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Running initialization condition: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@544befd9
+2025-08-24 17:56:14,531 [   7361]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Finished: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@544befd9
+2025-08-24 17:56:14,536 [   7366]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@5425884
+2025-08-24 17:56:14,539 [   7369]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@5425884
+2025-08-24 17:56:14,539 [   7369]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@3a04fc4c
+2025-08-24 17:56:14,544 [   7374]   INFO - #c.i.u.i.FileBasedIndexImpl - Indexes are already loaded
+2025-08-24 17:56:14,549 [   7379]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2025-08-24 17:56:14,554 [   7384]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids read. Size: 1. Index: 357 Path: /data/cache/idea/252/index/dirty-file-queues/15375f63.
+2025-08-24 17:56:14,560 [   7390]   INFO - #c.i.u.i.p.IncrementalProjectIndexableFilesFilterHolder - PersistentProjectIndexableFilesFilterFactory is chosen as indexable files filter factory for project: project
+2025-08-24 17:56:14,615 [   7445]   INFO - #c.i.u.i.FileBasedIndexImpl - Indexes are already loaded
+2025-08-24 17:56:14,625 [   7455]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: App fingerprint changed: FingerprintImpl(fingerprint=7396360792889452365) to FingerprintImpl(fingerprint=5539118932612960395)
+2025-08-24 17:56:14,652 [   7482]   INFO - #c.i.u.i.UnindexedFilesScanner - Full scanning on startup will NOT be skipped for project project because of following unsatisfied conditions:
+FILTER_IS_NOT_UP_TO_DATE: Persistent indexable files filter is NOT up-to-date because of following unsatisfied conditions: [INDEXING_REQUEST_ID_DID_NOT_CHANGE_AFTER_LAST_SCANNING]
+2025-08-24 17:56:14,701 [   7531]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Register issued token: com.intellij.util.indexing.dependencies.IncompleteTaskToken@83adab7
+2025-08-24 17:56:14,705 [   7535]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Write incomplete scanning mark=true for token: com.intellij.util.indexing.dependencies.IncompleteTaskToken@83adab7
+2025-08-24 17:56:14,731 [   7561]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@3a04fc4c
+2025-08-24 17:56:14,733 [   7563]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@43d585d6
+2025-08-24 17:56:14,739 [   7569]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 214ms; general responsiveness: ok; EDT responsiveness: ok
+2025-08-24 17:56:14,751 [   7581]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 24 millis (read time: 3)
+2025-08-24 17:56:14,816 [   7646]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [<Project>]
+2025-08-24 17:56:14,878 [   7708]   INFO - #c.i.p.d.i.f.FrontendXBreakpointManager - Breakpoint created for XBreakpointId(uid=1)
+2025-08-24 17:56:14,914 [   7744]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2025-08-24 17:56:14,952 [   7782]   INFO - #git4idea.commands.GitHandler - [/data/project] git version
+2025-08-24 17:56:14,964 [   7794]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2025-08-24 17:56:14,966 [   7796]   INFO - #git4idea.commands.GitHandler - git version 2.39.5
+2025-08-24 17:56:14,974 [   7804]   INFO - #git4idea.config.GitExecutableFileTester - Git version for /usr/bin/git: 2.39.5.0 (UNIX)
+2025-08-24 17:56:15,016 [   7846]   INFO - #c.i.o.v.i.p.NewMappings - Mapped Roots: 1
+2025-08-24 17:56:15,016 [   7846]   INFO - #c.i.o.v.i.p.NewMappings - Detected mapped Root: [Git] - [/data/project]
+2025-08-24 17:56:15,040 [   7870]   INFO - STDOUT - Startup activities finished
+2025-08-24 17:56:15,185 [   8015]   INFO - #c.i.j.n.l.n.NodeModulesDirectoryManager - Contributed {allCalculationsDuration:109 ms, allIncludedFileCount:12, allRootsSyntheticLibrary:8, allRootsWorkspaceModel:14, allSourceRootsSyntheticLibrary:8, allSourceRootsWorkspaceModel:8, allExcludedRootsSyntheticLibrary:0, allExcludedRootsWorkspaceModel:6, libraries:1}
+2025-08-24 17:56:15,186 [   8016]   INFO - #c.i.p.t.TemplateLanguageStubBaseVersion - Template stub version: 27153589
+  StubVersion(Language: Angular2Html, value: 1234264)
+  StubVersion(Language: Angular2Svg, value: 1234264)
+  StubVersion(Language: Angular2, value: 1234218)
+  StubVersion(Language: Angular17Html, value: 1234264)
+  StubVersion(Language: Angular17Svg, value: 1234264)
+  StubVersion(Language: Angular181Html, value: 1234264)
+  StubVersion(Language: Angular181Svg, value: 1234264)
+  StubVersion(Language: Angular20Html, value: 1234264)
+  StubVersion(Language: Angular20Svg, value: 1234264)
+  StubVersion(Language: Angular20, value: 1234218)
+  StubVersion(Language: HTML, value: 1234259)
+  StubVersion(Language: JavaScript, value: 1234218)
+  StubVersion(Language: TypeScript, value: 1234218)
+  StubVersion(Language: ECMAScript 6, value: 1234218)
+  StubVersion(Language: TypeScript JSX, value: 1234218)
+  StubVersion(Language: Flow JS, value: 1234218)
+  StubVersion(Language: MongoJSExt, value: 1234218)
+  StubVersion(Language: HttpClientHandlerJavaScriptDialect, value: 1234218)
+  StubVersion(Language: JSInJade, value: 1234218)
+  StubVersion(Language: Vue, value: 1234269)
+  StubVersion(Language: VueJS, value: 1234218)
+  StubVersion(Language: VueTS, value: 1234218)
+  StubVersion(Language: Redis, value: 35)
+  StubVersion(Language: SQL, value: 35)
+  StubVersion(Language: CSS, value: 38)
+  StubVersion(Language: LESS, value: 38)
+  StubVersion(Language: SASS, value: 38)
+  StubVersion(Language: SCSS, value: 38)
+  StubVersion(Language: PostCSS, value: 41)
+  StubVersion(Language: CassandraQL, value: 35)
+  StubVersion(Language: HiveQL, value: 35)
+2025-08-24 17:56:15,645 [   8475]   INFO - #c.i.i.s.p.i.SharedIndexChunkConfigurationImpl - Chunk bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-QDJS-252.25440 is registered for project 'project: matching: (fb=60, stub=148), incompatible: (fb=4, stub=0), unknown: (fb=32, stub=27), 
+2025-08-24 17:56:15,731 [   8561]   INFO - #c.i.i.s.p.i.SharedIndexInfrastructure - Attached 1 shared indexes: bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-QDJS-252.25440
+2025-08-24 17:56:15,731 [   8561]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@43d585d6
+2025-08-24 17:56:15,732 [   8562]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@5058c4c8
+2025-08-24 17:56:15,734 [   8564]   INFO - #c.i.i.s.p.i.BundledSharedIndexPostStartupActivity - Attached 1 pre-built shared indexes: bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-QDJS-252.25440
+2025-08-24 17:56:15,735 [   8565]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@5058c4c8
+2025-08-24 17:56:15,738 [   8568]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@29db662b
+2025-08-24 17:56:16,075 [   8905]   INFO - STDOUT - done.
+2025-08-24 17:56:16,086 [   8916]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project opening stage completed in 2s
+2025-08-24 17:56:16,087 [   8917]   INFO - STDOUT - The Project opening stage completed in 2s
+2025-08-24 17:56:16,088 [   8918]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project configuration stage ...
+2025-08-24 17:56:16,088 [   8918]   INFO - STDOUT - Preparing for the Project configuration stage ...
+2025-08-24 17:56:16,109 [   8939]   INFO - STDOUT - 'background activities start' is in progress...
+2025-08-24 17:56:16,136 [   8966]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [project]
+2025-08-24 17:56:16,148 [   8978]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - Start refreshing typescript libraries
+2025-08-24 17:56:16,188 [   9018]   INFO - STDOUT - [IDE]: Task 'Updating indexes' ended
+2025-08-24 17:56:16,212 [   9042]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [15375f63] Running task: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@51275408
+2025-08-24 17:56:16,225 [   9055]   INFO - #c.i.u.i.UnindexedFilesScanner - [15375f63] scanning stage (scanning id=0): DelayedPushProperties
+2025-08-24 17:56:16,247 [   9077]   INFO - #c.i.u.i.FileBasedIndexImpl - Indexes are already loaded
+2025-08-24 17:56:16,250 [   9080]   INFO - #c.i.p.u.i.s.e.DurableEnumeratorFactory - [enumerator.mmapped]: .valueHashToId (in memory) was filled (20 records)
+2025-08-24 17:56:16,302 [   9132]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - End refreshing typescript libraries
+2025-08-24 17:56:16,323 [   9153]   INFO - #c.i.p.j.n.PackageJsonPolySymbolsRegistryManager - Notifying that Poly Symbol context may have changed due to changes in loaded Web Types from package.jsons.
+2025-08-24 17:56:16,480 [   9310]   INFO - #c.i.i.b.BookmarksManager - no state loaded for new bookmarks
+2025-08-24 17:56:16,483 [   9313]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2025-08-24 17:56:16,529 [   9359]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2025-08-24 17:56:17,001 [   9831]   INFO - #c.i.u.i.UnindexedFilesScanner - [15375f63] Started scanning for indexing of project. Reason: On project open
+2025-08-24 17:56:17,002 [   9832]   INFO - #c.i.u.i.UnindexedFilesScanner - [15375f63] scanning stage (scanning id=0): CreatingIterators
+2025-08-24 17:56:17,029 [   9859]   INFO - #c.i.u.i.UnindexedFilesScanner - [15375f63] scanning stage (scanning id=0): CollectingIndexableFiles
+2025-08-24 17:56:17,032 [   9862]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Register issued token: com.intellij.util.indexing.dependencies.ReadWriteScanningRequestTokenImpl@7d6f2c1c
+2025-08-24 17:56:17,033 [   9863]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Complete token: com.intellij.util.indexing.dependencies.RequestFullHeavyScanningToken@90bce9f, successful: true
+2025-08-24 17:56:17,034 [   9864]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of project uses 6 scanning threads
+2025-08-24 17:56:17,210 [  10040]   INFO - #c.i.j.n.n.WorkingDirectoryDependentNpmPackageVersionManager - Version fetched successfully: 10.9.3; command: /usr/local/bin/npm --version, duration: 213ms
+2025-08-24 17:56:17,293 [  10123]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 11 ms
+2025-08-24 17:56:17,784 [  10614]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file workspace.xml (id=444) with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=444, fileInfo='workspace.xml(id=444)'}] and removers: []; 
+2025-08-24 17:56:18,565 [  11395]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Complete token: com.intellij.util.indexing.dependencies.RequestFullHeavyScanningToken@90bce9f, successful: true
+2025-08-24 17:56:18,566 [  11396]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Complete token: com.intellij.util.indexing.dependencies.ReadWriteScanningRequestTokenImpl@7d6f2c1c, successful: true
+2025-08-24 17:56:18,568 [  11398]   INFO - #c.i.u.i.UnindexedFilesScanner - [15375f63] Scanning completed for project. Number of scanned files: 1299; number of files for indexing: 0
+2025-08-24 17:56:18,568 [  11398]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: marking roots for initial VFS refresh
+2025-08-24 17:56:18,569 [  11399]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: starting initial VFS refresh of 1 roots
+2025-08-24 17:56:19,257 [  12087]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2025-08-24 17:56:19,257 [  12087]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2025-08-24 17:56:19,269 [  12099]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2025-08-24 17:56:19,271 [  12101]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 9 ms: Sync global entities with project: project
+2025-08-24 17:56:19,271 [  12101]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Global model updated to version 2 in 12 ms: Sync global entities with state
+2025-08-24 17:56:19,434 [  12264]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [project]
+2025-08-24 17:56:19,489 [  12319]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: initial VFS refresh finished in 917 ms
+2025-08-24 17:56:19,490 [  12320]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@6599f0ec (reason: Push on VFS changes)
+2025-08-24 17:56:19,506 [  12336]   INFO - #c.i.u.i.PerProjectIndexingQueue - Finished for project. No files to index with loading content.
+2025-08-24 17:56:19,506 [  12336]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [15375f63] Task finished (scanning id=0): com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@51275408
+2025-08-24 17:56:19,508 [  12338]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Complete token: com.intellij.util.indexing.dependencies.IncompleteTaskToken@83adab7, successful: true
+2025-08-24 17:56:19,509 [  12339]   INFO - #c.i.u.i.d.ProjectIndexingDependenciesService - Write incomplete scanning mark=false for token: com.intellij.util.indexing.dependencies.IncompleteTaskToken@83adab7
+2025-08-24 17:56:19,540 [  12370]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@6599f0ec (reason: Push on VFS changes)
+2025-08-24 17:56:19,542 [  12372]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [project]
+2025-08-24 17:56:19,547 [  12377]   INFO - STDOUT - [IDE]: Task 'Updating indexes' ended
+2025-08-24 17:56:19,902 [  12732]   INFO - #o.j.q.s.QodanaLinterBackgroundStartupActivity - Executed Qodana backgroundPostStartupActivity
+2025-08-24 17:56:19,903 [  12733]   INFO - STDOUT - 'background activities start' is completed.
+2025-08-24 17:56:19,903 [  12733]   INFO - STDOUT - 'sync-project-model' is in progress...
+2025-08-24 17:56:20,045 [  12875]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2025-08-24 17:56:20,049 [  12879]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Apply JPS storage (iml files)
+2025-08-24 17:56:20,082 [  12912]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2025-08-24 17:56:20,084 [  12914]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 4
+2025-08-24 17:56:20,086 [  12916]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Changes were successfully applied
+2025-08-24 17:56:20,090 [  12920]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer$Util - Workspace model loaded from cache. Syncing real project state into workspace model in 287 ms. Thread[#45,DefaultDispatcher-worker-15,5,main]
+2025-08-24 17:56:20,386 [  13216]   INFO - STDOUT - 'sync-project-model' is completed.
+2025-08-24 17:56:20,386 [  13216]   INFO - STDOUT - 'Node.js' is in progress...
+2025-08-24 17:56:21,059 [  13889]   INFO - STDOUT - 'Node.js' is completed.
+2025-08-24 17:56:21,066 [  13896]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2025-08-24 17:56:21,068 [  13898]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2025-08-24 17:56:21,177 [  14007]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2025-08-24 17:56:21,213 [  14043]   INFO - #c.i.c.ComponentStoreImpl - Saving appFeatureUsageStatistics took 12 ms, WebServers took 11 ms
+2025-08-24 17:56:21,261 [  14091]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2025-08-24 17:56:21,262 [  14092]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2025-08-24 17:56:21,271 [  14101]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2025-08-24 17:56:21,343 [  14173]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=project, containerState=COMPONENT_CREATED, componentStore=/data/project)XDebuggerManager took 18 ms
+2025-08-24 17:56:21,398 [  14228]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [project]
+2025-08-24 17:56:21,404 [  14234]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@6df0ebdb (reason: Push on VFS changes)
+2025-08-24 17:56:21,415 [  14245]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@6df0ebdb (reason: Push on VFS changes)
+2025-08-24 17:56:21,416 [  14246]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [project]
+2025-08-24 17:56:21,418 [  14248]   INFO - STDOUT - [IDE]: Task 'Updating indexes' ended
+2025-08-24 17:56:21,434 [  14264]   INFO - STDOUT - Configuration phase 0 is completed. Initiating another phase to cover possible side effects...
+2025-08-24 17:56:21,434 [  14264]   INFO - STDOUT - All configuration phases are completed.
+2025-08-24 17:56:21,507 [  14337]   INFO - #o.j.q.s.i.r.s.QodanaProjectLoader - Configured project
+2025-08-24 17:56:21,559 [  14389]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project configuration stage completed in 5s
+2025-08-24 17:56:21,559 [  14389]   INFO - STDOUT - The Project configuration stage completed in 5s
+2025-08-24 17:56:21,563 [  14393]   INFO - o.j.q.i.linter - Loading dynamic inspections (FlexInspect)
+2025-08-24 17:56:21,563 [  14393]   INFO - o.j.q.i.linter - FlexInspect: finished loading
+- total number of inspection.kts files: 0}
+- number of compiled inspection.kts files: 0}
+- number of inspections from compiled inspection.kts files: 0}
+- number of failed to compile inspection.kts files: 0} 
+2025-08-24 17:56:21,999 [  14829]   WARN - #c.i.c.i.YamlInspectionProfileImpl - Unknown scope format: test:*..*
+com.intellij.psi.search.scope.packageSet.ParsingException: Unknown scope type at position 1
+	at com.intellij.psi.search.scope.packageSet.PackageSetFactoryImpl$Parser.error(PackageSetFactoryImpl.java:200)
+	at com.intellij.psi.search.scope.packageSet.PackageSetFactoryImpl$Parser.parsePattern(PackageSetFactoryImpl.java:132)
+	at com.intellij.psi.search.scope.packageSet.PackageSetFactoryImpl$Parser.parseTerm(PackageSetFactoryImpl.java:119)
+	at com.intellij.psi.search.scope.packageSet.PackageSetFactoryImpl$Parser.parseIntersection(PackageSetFactoryImpl.java:97)
+	at com.intellij.psi.search.scope.packageSet.PackageSetFactoryImpl$Parser.parseUnion(PackageSetFactoryImpl.java:87)
+	at com.intellij.psi.search.scope.packageSet.PackageSetFactoryImpl$Parser.parse(PackageSetFactoryImpl.java:80)
+	at com.intellij.psi.search.scope.packageSet.PackageSetFactoryImpl.compile(PackageSetFactoryImpl.java:69)
+	at com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl.parsePattern(YamlInspectionProfileImpl.kt:288)
+	at com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl.createScope(YamlInspectionProfileImpl.kt:280)
+	at com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl.buildEffectiveProfile(YamlInspectionProfileImpl.kt:209)
+	at org.jetbrains.qodana.staticAnalysis.profile.providers.QodanaEmbeddedProfilesProvider.provideProfile(QodanaEmbeddedProfilesProvider.kt:40)
+	at org.jetbrains.qodana.staticAnalysis.profile.QodanaInspectionProfileProvider.runProviders(QodanaInspectionProfileProvider.java:22)
+	at org.jetbrains.qodana.staticAnalysis.profile.QodanaInspectionProfileManager.getProfile(QodanaInspectionProfileManager.kt:107)
+	at org.jetbrains.qodana.staticAnalysis.profile.QodanaProjectInspectionProfileManager.getProfile(QodanaInspectionProfileManager.kt:163)
+	at org.jetbrains.qodana.staticAnalysis.profile.QodanaInspectionProfileManager.getQodanaProfile(QodanaInspectionProfileManager.kt:111)
+	at org.jetbrains.qodana.staticAnalysis.inspections.runner.QodanaInspectionProfileLoader.loadProfileByName(QodanaInspectionProfileLoader.kt:14)
+	at org.jetbrains.qodana.staticAnalysis.inspections.runner.QodanaInspectionProfileLoader.loadProfileByName(QodanaInspectionProfileLoader.kt:12)
+	at com.intellij.codeInspection.InspectionProfileLoader.tryLoadProfileByNameOrPath(InspectionProfileLoader.java:21)
+	at org.jetbrains.qodana.staticAnalysis.inspections.runner.startup.LoadedProfileKt.loadBaseProfile$lambda$0(LoadedProfile.kt:47)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:48)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:40)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1183)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+2025-08-24 17:56:22,397 [  15227]   INFO - STDOUT - Initializing project…Inspecting with the 'qodana.recommended' profile
+2025-08-24 17:56:22,452 [  15282]   INFO - #o.j.q.s.p.QodanaProfile - The 'qodana.sanity' profile is configured for sanity checks
+2025-08-24 17:56:23,811 [  16641]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project analysis stage ...
+2025-08-24 17:56:23,811 [  16641]   INFO - STDOUT - Preparing for the Project analysis stage ...
+2025-08-24 17:56:23,910 [  16740]   INFO - #c.i.a.AnalysisScope - Scanning scope took 81 ms
+2025-08-24 17:56:23,924 [  16754]   INFO - #c.i.d.c.i.CheckDependencyLicensesInspectionGlobal - Starting com.intellij.dependencyAnalysis.core.inspection.CheckDependencyLicensesInspectionGlobal
+2025-08-24 17:56:23,930 [  16760]   INFO - #c.i.d.c.m.DependencyAnalysis - Collect data
+2025-08-24 17:56:23,939 [  16769]   INFO - #c.i.d.c.m.ProjectAnalyzer - JS start analyze
+2025-08-24 17:56:23,947 [  16777]   INFO - #c.i.d.j.JsProjectAnalyzer - Run npm list --json --omit=dev --long --all
+2025-08-24 17:56:25,631 [  18461]   WARN - #c.i.d.c.m.ProjectAnalyzer - Problem with configuration dependency in module: notto
+Problem message: Npm warning message:    ELSPROBLEMS
+  extraneous: @alloc/quick-lru@5.2.0 /data/project/node_modules/@alloc/quick-lru
+  extraneous: @emnapi/core@1.4.5 /data/project/node_modules/@emnapi/core
+  extraneous: @emnapi/runtime@1.4.5 /data/project/node_modules/@emnapi/runtime
+  extraneous: @emnapi/wasi-threads@1.0.4 /data/project/node_modules/@emnapi/wasi-threads
+  extraneous: @eslint-community/eslint-utils@4.7.0 /data/project/node_modules/@eslint-community/eslint-utils
+  extraneous: @eslint-community/regexpp@4.12.1 /data/project/node_modules/@eslint-community/regexpp
+  extraneous: @eslint/config-array@0.21.0 /data/project/node_modules/@eslint/config-array
+  extraneous: @eslint/config-helpers@0.3.1 /data/project/node_modules/@eslint/config-helpers
+  extraneous: @eslint/core@0.15.2 /data/project/node_modules/@eslint/core
+  extraneous: @eslint/js@9.33.0 /data/project/node_modules/@eslint/js
+  extraneous: @eslint/object-schema@2.1.6 /data/project/node_modules/@eslint/object-schema
+  extraneous: @eslint/plugin-kit@0.3.5 /data/project/node_modules/@eslint/plugin-kit
+  invalid: @hookform/resolvers@ /data/project/node_modules/@hookform/resolvers
+  extraneous: @humanfs/core@0.19.1 /data/project/node_modules/@humanfs/core
+  extraneous: @humanfs/node@0.16.6 /data/project/node_modules/@humanfs/node
+  extraneous: @humanwhocodes/module-importer@1.0.1 /data/project/node_modules/@humanwhocodes/module-importer
+  extraneous: @humanwhocodes/retry@0.4.3 /data/project/node_modules/@humanwhocodes/retry
+  extraneous: @img/sharp-win32-x64@0.34.3 /data/project/node_modules/@img/sharp-win32-x64
+  extraneous: @isaacs/fs-minipass@4.0.1 /data/project/node_modules/@isaacs/fs-minipass
+  extraneous: @jridgewell/gen-mapping@0.3.13 /data/project/node_modules/@jridgewell/gen-mapping
+  extraneous: @jridgewell/remapping@2.3.5 /data/project/node_modules/@jridgewell/remapping
+  extraneous: @jridgewell/resolve-uri@3.1.2 /data/project/node_modules/@jridgewell/resolve-uri
+  extraneous: @jridgewell/sourcemap-codec@1.5.5 /data/project/node_modules/@jridgewell/sourcemap-codec
+  extraneous: @jridgewell/trace-mapping@0.3.30 /data/project/node_modules/@jridgewell/trace-mapping
+  invalid: @monaco-editor/react@ /data/project/node_modules/@monaco-editor/react
+  extraneous: @napi-rs/wasm-runtime@0.2.12 /data/project/node_modules/@napi-rs/wasm-runtime
+  extraneous: @next/env@15.4.6 /data/project/node_modules/@next/env
+  extraneous: @next/eslint-plugin-next@15.4.6 /data/project/node_modules/@next/eslint-plugin-next
+  extraneous: @next/swc-win32-x64-msvc@15.4.6 /data/project/node_modules/@next/swc-win32-x64-msvc
+  extraneous: @nodelib/fs.scandir@2.1.5 /data/project/node_modules/@nodelib/fs.scandir
+  extraneous: @nodelib/fs.stat@2.0.5 /data/project/node_modules/@nodelib/fs.stat
+  extraneous: @nodelib/fs.walk@1.2.8 /data/project/node_modules/@nodelib/fs.walk
+  extraneous: @nolyfill/is-core-module@1.0.39 /data/project/node_modules/@nolyfill/is-core-module
+  invalid: @radix-ui/react-accordion@ /data/project/node_modules/@radix-ui/react-accordion
+  invalid: @radix-ui/react-alert-dialog@ /data/project/node_modules/@radix-ui/react-alert-dialog
+  invalid: @radix-ui/react-aspect-ratio@ /data/project/node_modules/@radix-ui/react-aspect-ratio
+  invalid: @radix-ui/react-avatar@ /data/project/node_modules/@radix-ui/react-avatar
+  invalid: @radix-ui/react-checkbox@ /data/project/node_modules/@radix-ui/react-checkbox
+  invalid: @radix-ui/react-collapsible@ /data/project/node_modules/@radix-ui/react-collapsible
+  invalid: @radix-ui/react-context-menu@ /data/project/node_modules/@radix-ui/react-context-menu
+  invalid: @radix-ui/react-dialog@ /data/project/node_modules/@radix-ui/react-dialog
+  invalid: @radix-ui/react-dropdown-menu@ /data/project/node_modules/@radix-ui/react-dropdown-menu
+  invalid: @radix-ui/react-hover-card@ /data/project/node_modules/@radix-ui/react-hover-card
+  invalid: @radix-ui/react-label@ /data/project/node_modules/@radix-ui/react-label
+  invalid: @radix-ui/react-menubar@ /data/project/node_modules/@radix-ui/react-menubar
+  invalid: @radix-ui/react-navigation-menu@ /data/project/node_modules/@radix-ui/react-navigation-menu
+  invalid: @radix-ui/react-popover@ /data/project/node_modules/@radix-ui/react-popover
+  invalid: @radix-ui/react-progress@ /data/project/node_modules/@radix-ui/react-progress
+  invalid: @radix-ui/react-radio-group@ /data/project/node_modules/@radix-ui/react-radio-group
+  invalid: @radix-ui/react-scroll-area@ /data/project/node_modules/@radix-ui/react-scroll-area
+  invalid: @radix-ui/react-select@ /data/project/node_modules/@radix-ui/react-select
+  invalid: @radix-ui/react-separator@ /data/project/node_modules/@radix-ui/react-separator
+  invalid: @radix-ui/react-slider@ /data/project/node_modules/@radix-ui/react-slider
+  invalid: @radix-ui/react-slot@ /data/project/node_modules/@radix-ui/react-slot
+  invalid: @radix-ui/react-switch@ /data/project/node_modules/@radix-ui/react-switch
+  invalid: @radix-ui/react-tabs@ /data/project/node_modules/@radix-ui/react-tabs
+  invalid: @radix-ui/react-toggle-group@ /data/project/node_modules/@radix-ui/react-toggle-group
+  invalid: @radix-ui/react-toggle@ /data/project/node_modules/@radix-ui/react-toggle
+  invalid: @radix-ui/react-tooltip@ /data/project/node_modules/@radix-ui/react-tooltip
+  extraneous: @rtsao/scc@1.1.0 /data/project/node_modules/@rtsao/scc
+  extraneous: @rushstack/eslint-patch@1.12.0 /data/project/node_modules/@rushstack/eslint-patch
+  invalid: @supabase/postgrest-js@ /data/project/node_modules/@supabase/postgrest-js
+  invalid: @supabase/ssr@ /data/project/node_modules/@supabase/ssr
+  invalid: @supabase/supabase-js@ /data/project/node_modules/@supabase/supabase-js
+  extraneous: @swc/helpers@0.5.15 /data/project/node_modules/@swc/helpers
+  extraneous: @tailwindcss/node@4.1.12 /data/project/node_modules/@tailwindcss/node
+  extraneous: @tailwindcss/oxide-win32-x64-msvc@4.1.12 /data/project/node_modules/@tailwindcss/oxide-win32-x64-msvc
+  extraneous: @tailwindcss/oxide@4.1.12 /data/project/node_modules/@tailwindcss/oxide
+  invalid: @tanstack/react-query@ /data/project/node_modules/@tanstack/react-query
+  invalid: @tanstack/react-table@ /data/project/node_modules/@tanstack/react-table
+  extraneous: @tybys/wasm-util@0.10.0 /data/project/node_modules/@tybys/wasm-util
+  extraneous: @types/estree@1.0.8 /data/project/node_modules/@types/estree
+  extraneous: @types/json-schema@7.0.15 /data/project/node_modules/@types/json-schema
+  extraneous: @types/json5@0.0.29 /data/project/node_modules/@types/json5
+  extraneous: @typescript-eslint/eslint-plugin@8.39.1 /data/project/node_modules/@typescript-eslint/eslint-plugin
+  extraneous: @typescript-eslint/parser@8.39.1 /data/project/node_modules/@typescript-eslint/parser
+  extraneous: @typescript-eslint/project-service@8.39.1 /data/project/node_modules/@typescript-eslint/project-service
+  extraneous: @typescript-eslint/scope-manager@8.39.1 /data/project/node_modules/@typescript-eslint/scope-manager
+  extraneous: @typescript-eslint/tsconfig-utils@8.39.1 /data/project/node_modules/@typescript-eslint/tsconfig-utils
+  extraneous: @typescript-eslint/type-utils@8.39.1 /data/project/node_modules/@typescript-eslint/type-utils
+  extraneous: @typescript-eslint/types@8.39.1 /data/project/node_modules/@typescript-eslint/types
+  extraneous: @typescript-eslint/typescript-estree@8.39.1 /data/project/node_modules/@typescript-eslint/typescript-estree
+  extraneous: @typescript-eslint/utils@8.39.1 /data/project/node_modules/@typescript-eslint/utils
+  extraneous: @typescript-eslint/visitor-keys@8.39.1 /data/project/node_modules/@typescript-eslint/visitor-keys
+  extraneous: @unrs/resolver-binding-win32-x64-msvc@1.11.1 /data/project/node_modules/@unrs/resolver-binding-win32-x64-msvc
+  extraneous: acorn-jsx@5.3.2 /data/project/node_modules/acorn-jsx
+  extraneous: acorn@8.15.0 /data/project/node_modules/acorn
+  extraneous: ajv@6.12.6 /data/project/node_modules/ajv
+  extraneous: ansi-styles@4.3.0 /data/project/node_modules/ansi-styles
+  extraneous: argparse@2.0.1 /data/project/node_modules/argparse
+  extraneous: aria-query@5.3.2 /data/project/node_modules/aria-query
+  extraneous: array-buffer-byte-length@1.0.2 /data/project/node_modules/array-buffer-byte-length
+  extraneous: array-includes@3.1.9 /data/project/node_modules/array-includes
+  extraneous: array.prototype.findlast@1.2.5 /data/project/node_modules/array.prototype.findlast
+  extraneous: array.prototype.findlastindex@1.2.6 /data/project/node_modules/array.prototype.findlastindex
+  extraneous: array.prototype.flat@1.3.3 /data/project/node_modules/array.prototype.flat
+  extraneous: array.prototype.flatmap@1.3.3 /data/project/node_modules/array.prototype.flatmap
+  extraneous: array.prototype.tosorted@1.1.4 /data/project/node_modules/array.prototype.tosorted
+  extraneous: arraybuffer.prototype.slice@1.0.4 /data/project/node_modules/arraybuffer.prototype.slice
+  extraneous: ast-types-flow@0.0.8 /data/project/node_modules/ast-types-flow
+  extraneous: async-function@1.0.0 /data/project/node_modules/async-function
+  extraneous: available-typed-arrays@1.0.7 /data/project/node_modules/available-typed-arrays
+  extraneous: axe-core@4.10.3 /data/project/node_modules/axe-core
+  invalid: axios@ /data/project/node_modules/axios
+  extraneous: axobject-query@4.1.0 /data/project/node_modules/axobject-query
+  extraneous: balanced-match@1.0.2 /data/project/node_modules/balanced-match
+  extraneous: brace-expansion@1.1.12 /data/project/node_modules/brace-expansion
+  extraneous: braces@3.0.3 /data/project/node_modules/braces
+  extraneous: call-bind-apply-helpers@1.0.2 /data/project/node_modules/call-bind-apply-helpers
+  extraneous: call-bind@1.0.8 /data/project/node_modules/call-bind
+  extraneous: call-bound@1.0.4 /data/project/node_modules/call-bound
+  extraneous: callsites@3.1.0 /data/project/node_modules/callsites
+  extraneous: caniuse-lite@1.0.30001735 /data/project/node_modules/caniuse-lite
+  extraneous: chalk@4.1.2 /data/project/node_modules/chalk
+  extraneous: chownr@3.0.0 /data/project/node_modules/chownr
+  invalid: class-variance-authority@ /data/project/node_modules/class-variance-authority
+  extraneous: client-only@0.0.1 /data/project/node_modules/client-only
+  invalid: clsx@ /data/project/node_modules/clsx
+  invalid: cmdk@ /data/project/node_modules/cmdk
+  extraneous: color-convert@2.0.1 /data/project/node_modules/color-convert
+  extraneous: color-name@1.1.4 /data/project/node_modules/color-name
+  extraneous: color-string@1.9.1 /data/project/node_modules/color-string
+  extraneous: color@4.2.3 /data/project/node_modules/color
+  invalid: common-tags@ /data/project/node_modules/common-tags
+  extraneous: concat-map@0.0.1 /data/project/node_modules/concat-map
+  extraneous: cross-spawn@7.0.6 /data/project/node_modules/cross-spawn
+  extraneous: csstype@3.1.3 /data/project/node_modules/csstype
+  extraneous: damerau-levenshtein@1.0.8 /data/project/node_modules/damerau-levenshtein
+  extraneous: data-view-buffer@1.0.2 /data/project/node_modules/data-view-buffer
+  extraneous: data-view-byte-length@1.0.2 /data/project/node_modules/data-view-byte-length
+  extraneous: data-view-byte-offset@1.0.1 /data/project/node_modules/data-view-byte-offset
+  invalid: date-fns@ /data/project/node_modules/date-fns
+  extraneous: debug@4.4.1 /data/project/node_modules/debug
+  extraneous: deep-is@0.1.4 /data/project/node_modules/deep-is
+  extraneous: define-data-property@1.1.4 /data/project/node_modules/define-data-property
+  extraneous: define-properties@1.2.1 /data/project/node_modules/define-properties
+  extraneous: detect-libc@2.0.4 /data/project/node_modules/detect-libc
+  extraneous: doctrine@2.1.0 /data/project/node_modules/doctrine
+  extraneous: dunder-proto@1.0.1 /data/project/node_modules/dunder-proto
+  invalid: embla-carousel-react@ /data/project/node_modules/embla-carousel-react
+  extraneous: emoji-regex@9.2.2 /data/project/node_modules/emoji-regex
+  extraneous: enhanced-resolve@5.18.3 /data/project/node_modules/enhanced-resolve
+  extraneous: es-abstract@1.24.0 /data/project/node_modules/es-abstract
+  extraneous: es-define-property@1.0.1 /data/project/node_modules/es-define-property
+  extraneous: es-errors@1.3.0 /data/project/node_modules/es-errors
+  extraneous: es-iterator-helpers@1.2.1 /data/project/node_modules/es-iterator-helpers
+  extraneous: es-object-atoms@1.1.1 /data/project/node_modules/es-object-atoms
+  extraneous: es-set-tostringtag@2.1.0 /data/project/node_modules/es-set-tostringtag
+  extraneous: es-shim-unscopables@1.1.0 /data/project/node_modules/es-shim-unscopables
+  extraneous: es-to-primitive@1.3.0 /data/project/node_modules/es-to-primitive
+  extraneous: escape-string-regexp@4.0.0 /data/project/node_modules/escape-string-regexp
+  extraneous: eslint-import-resolver-node@0.3.9 /data/project/node_modules/eslint-import-resolver-node
+  extraneous: eslint-import-resolver-typescript@3.10.1 /data/project/node_modules/eslint-import-resolver-typescript
+  extraneous: eslint-module-utils@2.12.1 /data/project/node_modules/eslint-module-utils
+  extraneous: eslint-plugin-import@2.32.0 /data/project/node_modules/eslint-plugin-import
+  extraneous: eslint-plugin-jsx-a11y@6.10.2 /data/project/node_modules/eslint-plugin-jsx-a11y
+  extraneous: eslint-plugin-react-hooks@5.2.0 /data/project/node_modules/eslint-plugin-react-hooks
+  extraneous: eslint-plugin-react@7.37.5 /data/project/node_modules/eslint-plugin-react
+  extraneous: eslint-scope@8.4.0 /data/project/node_modules/eslint-scope
+  extraneous: eslint-visitor-keys@4.2.1 /data/project/node_modules/eslint-visitor-keys
+  extraneous: espree@10.4.0 /data/project/node_modules/espree
+  extraneous: esquery@1.6.0 /data/project/node_modules/esquery
+  extraneous: esrecurse@4.3.0 /data/project/node_modules/esrecurse
+  extraneous: estraverse@5.3.0 /data/project/node_modules/estraverse
+  extraneous: esutils@2.0.3 /data/project/node_modules/esutils
+  extraneous: fast-deep-equal@3.1.3 /data/project/node_modules/fast-deep-equal
+  extraneous: fast-glob@3.3.1 /data/project/node_modules/fast-glob
+  extraneous: fast-json-stable-stringify@2.1.0 /data/project/node_modules/fast-json-stable-stringify
+  extraneous: fast-levenshtein@2.0.6 /data/project/node_modules/fast-levenshtein
+  extraneous: fastq@1.19.1 /data/project/node_modules/fastq
+  extraneous: file-entry-cache@8.0.0 /data/project/node_modules/file-entry-cache
+  extraneous: fill-range@7.1.1 /data/project/node_modules/fill-range
+  extraneous: find-up@5.0.0 /data/project/node_modules/find-up
+  extraneous: flat-cache@4.0.1 /data/project/node_modules/flat-cache
+  extraneous: flatted@3.3.3 /data/project/node_modules/flatted
+  extraneous: for-each@0.3.5 /data/project/node_modules/for-each
+  extraneous: function-bind@1.1.2 /data/project/node_modules/function-bind
+  extraneous: function.prototype.name@1.1.8 /data/project/node_modules/function.prototype.name
+  extraneous: functions-have-names@1.2.3 /data/project/node_modules/functions-have-names
+  extraneous: get-intrinsic@1.3.0 /data/project/node_modules/get-intrinsic
+  extraneous: get-proto@1.0.1 /data/project/node_modules/get-proto
+  extraneous: get-symbol-description@1.1.0 /data/project/node_modules/get-symbol-description
+  extraneous: get-tsconfig@4.10.1 /data/project/node_modules/get-tsconfig
+  extraneous: glob-parent@6.0.2 /data/project/node_modules/glob-parent
+  extraneous: globals@14.0.0 /data/project/node_modules/globals
+  extraneous: globalthis@1.0.4 /data/project/node_modules/globalthis
+  extraneous: gopd@1.2.0 /data/project/node_modules/gopd
+  extraneous: graceful-fs@4.2.11 /data/project/node_modules/graceful-fs
+  extraneous: graphemer@1.4.0 /data/project/node_modules/graphemer
+  extraneous: has-bigints@1.1.0 /data/project/node_modules/has-bigints
+  extraneous: has-flag@4.0.0 /data/project/node_modules/has-flag
+  extraneous: has-property-descriptors@1.0.2 /data/project/node_modules/has-property-descriptors
+  extraneous: has-proto@1.2.0 /data/project/node_modules/has-proto
+  extraneous: has-symbols@1.1.0 /data/project/node_modules/has-symbols
+  extraneous: has-tostringtag@1.0.2 /data/project/node_modules/has-tostringtag
+  extraneous: hasown@2.0.2 /data/project/node_modules/hasown
+  extraneous: ignore@5.3.2 /data/project/node_modules/ignore
+  extraneous: import-fresh@3.3.1 /data/project/node_modules/import-fresh
+  extraneous: imurmurhash@0.1.4 /data/project/node_modules/imurmurhash
+  invalid: input-otp@ /data/project/node_modules/input-otp
+  extraneous: internal-slot@1.1.0 /data/project/node_modules/internal-slot
+  extraneous: is-array-buffer@3.0.5 /data/project/node_modules/is-array-buffer
+  extraneous: is-arrayish@0.3.2 /data/project/node_modules/is-arrayish
+  extraneous: is-async-function@2.1.1 /data/project/node_modules/is-async-function
+  extraneous: is-bigint@1.1.0 /data/project/node_modules/is-bigint
+  extraneous: is-boolean-object@1.2.2 /data/project/node_modules/is-boolean-object
+  extraneous: is-bun-module@2.0.0 /data/project/node_modules/is-bun-module
+  extraneous: is-callable@1.2.7 /data/project/node_modules/is-callable
+  extraneous: is-core-module@2.16.1 /data/project/node_modules/is-core-module
+  extraneous: is-data-view@1.0.2 /data/project/node_modules/is-data-view
+  extraneous: is-date-object@1.1.0 /data/project/node_modules/is-date-object
+  extraneous: is-extglob@2.1.1 /data/project/node_modules/is-extglob
+  extraneous: is-finalizationregistry@1.1.1 /data/project/node_modules/is-finalizationregistry
+  extraneous: is-generator-function@1.1.0 /data/project/node_modules/is-generator-function
+  extraneous: is-glob@4.0.3 /data/project/node_modules/is-glob
+  extraneous: is-map@2.0.3 /data/project/node_modules/is-map
+  extraneous: is-negative-zero@2.0.3 /data/project/node_modules/is-negative-zero
+  extraneous: is-number-object@1.1.1 /data/project/node_modules/is-number-object
+  extraneous: is-number@7.0.0 /data/project/node_modules/is-number
+  extraneous: is-regex@1.2.1 /data/project/node_modules/is-regex
+  extraneous: is-set@2.0.3 /data/project/node_modules/is-set
+  extraneous: is-shared-array-buffer@1.0.4 /data/project/node_modules/is-shared-array-buffer
+  extraneous: is-string@1.1.1 /data/project/node_modules/is-string
+  extraneous: is-symbol@1.1.1 /data/project/node_modules/is-symbol
+  extraneous: is-typed-array@1.1.15 /data/project/node_modules/is-typed-array
+  extraneous: is-weakmap@2.0.2 /data/project/node_modules/is-weakmap
+  extraneous: is-weakref@1.1.1 /data/project/node_modules/is-weakref
+  extraneous: is-weakset@2.0.4 /data/project/node_modules/is-weakset
+  extraneous: isarray@2.0.5 /data/project/node_modules/isarray
+  extraneous: isexe@2.0.0 /data/project/node_modules/isexe
+  extraneous: iterator.prototype@1.1.5 /data/project/node_modules/iterator.prototype
+  extraneous: jiti@2.5.1 /data/project/node_modules/jiti
+  extraneous: js-tokens@4.0.0 /data/project/node_modules/js-tokens
+  extraneous: js-yaml@4.1.0 /data/project/node_modules/js-yaml
+  extraneous: json-buffer@3.0.1 /data/project/node_modules/json-buffer
+  extraneous: json-schema-traverse@0.4.1 /data/project/node_modules/json-schema-traverse
+  extraneous: json-stable-stringify-without-jsonify@1.0.1 /data/project/node_modules/json-stable-stringify-without-jsonify
+  extraneous: json5@1.0.2 /data/project/node_modules/json5
+  extraneous: jsx-ast-utils@3.3.5 /data/project/node_modules/jsx-ast-utils
+  extraneous: keyv@4.5.4 /data/project/node_modules/keyv
+  extraneous: language-subtag-registry@0.3.23 /data/project/node_modules/language-subtag-registry
+  extraneous: language-tags@1.0.9 /data/project/node_modules/language-tags
+  extraneous: levn@0.4.1 /data/project/node_modules/levn
+  extraneous: lightningcss-win32-x64-msvc@1.30.1 /data/project/node_modules/lightningcss-win32-x64-msvc
+  extraneous: lightningcss@1.30.1 /data/project/node_modules/lightningcss
+  extraneous: locate-path@6.0.0 /data/project/node_modules/locate-path
+  extraneous: lodash.merge@4.6.2 /data/project/node_modules/lodash.merge
+  extraneous: loose-envify@1.4.0 /data/project/node_modules/loose-envify
+  invalid: lucide-react@ /data/project/node_modules/lucide-react
+  extraneous: magic-string@0.30.17 /data/project/node_modules/magic-string
+  extraneous: math-intrinsics@1.1.0 /data/project/node_modules/math-intrinsics
+  extraneous: merge2@1.4.1 /data/project/node_modules/merge2
+  extraneous: micromatch@4.0.8 /data/project/node_modules/micromatch
+  extraneous: minimatch@3.1.2 /data/project/node_modules/minimatch
+  extraneous: minimist@1.2.8 /data/project/node_modules/minimist
+  extraneous: minipass@7.1.2 /data/project/node_modules/minipass
+  extraneous: minizlib@3.0.2 /data/project/node_modules/minizlib
+  extraneous: mkdirp@3.0.1 /data/project/node_modules/mkdirp
+  extraneous: ms@2.1.3 /data/project/node_modules/ms
+  extraneous: nanoid@3.3.11 /data/project/node_modules/nanoid
+  extraneous: napi-postinstall@0.3.3 /data/project/node_modules/napi-postinstall
+  extraneous: natural-compare@1.4.0 /data/project/node_modules/natural-compare
+  invalid: next-themes@ /data/project/node_modules/next-themes
+  invalid: next@ /data/project/node_modules/next
+  extraneous: object-assign@4.1.1 /data/project/node_modules/object-assign
+  extraneous: object-inspect@1.13.4 /data/project/node_modules/object-inspect
+  extraneous: object-keys@1.1.1 /data/project/node_modules/object-keys
+  extraneous: object.assign@4.1.7 /data/project/node_modules/object.assign
+  extraneous: object.entries@1.1.9 /data/project/node_modules/object.entries
+  extraneous: object.fromentries@2.0.8 /data/project/node_modules/object.fromentries
+  extraneous: object.groupby@1.0.3 /data/project/node_modules/object.groupby
+  extraneous: object.values@1.2.1 /data/project/node_modules/object.values
+  invalid: openai@ /data/project/node_modules/openai
+  invalid: openapi-fetch@ /data/project/node_modules/openapi-fetch
+  extraneous: optionator@0.9.4 /data/project/node_modules/optionator
+  extraneous: own-keys@1.0.1 /data/project/node_modules/own-keys
+  extraneous: p-limit@3.1.0 /data/project/node_modules/p-limit
+  extraneous: p-locate@5.0.0 /data/project/node_modules/p-locate
+  extraneous: parent-module@1.0.1 /data/project/node_modules/parent-module
+  extraneous: path-exists@4.0.0 /data/project/node_modules/path-exists
+  extraneous: path-key@3.1.1 /data/project/node_modules/path-key
+  extraneous: path-parse@1.0.7 /data/project/node_modules/path-parse
+  extraneous: picocolors@1.1.1 /data/project/node_modules/picocolors
+  extraneous: picomatch@2.3.1 /data/project/node_modules/picomatch
+  extraneous: possible-typed-array-names@1.1.0 /data/project/node_modules/possible-typed-array-names
+  extraneous: postcss@8.5.6 /data/project/node_modules/postcss
+  extraneous: prelude-ls@1.2.1 /data/project/node_modules/prelude-ls
+  extraneous: prop-types@15.8.1 /data/project/node_modules/prop-types
+  extraneous: punycode@2.3.1 /data/project/node_modules/punycode
+  extraneous: queue-microtask@1.2.3 /data/project/node_modules/queue-microtask
+  invalid: react-day-picker@ /data/project/node_modules/react-day-picker
+  invalid: react-dom@ /data/project/node_modules/react-dom
+  invalid: react-dropzone@ /data/project/node_modules/react-dropzone
+  invalid: react-hook-form@ /data/project/node_modules/react-hook-form
+  extraneous: react-is@16.13.1 /data/project/node_modules/react-is
+  invalid: react-markdown@ /data/project/node_modules/react-markdown
+  invalid: react-resizable-panels@ /data/project/node_modules/react-resizable-panels
+  invalid: react@ /data/project/node_modules/react
+  invalid: recharts@ /data/project/node_modules/recharts
+  extraneous: reflect.getprototypeof@1.0.10 /data/project/node_modules/reflect.getprototypeof
+  extraneous: regexp.prototype.flags@1.5.4 /data/project/node_modules/regexp.prototype.flags
+  extraneous: resolve-from@4.0.0 /data/project/node_modules/resolve-from
+  extraneous: resolve-pkg-maps@1.0.0 /data/project/node_modules/resolve-pkg-maps
+  extraneous: resolve@1.22.10 /data/project/node_modules/resolve
+  extraneous: reusify@1.1.0 /data/project/node_modules/reusify
+  extraneous: run-parallel@1.2.0 /data/project/node_modules/run-parallel
+  extraneous: safe-array-concat@1.1.3 /data/project/node_modules/safe-array-concat
+  extraneous: safe-push-apply@1.0.0 /data/project/node_modules/safe-push-apply
+  extraneous: safe-regex-test@1.1.0 /data/project/node_modules/safe-regex-test
+  extraneous: scheduler@0.26.0 /data/project/node_modules/scheduler
+  extraneous: semver@7.7.2 /data/project/node_modules/semver
+  extraneous: set-function-length@1.2.2 /data/project/node_modules/set-function-length
+  extraneous: set-function-name@2.0.2 /data/project/node_modules/set-function-name
+  extraneous: set-proto@1.0.0 /data/project/node_modules/set-proto
+  extraneous: sharp@0.34.3 /data/project/node_modules/sharp
+  extraneous: shebang-command@2.0.0 /data/project/node_modules/shebang-command
+  extraneous: shebang-regex@3.0.0 /data/project/node_modules/shebang-regex
+  extraneous: side-channel-list@1.0.0 /data/project/node_modules/side-channel-list
+  extraneous: side-channel-map@1.0.1 /data/project/node_modules/side-channel-map
+  extraneous: side-channel-weakmap@1.0.2 /data/project/node_modules/side-channel-weakmap
+  extraneous: side-channel@1.1.0 /data/project/node_modules/side-channel
+  extraneous: simple-swizzle@0.2.2 /data/project/node_modules/simple-swizzle
+  invalid: sonner@ /data/project/node_modules/sonner
+  extraneous: source-map-js@1.2.1 /data/project/node_modules/source-map-js
+  extraneous: stable-hash@0.0.5 /data/project/node_modules/stable-hash
+  extraneous: stop-iteration-iterator@1.1.0 /data/project/node_modules/stop-iteration-iterator
+  extraneous: string.prototype.includes@2.0.1 /data/project/node_modules/string.prototype.includes
+  extraneous: string.prototype.matchall@4.0.12 /data/project/node_modules/string.prototype.matchall
+  extraneous: string.prototype.repeat@1.0.0 /data/project/node_modules/string.prototype.repeat
+  extraneous: string.prototype.trim@1.2.10 /data/project/node_modules/string.prototype.trim
+  extraneous: string.prototype.trimend@1.0.9 /data/project/node_modules/string.prototype.trimend
+  extraneous: string.prototype.trimstart@1.0.8 /data/project/node_modules/string.prototype.trimstart
+  extraneous: strip-bom@3.0.0 /data/project/node_modules/strip-bom
+  extraneous: strip-json-comments@3.1.1 /data/project/node_modules/strip-json-comments
+  extraneous: styled-jsx@5.1.6 /data/project/node_modules/styled-jsx
+  extraneous: supports-color@7.2.0 /data/project/node_modules/supports-color
+  extraneous: supports-preserve-symlinks-flag@1.0.0 /data/project/node_modules/supports-preserve-symlinks-flag
+  invalid: tailwind-merge@ /data/project/node_modules/tailwind-merge
+  extraneous: tapable@2.2.2 /data/project/node_modules/tapable
+  extraneous: tar@7.4.3 /data/project/node_modules/tar
+  extraneous: tinyglobby@0.2.14 /data/project/node_modules/tinyglobby
+  extraneous: to-regex-range@5.0.1 /data/project/node_modules/to-regex-range
+  extraneous: ts-api-utils@2.1.0 /data/project/node_modules/ts-api-utils
+  extraneous: tsconfig-paths@3.15.0 /data/project/node_modules/tsconfig-paths
+  extraneous: tslib@2.8.1 /data/project/node_modules/tslib
+  extraneous: type-check@0.4.0 /data/project/node_modules/type-check
+  extraneous: typed-array-buffer@1.0.3 /data/project/node_modules/typed-array-buffer
+  extraneous: typed-array-byte-length@1.0.3 /data/project/node_modules/typed-array-byte-length
+  extraneous: typed-array-byte-offset@1.0.4 /data/project/node_modules/typed-array-byte-offset
+  extraneous: typed-array-length@1.0.7 /data/project/node_modules/typed-array-length
+  extraneous: unbox-primitive@1.1.0 /data/project/node_modules/unbox-primitive
+  extraneous: undici-types@6.21.0 /data/project/node_modules/undici-types
+  extraneous: unrs-resolver@1.11.1 /data/project/node_modules/unrs-resolver
+  extraneous: uri-js@4.4.1 /data/project/node_modules/uri-js
+  invalid: vaul@ /data/project/node_modules/vaul
+  extraneous: which-boxed-primitive@1.1.1 /data/project/node_modules/which-boxed-primitive
+  extraneous: which-builtin-type@1.2.1 /data/project/node_modules/which-builtin-type
+  extraneous: which-collection@1.0.2 /data/project/node_modules/which-collection
+  extraneous: which-typed-array@1.1.19 /data/project/node_modules/which-typed-array
+  extraneous: which@2.0.2 /data/project/node_modules/which
+  extraneous: word-wrap@1.2.5 /data/project/node_modules/word-wrap
+  extraneous: yallist@5.0.0 /data/project/node_modules/yallist
+  extraneous: yocto-queue@0.1.0 /data/project/node_modules/yocto-queue
+  invalid: zod@ /data/project/node_modules/zod
+  extraneous: eslint-visitor-keys@3.4.3 /data/project/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys
+  invalid: eslint@ /data/project/node_modules/eslint
+  extraneous: @humanwhocodes/retry@0.3.1 /data/project/node_modules/@humanfs/node/node_modules/@humanwhocodes/retry
+  invalid: tailwindcss@ /data/project/node_modules/tailwindcss
+  extraneous: ignore@7.0.5 /data/project/node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore
+  invalid: typescript@ /data/project/node_modules/typescript
+  extraneous: brace-expansion@2.0.2 /data/project/node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion
+  extraneous: fast-glob@3.3.3 /data/project/node_modules/@typescript-eslint/typescript-estree/node_modules/fast-glob
+  extraneous: glob-parent@5.1.2 /data/project/node_modules/@typescript-eslint/typescript-estree/node_modules/glob-parent
+  extraneous: minimatch@9.0.5 /data/project/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch
+  extraneous: debug@3.2.7 /data/project/node_modules/eslint-import-resolver-node/node_modules/debug
+  extraneous: debug@3.2.7 /data/project/node_modules/eslint-module-utils/node_modules/debug
+  extraneous: debug@3.2.7 /data/project/node_modules/eslint-plugin-import/node_modules/debug
+  extraneous: semver@6.3.1 /data/project/node_modules/eslint-plugin-import/node_modules/semver
+  extraneous: resolve@2.0.0-next.5 /data/project/node_modules/eslint-plugin-react/node_modules/resolve
+  extraneous: semver@6.3.1 /data/project/node_modules/eslint-plugin-react/node_modules/semver
+  extraneous: glob-parent@5.1.2 /data/project/node_modules/fast-glob/node_modules/glob-parent
+  extraneous: fdir@6.5.0 /data/project/node_modules/tinyglobby/node_modules/fdir
+  extraneous: picomatch@4.0.3 /data/project/node_modules/tinyglobby/node_modules/picomatch
+  A complete log of this run can be found in: /root/.npm/_logs/2025-08-24T17_56_24_015Z-debug-0.log
+
+2025-08-24 17:56:25,633 [  18463]   INFO - #c.i.d.j.JsProjectAnalyzer - Run parse npm list
+2025-08-24 17:56:27,486 [  20316]   INFO - #c.i.d.c.m.ProjectAnalyzer - JS end analyze
+2025-08-24 17:56:27,558 [  20388]   INFO - #c.i.d.c.m.DependencyAnalysis - Obtained ProjectMetadata
+2025-08-24 17:56:27,571 [  20401]   INFO - #c.i.d.c.i.CheckDependencyLicensesInspectionGlobal - Ending com.intellij.dependencyAnalysis.core.inspection.CheckDependencyLicensesInspectionGlobal
+2025-08-24 17:56:30,257 [  23087]   INFO - #o.j.q.s.i.c.CoverageInspectionBase - Coverage for JestCoverageEngine - provided 332 files
+2025-08-24 17:56:30,264 [  23094]   INFO - #o.j.q.s.i.c.CoverageInspectionBase - Engine JestJavaScriptTestRunnerCoverage - accepted 1 files
+2025-08-24 17:56:30,265 [  23095]   INFO - #o.j.q.s.i.c.CoverageInspectionBase - Engine JestJavaScriptTestRunnerCoverage - loaded 1 coverage suites
+2025-08-24 17:56:30,271 [  23101]   INFO - STDOUT - Started loading coverage from /data/project/.qodana/code-coverage/lcov.info...
+2025-08-24 17:56:30,285 [  23115]   WARN - #c.i.j.t.CoverageProjectDataLoader - Cannot guess baseDir because couldn't find content root for paths: [hooks\use-tables.ts, app\components\core\link.tsx, components\results-table.tsx, components\ui\checkbox.tsx, components\ui\tabs.tsx, components\ui\alert-dialog.tsx, app\components\layout\footer-nav.tsx, components\ui\skeleton.tsx, components\suggestions.tsx, components\chat-message.tsx, components\ui\label.tsx, app\components\core\section.tsx, components\ui\card.tsx, components\secrets.tsx, components\sign-up-form.tsx, components\ui\toggle.tsx, app\components\branding\index.ts, components\forgot-password-form.tsx, components\ui\accordion.tsx, components\ui\command.tsx, app\page.tsx, components\ui\popover.tsx, components\ui\form.tsx, components\realtime-avatar-stack.tsx, app\components\ui\text.tsx, app\components\layout\nav.tsx, hooks\use-current-user-image.ts, app\components\ui\badge.tsx, components\ui\dropdown-menu.tsx, app\auth\login\page.tsx, app\components\ui\metric.tsx, components\logo-supabase.tsx, contexts\SheetNavigationContext.tsx, app\components\layout\content.tsx, app\components\layout\footer-link.tsx, hooks\use-current-user-name.ts, components\ui\drawer.tsx, app\components\branding\components\core.ts, app\components\ui\list.tsx, hooks\use-mobile.ts, lib\server.ts, app\components\ui\dialog.tsx, components\ui\table.tsx, components\avatar-stack.tsx, components\ui\slider.tsx, components\ui\tooltip.tsx, lib\pg-meta.ts, components\ui\sheet.tsx, lib\secrets.ts, app\components\layout\footer.tsx, hooks\use-auth.ts, components\ui\switch.tsx, components\logout-button.tsx, lib\utils.ts, hooks\use-user-counts.ts, components\update-password-form.tsx, components\ui\button.tsx, lib\schemas\auth.ts, hooks\use-suggestions.ts, components\sql-editor.tsx, app\components\ui\alert.tsx, components\ui\context-menu.tsx, lib\management-api.ts, components\ui\badge.tsx, components\ui\carousel.tsx, hooks\use-secrets.ts, app\components\layout\actions.tsx, lib\sql.ts, components\ui\input-otp.tsx, components\ui\sonner.tsx, components\storage.tsx, lib\client.ts, components\ui\separator.tsx, components\ui\hover-card.tsx, app\components\branding\tokens\spacing.ts, components\ui\select.tsx, app\components\layout\header.tsx, app\components\ui\tooltip.tsx, components\ui\chart.tsx, app\components\core\logo.tsx, app\components\layout\footer-legal-links.tsx, hooks\use-chat-scroll.tsx, app\components\ui\separator.tsx, components\dropzone.tsx, components\ui\aspect-ratio.tsx, hooks\use-realtime-cursors.ts, app\components\layout\footer-info.tsx, lib\schemas\secrets.ts, components\realtime-chat.tsx, hooks\use-run-query.ts, components\login-form.tsx, components\ui\calendar.tsx, hooks\use-infinite-query.ts, components\cursor.tsx, components\dynamic-form.tsx, components\ui\alert.tsx, components\users.tsx, app\components\layout\background.tsx, components\ui\dialog.tsx, components\ui\breadcrumb.tsx, components\current-user-avatar.tsx, components\ui\scroll-area.tsx, app\components\ui\input.tsx, app\components\layout\footer-column.tsx, components\ui\pagination.tsx, components\ui\textarea.tsx, lib\index.ts, lib\types.ts, components\ui\navigation-menu.tsx, app\components\branding\tokens\colors.ts, app\components\branding\brand-config.ts, hooks\use-realtime-chat.tsx, components\ui\menubar.tsx, components\users-growth-chart.tsx, hooks\use-storage.ts, components\ui\collapsible.tsx, hooks\use-supabase-upload.ts, app\components\ui\heading.tsx, components\index.tsx, components\logs.tsx, components\auth.tsx, components\realtime-cursors.tsx, app\components\ui\code-block.tsx, components\ui\avatar.tsx, app\components\layout\footer-text.tsx, app\components\ui\button.tsx, components\ui\toggle-group.tsx, hooks\use-logs.ts, lib\logs.ts, hooks\use-realtime-presence-room.ts, components\ui\progress.tsx, app\components\layout\nav-link.tsx, app\components\layout\footer-legal.tsx, app\components\branding\components\ui.ts, app\components\ui\label.tsx, app\components\branding\brand-utils.ts, app\components\branding\tokens\typography.ts, app\components\ui\card.tsx, components\ui\resizable.tsx, components\ui\radio-group.tsx, components\ui\sidebar.tsx, components\database.tsx, components\ui\input.tsx]
+2025-08-24 17:56:30,286 [  23116]   INFO - STDERR - The coverage data from /data/project/.qodana/code-coverage/lcov.info may be loaded incorrectly because of: Cannot guess baseDir because couldn't find content root for paths: [hooks\use-tables.ts, app\components\core\link.tsx, components\results-table.tsx, components\ui\checkbox.tsx, components\ui\tabs.tsx, components\ui\alert-dialog.tsx, app\components\layout\footer-nav.tsx, components\ui\skeleton.tsx, components\suggestions.tsx, components\chat-message.tsx, components\ui\label.tsx, app\components\core\section.tsx, components\ui\card.tsx, components\secrets.tsx, components\sign-up-form.tsx, components\ui\toggle.tsx, app\components\branding\index.ts, components\forgot-password-form.tsx, components\ui\accordion.tsx, components\ui\command.tsx, app\page.tsx, components\ui\popover.tsx, components\ui\form.tsx, components\realtime-avatar-stack.tsx, app\components\ui\text.tsx, app\components\layout\nav.tsx, hooks\use-current-user-image.ts, app\components\ui\badge.tsx, components\ui\dropdown-menu.tsx, app\auth\login\page.tsx, app\components\ui\metric.tsx, components\logo-supabase.tsx, contexts\SheetNavigationContext.tsx, app\components\layout\content.tsx, app\components\layout\footer-link.tsx, hooks\use-current-user-name.ts, components\ui\drawer.tsx, app\components\branding\components\core.ts, app\components\ui\list.tsx, hooks\use-mobile.ts, lib\server.ts, app\components\ui\dialog.tsx, components\ui\table.tsx, components\avatar-stack.tsx, components\ui\slider.tsx, components\ui\tooltip.tsx, lib\pg-meta.ts, components\ui\sheet.tsx, lib\secrets.ts, app\components\layout\footer.tsx, hooks\use-auth.ts, components\ui\switch.tsx, components\logout-button.tsx, lib\utils.ts, hooks\use-user-counts.ts, components\update-password-form.tsx, components\ui\button.tsx, lib\schemas\auth.ts, hooks\use-suggestions.ts, components\sql-editor.tsx, app\components\ui\alert.tsx, components\ui\context-menu.tsx, lib\management-api.ts, components\ui\badge.tsx, components\ui\carousel.tsx, hooks\use-secrets.ts, app\components\layout\actions.tsx, lib\sql.ts, components\ui\input-otp.tsx, components\ui\sonner.tsx, components\storage.tsx, lib\client.ts, components\ui\separator.tsx, components\ui\hover-card.tsx, app\components\branding\tokens\spacing.ts, components\ui\select.tsx, app\components\layout\header.tsx, app\components\ui\tooltip.tsx, components\ui\chart.tsx, app\components\core\logo.tsx, app\components\layout\footer-legal-links.tsx, hooks\use-chat-scroll.tsx, app\components\ui\separator.tsx, components\dropzone.tsx, components\ui\aspect-ratio.tsx, hooks\use-realtime-cursors.ts, app\components\layout\footer-info.tsx, lib\schemas\secrets.ts, components\realtime-chat.tsx, hooks\use-run-query.ts, components\login-form.tsx, components\ui\calendar.tsx, hooks\use-infinite-query.ts, components\cursor.tsx, components\dynamic-form.tsx, components\ui\alert.tsx, components\users.tsx, app\components\layout\background.tsx, components\ui\dialog.tsx, components\ui\breadcrumb.tsx, components\current-user-avatar.tsx, components\ui\scroll-area.tsx, app\components\ui\input.tsx, app\components\layout\footer-column.tsx, components\ui\pagination.tsx, components\ui\textarea.tsx, lib\index.ts, lib\types.ts, components\ui\navigation-menu.tsx, app\components\branding\tokens\colors.ts, app\components\branding\brand-config.ts, hooks\use-realtime-chat.tsx, components\ui\menubar.tsx, components\users-growth-chart.tsx, hooks\use-storage.ts, components\ui\collapsible.tsx, hooks\use-supabase-upload.ts, app\components\ui\heading.tsx, components\index.tsx, components\logs.tsx, components\auth.tsx, components\realtime-cursors.tsx, app\components\ui\code-block.tsx, components\ui\avatar.tsx, app\components\layout\footer-text.tsx, app\components\ui\button.tsx, components\ui\toggle-group.tsx, hooks\use-logs.ts, lib\logs.ts, hooks\use-realtime-presence-room.ts, components\ui\progress.tsx, app\components\layout\nav-link.tsx, app\components\layout\footer-legal.tsx, app\components\branding\components\ui.ts, app\components\ui\label.tsx, app\components\branding\brand-utils.ts, app\components\branding\tokens\typography.ts, app\components\ui\card.tsx, components\ui\resizable.tsx, components\ui\radio-group.tsx, components\ui\sidebar.tsx, components\database.tsx, components\ui\input.tsx]
+2025-08-24 17:56:30,287 [  23117]   WARN - #c.i.j.j.c.JestCoverageRunner - Could not get base directory for coverage data file /data/project/.qodana/code-coverage/lcov.info
+2025-08-24 17:56:30,287 [  23117]   INFO - STDERR - Could not load coverage from file /data/project/.qodana/code-coverage/lcov.info: Could not get base directory for coverage data file /data/project/.qodana/code-coverage/lcov.info
+2025-08-24 17:56:30,288 [  23118] SEVERE - #o.j.q.s.i.c.CoverageInspectionBase - Coverage reports were empty or not loaded correctly
+java.lang.Throwable: Coverage reports were empty or not loaded correctly
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:375)
+	at org.jetbrains.qodana.staticAnalysis.inspections.coverage.UtilsKt.retrieveCoverageData(utils.kt:115)
+	at org.jetbrains.qodana.staticAnalysis.inspections.coverage.CoverageInspectionBase.computeCoverageData(CoverageInspectionBase.kt:135)
+	at org.jetbrains.qodana.js.JsCoverageInspection.loadCoverage$lambda$1(JsCoverageInspection.kt:38)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+	at org.jetbrains.qodana.js.JsCoverageInspection.loadReportForIncrementalAnalysis(JsCoverageInspection.kt:43)
+	at org.jetbrains.qodana.staticAnalysis.inspections.coverage.CoverageInspectionBase.inspectionStarted(CoverageInspectionBase.kt:64)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextImpl.runTools(GlobalInspectionContextImpl.java:325)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextBase.lambda$performInspectionsWithProgress$3(GlobalInspectionContextBase.java:299)
+	at com.intellij.psi.impl.PsiManagerImpl.runInBatchFilesMode(PsiManagerImpl.java:508)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextBase.lambda$performInspectionsWithProgress$4(GlobalInspectionContextBase.java:293)
+	at com.intellij.codeInspection.reference.RefManagerImpl.runInsideInspectionReadAction(RefManagerImpl.java:532)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextBase.performInspectionsWithProgress(GlobalInspectionContextBase.java:292)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextEx.performInspectionsWithProgressAndExportResults(GlobalInspectionContextEx.java:84)
+	at org.jetbrains.qodana.staticAnalysis.script.Run_context_actionsKt$runAnalysis$3$1.invokeSuspend$lambda$0(run-context-actions.kt:85)
+	at com.intellij.openapi.progress.CoroutinesKt.jobToIndicator$lambda$10(coroutines.kt:543)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:98)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:229)
+	at com.intellij.platform.diagnostic.telemetry.helpers.TraceKt.use(trace.kt:44)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:228)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$14(CoreProgressManager.java:681)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:756)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:712)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:680)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:209)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:98)
+	at com.intellij.openapi.progress.CoroutinesKt.jobToIndicator(coroutines.kt:531)
+	at org.jetbrains.qodana.staticAnalysis.script.Run_context_actionsKt$runAnalysis$3$1.invokeSuspend(run-context-actions.kt:84)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1183)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+2025-08-24 17:56:30,289 [  23119] SEVERE - #o.j.q.s.i.c.CoverageInspectionBase - Qodana for JS 2025.2 RC  Build #QDJS-252.25440
+2025-08-24 17:56:30,290 [  23120] SEVERE - #o.j.q.s.i.c.CoverageInspectionBase - JDK: 21.0.8; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2025-08-24 17:56:30,290 [  23120] SEVERE - #o.j.q.s.i.c.CoverageInspectionBase - OS: Linux
+2025-08-24 17:56:30,291 [  23121] SEVERE - #o.j.q.s.i.c.CoverageInspectionBase - Last Action: 
+2025-08-24 17:56:30,441 [  23271]   INFO - #c.i.i.s.DeviceIdManager - Generating new Device ID for 'PackageChecker'
+2025-08-24 17:56:30,467 [  23297]   INFO - #c.i.p.m.ProjectDependenciesModuleAggregator - Supported models after update: [NpmProjectDependenciesModel]
+2025-08-24 17:56:30,472 [  23302]   INFO - #c.i.p.m.i.ProjectDependenciesModelImpl - Count of declared packages: null, imported packages: null
+2025-08-24 17:56:30,533 [  23363]   INFO - #c.i.p.m.i.ProjectDependenciesModelImpl - Count of declared packages: null, imported packages: 77
+2025-08-24 17:56:30,545 [  23375]   INFO - #c.i.p.m.i.ProjectDependenciesModelImpl - Count of declared packages: 77, imported packages: 77
+2025-08-24 17:56:30,944 [  23774]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - 'Use types from server' option for VueClassicTypeScriptService state: false
+2025-08-24 17:56:30,946 [  23776]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - 'Use types from server' option for VuePluginTypeScriptService state: false
+2025-08-24 17:56:30,950 [  23780]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - 'Use types from server' option for Angular2TypeScriptService state: false
+2025-08-24 17:56:30,954 [  23784]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - 'Use types from server' option for TypeScriptServerServiceImpl state: false
+2025-08-24 17:56:31,181 [  24011]   INFO - #c.i.x.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/idea/lib/modules/intellij.relaxng.jar!/resources/html5-schema/html5.rnc
+2025-08-24 17:56:31,678 [  24508]   INFO - STDOUT - Analyzing code 1%
+2025-08-24 17:56:32,737 [  25567]   INFO - #o.j.q.s.i.r.AsyncInspectionToolResultWriter - Async result writer started
+2025-08-24 17:56:34,424 [  27254]   INFO - STDOUT - Analyzing code 2%
+2025-08-24 17:56:35,389 [  28219]   INFO - STDOUT - Analyzing code 3%
+2025-08-24 17:56:36,035 [  28865]   INFO - STDOUT - Analyzing code 4%
+2025-08-24 17:56:36,439 [  29269]   INFO - STDOUT - Analyzing code 5%
+2025-08-24 17:56:36,975 [  29805]   INFO - STDOUT - Analyzing code 6%
+2025-08-24 17:56:37,142 [  29972]   WARN - java.util.prefs - Prefs file removed in background /root/.java/.userPrefs/prefs.xml
+2025-08-24 17:56:37,288 [  30118]   INFO - STDOUT - Analyzing code 7%
+2025-08-24 17:56:37,620 [  30450]   INFO - STDOUT - Analyzing code 8%
+2025-08-24 17:56:37,800 [  30630]   INFO - STDOUT - Analyzing code 9%
+2025-08-24 17:56:38,054 [  30884]   INFO - STDOUT - Analyzing code 10%
+2025-08-24 17:56:38,339 [  31169]   INFO - STDOUT - Analyzing code 11%
+2025-08-24 17:56:38,696 [  31526]   INFO - STDOUT - Analyzing code 12%
+2025-08-24 17:56:39,361 [  32191]   INFO - STDOUT - Analyzing code 13%
+2025-08-24 17:56:39,907 [  32737]   INFO - STDOUT - Analyzing code 14%
+2025-08-24 17:56:40,159 [  32989]   INFO - STDOUT - Analyzing code 15%
+2025-08-24 17:56:40,634 [  33464]   INFO - STDOUT - Analyzing code 16%
+2025-08-24 17:56:41,075 [  33905]   INFO - STDOUT - Analyzing code 17%
+2025-08-24 17:56:41,617 [  34447]   INFO - STDOUT - Analyzing code 18%
+2025-08-24 17:56:41,812 [  34642]   INFO - STDOUT - Analyzing code 19%
+2025-08-24 17:56:41,827 [  34657]   INFO - STDOUT - Analyzing code 20%
+2025-08-24 17:56:41,829 [  34659]   INFO - STDOUT - Analyzing code 20%
+2025-08-24 17:56:41,846 [  34676]   INFO - STDOUT - Analyzing code 21%
+2025-08-24 17:56:41,850 [  34680]   INFO - STDOUT - Analyzing code 21%
+2025-08-24 17:56:41,861 [  34691]   INFO - STDOUT - Analyzing code 22%
+2025-08-24 17:56:41,862 [  34692]   INFO - STDOUT - Analyzing code 22%
+2025-08-24 17:56:41,872 [  34702]   INFO - STDOUT - Analyzing code 23%
+2025-08-24 17:56:41,875 [  34705]   INFO - STDOUT - Analyzing code 23%
+2025-08-24 17:56:41,884 [  34714]   INFO - STDOUT - Analyzing code 24%
+2025-08-24 17:56:41,887 [  34717]   INFO - STDOUT - Analyzing code 24%
+2025-08-24 17:56:41,891 [  34721]   INFO - STDOUT - Analyzing code 24%
+2025-08-24 17:56:41,902 [  34732]   INFO - STDOUT - Analyzing code 25%
+2025-08-24 17:56:41,903 [  34733]   INFO - STDOUT - Analyzing code 25%
+2025-08-24 17:56:41,912 [  34742]   INFO - STDOUT - Analyzing code 25%
+2025-08-24 17:56:41,913 [  34743]   INFO - STDOUT - Analyzing code 26%
+2025-08-24 17:56:41,923 [  34753]   INFO - STDOUT - Analyzing code 27%
+2025-08-24 17:56:41,923 [  34753]   INFO - STDOUT - Analyzing code 27%
+2025-08-24 17:56:41,923 [  34753]   INFO - STDOUT - Analyzing code 27%
+2025-08-24 17:56:41,931 [  34761]   INFO - STDOUT - Analyzing code 28%
+2025-08-24 17:56:41,932 [  34762]   INFO - STDOUT - Analyzing code 28%
+2025-08-24 17:56:41,936 [  34766]   INFO - STDOUT - Analyzing code 29%
+2025-08-24 17:56:41,936 [  34766]   INFO - STDOUT - Analyzing code 29%
+2025-08-24 17:56:41,942 [  34772]   INFO - STDOUT - Analyzing code 30%
+2025-08-24 17:56:41,943 [  34773]   INFO - STDOUT - Analyzing code 30%
+2025-08-24 17:56:41,944 [  34774]   INFO - STDOUT - Analyzing code 30%
+2025-08-24 17:56:41,949 [  34779]   INFO - STDOUT - Analyzing code 31%
+2025-08-24 17:56:41,955 [  34785]   INFO - STDOUT - Analyzing code 32%
+2025-08-24 17:56:41,958 [  34788]   INFO - STDOUT - Analyzing code 32%
+2025-08-24 17:56:41,962 [  34792]   INFO - STDOUT - Analyzing code 33%
+2025-08-24 17:56:41,968 [  34798]   INFO - STDOUT - Analyzing code 34%
+2025-08-24 17:56:41,969 [  34799]   INFO - STDOUT - Analyzing code 32%
+2025-08-24 17:56:41,971 [  34801]   INFO - STDOUT - Analyzing code 34%
+2025-08-24 17:56:41,972 [  34802]   INFO - STDOUT - Analyzing code 34%
+2025-08-24 17:56:41,975 [  34805]   INFO - STDOUT - Analyzing code 35%
+2025-08-24 17:56:41,975 [  34805]   INFO - STDOUT - Analyzing code 35%
+2025-08-24 17:56:41,980 [  34810]   INFO - STDOUT - Analyzing code 36%
+2025-08-24 17:56:41,985 [  34815]   INFO - STDOUT - Analyzing code 36%
+2025-08-24 17:56:41,987 [  34817]   INFO - STDOUT - Analyzing code 37%
+2025-08-24 17:56:41,989 [  34819]   INFO - STDOUT - Analyzing code 37%
+2025-08-24 17:56:41,996 [  34826]   INFO - STDOUT - Analyzing code 38%
+2025-08-24 17:56:41,996 [  34826]   INFO - STDOUT - Analyzing code 38%
+2025-08-24 17:56:41,996 [  34826]   INFO - STDOUT - Analyzing code 38%
+2025-08-24 17:56:42,000 [  34830]   INFO - STDOUT - Analyzing code 39%
+2025-08-24 17:56:42,001 [  34831]   INFO - STDOUT - Analyzing code 39%
+2025-08-24 17:56:42,005 [  34835]   INFO - STDOUT - Analyzing code 40%
+2025-08-24 17:56:42,010 [  34840]   INFO - STDOUT - Analyzing code 41%
+2025-08-24 17:56:42,010 [  34840]   INFO - STDOUT - Analyzing code 41%
+2025-08-24 17:56:42,011 [  34841]   INFO - STDOUT - Analyzing code 41%
+2025-08-24 17:56:42,011 [  34841]   INFO - STDOUT - Analyzing code 41%
+2025-08-24 17:56:42,012 [  34842]   INFO - STDOUT - Analyzing code 41%
+2025-08-24 17:56:42,014 [  34844]   INFO - STDOUT - Analyzing code 42%
+2025-08-24 17:56:42,019 [  34849]   INFO - STDOUT - Analyzing code 43%
+2025-08-24 17:56:42,024 [  34854]   INFO - STDOUT - Analyzing code 44%
+2025-08-24 17:56:42,025 [  34855]   INFO - STDOUT - Analyzing code 44%
+2025-08-24 17:56:42,025 [  34855]   INFO - STDOUT - Analyzing code 44%
+2025-08-24 17:56:42,026 [  34856]   INFO - STDOUT - Analyzing code 44%
+2025-08-24 17:56:42,026 [  34856]   INFO - STDOUT - Analyzing code 44%
+2025-08-24 17:56:42,029 [  34859]   INFO - STDOUT - Analyzing code 45%
+2025-08-24 17:56:42,034 [  34864]   INFO - STDOUT - Analyzing code 46%
+2025-08-24 17:56:42,034 [  34864]   INFO - STDOUT - Analyzing code 46%
+2025-08-24 17:56:42,040 [  34870]   INFO - STDOUT - Analyzing code 47%
+2025-08-24 17:56:42,041 [  34871]   INFO - STDOUT - Analyzing code 47%
+2025-08-24 17:56:42,046 [  34876]   INFO - STDOUT - Analyzing code 48%
+2025-08-24 17:56:42,050 [  34880]   INFO - STDOUT - Analyzing code 49%
+2025-08-24 17:56:42,142 [  34972]   INFO - STDOUT - Analyzing code 50%
+2025-08-24 17:56:42,361 [  35191]   INFO - STDOUT - Analyzing code 51%
+2025-08-24 17:56:43,073 [  35903]   INFO - STDOUT - Analyzing code 52%
+2025-08-24 17:56:43,896 [  36726]   INFO - STDOUT - Analyzing code 53%
+2025-08-24 17:56:44,447 [  37277]   INFO - STDOUT - Analyzing code 54%
+2025-08-24 17:56:44,972 [  37802]   INFO - STDOUT - Analyzing code 55%
+2025-08-24 17:56:45,444 [  38274]   INFO - STDOUT - Analyzing code 56%
+2025-08-24 17:56:46,007 [  38837]   INFO - STDOUT - Analyzing code 57%
+2025-08-24 17:56:46,655 [  39485]   INFO - STDOUT - Analyzing code 58%
+2025-08-24 17:56:47,212 [  40042]   INFO - STDOUT - Analyzing code 59%
+2025-08-24 17:56:47,531 [  40361]   INFO - STDOUT - Analyzing code 60%
+2025-08-24 17:56:48,185 [  41015]   INFO - STDOUT - Analyzing code 61%
+2025-08-24 17:56:48,186 [  41016]   INFO - STDOUT - Analyzing code 61%
+2025-08-24 17:56:48,546 [  41376]   INFO - STDOUT - Analyzing code 62%
+2025-08-24 17:56:48,877 [  41707]   INFO - STDOUT - Analyzing code 63%
+2025-08-24 17:56:49,194 [  42024]   INFO - STDOUT - Analyzing code 64%
+2025-08-24 17:56:49,532 [  42362]   INFO - STDOUT - Analyzing code 65%
+2025-08-24 17:56:49,719 [  42549]   INFO - STDOUT - Analyzing code 66%
+2025-08-24 17:56:49,947 [  42777]   INFO - STDOUT - Analyzing code 67%
+2025-08-24 17:56:50,090 [  42920]   INFO - STDOUT - Analyzing code 68%
+2025-08-24 17:56:50,260 [  43090]   INFO - STDOUT - Analyzing code 69%
+2025-08-24 17:56:50,449 [  43279]   INFO - STDOUT - Analyzing code 70%
+2025-08-24 17:56:50,806 [  43636]   INFO - STDOUT - Analyzing code 71%
+2025-08-24 17:56:51,126 [  43956]   INFO - STDOUT - Analyzing code 72%
+2025-08-24 17:56:51,474 [  44304]   INFO - STDOUT - Analyzing code 73%
+2025-08-24 17:56:51,893 [  44723]   INFO - STDOUT - Analyzing code 74%
+2025-08-24 17:56:52,417 [  45247]   INFO - STDOUT - Analyzing code 75%
+2025-08-24 17:56:52,799 [  45629]   INFO - STDOUT - Analyzing code 76%
+2025-08-24 17:56:53,187 [  46017]   INFO - STDOUT - Analyzing code 77%
+2025-08-24 17:56:53,630 [  46460]   INFO - STDOUT - Analyzing code 78%
+2025-08-24 17:56:53,806 [  46636]   INFO - #o.j.q.s.i.r.ConsoleLog - Keep running Project analysis ... so far 29s
+2025-08-24 17:56:53,807 [  46637]   INFO - STDOUT - Keep running Project analysis ... so far 29s
+2025-08-24 17:56:54,109 [  46939]   INFO - STDOUT - Analyzing code 79%
+2025-08-24 17:56:54,311 [  47141]   INFO - STDOUT - Analyzing code 80%
+2025-08-24 17:56:54,444 [  47274]   INFO - STDOUT - Analyzing code 81%
+2025-08-24 17:56:54,954 [  47784]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project analysis stage completed in 31s
+2025-08-24 17:56:54,955 [  47785]   INFO - STDOUT - The Project analysis stage completed in 31s
+2025-08-24 17:56:54,998 [  47828]   WARN - #o.j.q.s.i.r.g.DuplicatesProblem - Can't find duplicate problem in db, file://$PROJECT_DIR$/.qodana/code-coverage/base.css:1:0
+2025-08-24 17:56:54,999 [  47829]   WARN - #o.j.q.s.i.r.g.DuplicatesProblem - Can't find duplicate problem in db, file://$PROJECT_DIR$/.qodana/code-coverage/block-navigation.js:1:0
+2025-08-24 17:56:54,999 [  47829]   WARN - #o.j.q.s.i.r.g.DuplicatesProblem - Can't find duplicate problem in db, file://$PROJECT_DIR$/.qodana/code-coverage/lcov-report/sorter.js:1:0
+2025-08-24 17:56:55,075 [  47905]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Running Dependency Analysis project describer
+2025-08-24 17:56:55,095 [  47925]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/thirdPartySoftwareList.json
+2025-08-24 17:56:55,098 [  47928]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/thirdPartySoftwareList.csv
+2025-08-24 17:56:55,099 [  47929]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/thirdPartySoftwareList.md
+2025-08-24 17:56:55,099 [  47929]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/thirdPartySoftwareList.xml
+2025-08-24 17:56:55,099 [  47929]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/projectMetadata.json
+2025-08-24 17:56:55,100 [  47930]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/licenseDict.json
+2025-08-24 17:56:55,100 [  47930]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/licenseRules.json
+2025-08-24 17:56:55,101 [  47931]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/thirdPartySoftwareList.html
+2025-08-24 17:56:55,101 [  47931]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/third-party-libraries.json
+2025-08-24 17:56:55,102 [  47932]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: /data/results/projectStructure/qodana.spdx.json
+2025-08-24 17:56:56,399 [  49229]   INFO - #o.j.q.s.s.n.RuntimeNotificationCollector$NotificationReportContributor - No tool errors to report to sarif file
+2025-08-24 17:56:56,606 [  49436]   INFO - STDOUT - 
+2025-08-24 17:56:56,607 [  49437]   INFO - STDOUT - Qodana - Detailed summary
+2025-08-24 17:56:56,607 [  49437]   INFO - STDOUT - Analysis results: 504 problems detected
+2025-08-24 17:56:56,607 [  49437]   INFO - STDOUT - By severity: Critical - 480, High - 16, Moderate - 8
+2025-08-24 17:56:56,608 [  49438]   INFO - STDOUT - ----------------------------------------------------------------------------
+2025-08-24 17:56:56,608 [  49438]   INFO - STDOUT - Name                                                Severity  Problems count
+2025-08-24 17:56:56,608 [  49438]   INFO - STDOUT - ----------------------------------------------------------------------------
+2025-08-24 17:56:56,609 [  49439]   INFO - STDOUT - ESLint                                              Critical             480
+2025-08-24 17:56:56,609 [  49439]   INFO - STDOUT - Exception used for local control-flow                   High               5
+2025-08-24 17:56:56,609 [  49439]   INFO - STDOUT - Unused local symbol                                     High               5
+2025-08-24 17:56:56,609 [  49439]   INFO - STDOUT - Redundant local variable                                High               2
+2025-08-24 17:56:56,610 [  49440]   INFO - STDOUT - Unsound type guard check                                High               2
+2025-08-24 17:56:56,610 [  49440]   INFO - STDOUT - Import can be shortened                                 High               1
+2025-08-24 17:56:56,610 [  49440]   INFO - STDOUT - Redundant 'if' statement                                High               1
+2025-08-24 17:56:56,610 [  49440]   INFO - STDOUT - Result of method call returning a promise is ignor  Moderate               5
+2025-08-24 17:56:56,611 [  49441]   INFO - STDOUT - ed                                                                          
+2025-08-24 17:56:56,611 [  49441]   INFO - STDOUT - Undefined property assignment                       Moderate               2
+2025-08-24 17:56:56,611 [  49441]   INFO - STDOUT - Unresolved JSX component                            Moderate               1
+2025-08-24 17:56:56,611 [  49441]   INFO - STDOUT - ----------------------------------------------------------------------------
+2025-08-24 17:56:56,612 [  49442]   INFO - STDOUT - 
+2025-08-24 17:56:56,612 [  49442]   INFO - STDOUT - 
+2025-08-24 17:56:56,612 [  49442]   INFO - STDOUT - Qodana - Coverage summary
+2025-08-24 17:56:56,612 [  49442]   INFO - STDOUT - WARNING! No coverage was computed, probably coverage file does not match the sources. Please check your settings
+2025-08-24 17:56:56,613 [  49443]   INFO - STDOUT - 
+2025-08-24 17:56:56,754 [  49584]   INFO - #o.j.q.s.i.r.QodanaInspectionApplication - sessionId: 25082417-38125cbb351f
+2025-08-24 17:56:59,825 [  52655]   INFO - STDOUT - The report is uploaded to https://qodana.cloud/projects/Z0gX9/reports/40JPnR
+2025-08-24 17:56:59,993 [  52823]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 0. Index: 362 Path: /data/cache/idea/252/index/dirty-file-queues/15375f63
+2025-08-24 17:57:00,005 [  52835]   INFO - #c.i.p.p.ProjectEntitiesStorage - Project ProjectId(id=ar7bhb9teib6sf009eqq) is disposed, removing entity
+2025-08-24 17:57:00,023 [  52853]   INFO - #c.i.c.e.GlobalInspectionContextBase - Cancelling inspection progress
+2025-08-24 17:57:00,071 [  52901]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2025-08-24 17:57:00,071 [  52901]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2025-08-24 17:57:00,084 [  52914]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2025-08-24 17:57:00,114 [  52944]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Statistics. Started external process for uploading event log
+2025-08-24 17:57:00,122 [  52952]   INFO - #c.i.o.f.i.FileTypeDetectionService - 58 auto-detected files. Detection took 367 ms
+2025-08-24 17:57:00,134 [  52964]   INFO - #o.j.i.BuiltInServer - web server stopped
+2025-08-24 17:57:00,163 [  52993]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2025-08-24 17:57:00,168 [  52998]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 364. Index: 364 Path: /data/cache/idea/252/index/dirty-file-ids
+2025-08-24 17:57:00,280 [  53110]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2025-08-24 17:57:00,280 [  53110]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /data/cache/idea/252/index/rep.names
+2025-08-24 17:57:00,301 [  53131]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /data/cache/idea/252/index/rep.names
+2025-08-24 17:57:00,367 [  53197]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 204ms.
+2025-08-24 17:57:01,199 [  54029]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2025-08-24 17:57:01,199 [  54029]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2025-08-24 17:57:01,200 [  54030]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 1 ms.
+2025-08-24 17:57:01,409 [  54239]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

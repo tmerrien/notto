@@ -1,0 +1,2876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="third-party-dependencies" title="Third-Party Software used in project" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd">
+    <p>This page lists the third-party software dependencies used in project</p>
+    <table>
+        <tr>
+            <td>Dependency</td>
+            <td>Version</td>
+            <td>Licenses</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@alloc/quick-lru">@alloc/quick-lru</a>
+            </td>
+            <td>5.2.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/toyobayashi/emnapi#readme">@emnapi/core</a>
+            </td>
+            <td>1.4.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/toyobayashi/emnapi#readme">@emnapi/runtime</a>
+            </td>
+            <td>1.4.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/toyobayashi/emnapi#readme">@emnapi/wasi-threads</a>
+            </td>
+            <td>1.0.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint-community/eslint-utils#readme">@eslint-community/eslint-utils</a>
+            </td>
+            <td>4.7.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint-community/regexpp#readme">@eslint-community/regexpp</a>
+            </td>
+            <td>4.12.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/rewrite/tree/main/packages/config-array#readme">@eslint/config-array</a>
+            </td>
+            <td>0.21.0</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/rewrite/tree/main/packages/config-helpers#readme">@eslint/config-helpers</a>
+            </td>
+            <td>0.3.1</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/rewrite/tree/main/packages/core#readme">@eslint/core</a>
+            </td>
+            <td>0.15.2</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://eslint.org">@eslint/js</a>
+            </td>
+            <td>9.33.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/rewrite#readme">@eslint/object-schema</a>
+            </td>
+            <td>2.1.6</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/rewrite/tree/main/packages/plugin-kit#readme">@eslint/plugin-kit</a>
+            </td>
+            <td>0.3.5</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/humanwhocodes/humanfs#readme">@humanfs/core</a>
+            </td>
+            <td>0.19.1</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/humanwhocodes/humanfs#readme">@humanfs/node</a>
+            </td>
+            <td>0.16.6</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@humanwhocodes/module-importer">@humanwhocodes/module-importer</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@humanwhocodes/retry">@humanwhocodes/retry</a>
+            </td>
+            <td>0.3.1</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@humanwhocodes/retry">@humanwhocodes/retry</a>
+            </td>
+            <td>0.4.3</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://sharp.pixelplumbing.com">@img/sharp-win32-x64</a>
+            </td>
+            <td>0.34.3</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+                <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html">GPL-3.0-or-later</a>
+                <a href="http://www.gnu.org/licenses/lgpl-3.0-standalone.html">LGPL-3.0-or-later</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/npm/fs-minipass.git">@isaacs/fs-minipass</a>
+            </td>
+            <td>4.0.1</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping">@jridgewell/gen-mapping</a>
+            </td>
+            <td>0.3.13</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jridgewell/sourcemaps/tree/main/packages/remapping">@jridgewell/remapping</a>
+            </td>
+            <td>2.3.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jridgewell/resolve-uri">@jridgewell/resolve-uri</a>
+            </td>
+            <td>3.1.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec">@jridgewell/sourcemap-codec</a>
+            </td>
+            <td>1.5.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping">@jridgewell/trace-mapping</a>
+            </td>
+            <td>0.3.30</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@napi-rs/wasm-runtime">@napi-rs/wasm-runtime</a>
+            </td>
+            <td>0.2.12</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/vercel/next.js">@next/env</a>
+            </td>
+            <td>15.4.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@next/eslint-plugin-next">@next/eslint-plugin-next</a>
+            </td>
+            <td>15.4.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/vercel/next.js">@next/swc-win32-x64-msvc</a>
+            </td>
+            <td>15.4.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir">@nodelib/fs.scandir</a>
+            </td>
+            <td>2.1.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat">@nodelib/fs.stat</a>
+            </td>
+            <td>2.0.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk">@nodelib/fs.walk</a>
+            </td>
+            <td>1.2.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/SukkaW/nolyfill">@nolyfill/is-core-module</a>
+            </td>
+            <td>1.0.39</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@rtsao/scc">@rtsao/scc</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://rushstack.io">@rushstack/eslint-patch</a>
+            </td>
+            <td>1.12.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://swc.rs">@swc/helpers</a>
+            </td>
+            <td>0.5.15</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://tailwindcss.com">@tailwindcss/node</a>
+            </td>
+            <td>4.1.12</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@tailwindcss/oxide-win32-x64-msvc">@tailwindcss/oxide-win32-x64-msvc</a>
+            </td>
+            <td>4.1.12</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/@tailwindcss/oxide">@tailwindcss/oxide</a>
+            </td>
+            <td>4.1.12</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/toyobayashi/wasm-util.git">@tybys/wasm-util</a>
+            </td>
+            <td>0.10.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/estree">@types/estree</a>
+            </td>
+            <td>1.0.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/json-schema">@types/json-schema</a>
+            </td>
+            <td>7.0.15</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.github.com/DefinitelyTyped/DefinitelyTyped.git">@types/json5</a>
+            </td>
+            <td>0.0.29</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io/packages/eslint-plugin">@typescript-eslint/eslint-plugin</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io/packages/parser">@typescript-eslint/parser</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io">@typescript-eslint/project-service</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io/packages/scope-manager">@typescript-eslint/scope-manager</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io">@typescript-eslint/tsconfig-utils</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io">@typescript-eslint/type-utils</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io">@typescript-eslint/types</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io/packages/typescript-estree">@typescript-eslint/typescript-estree</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io/packages/utils">@typescript-eslint/utils</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://typescript-eslint.io">@typescript-eslint/visitor-keys</a>
+            </td>
+            <td>8.39.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/unrs/unrs-resolver#readme">@unrs/resolver-binding-win32-x64-msvc</a>
+            </td>
+            <td>1.11.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/acornjs/acorn-jsx">acorn-jsx</a>
+            </td>
+            <td>5.3.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/acornjs/acorn">acorn</a>
+            </td>
+            <td>8.15.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ajv-validator/ajv">ajv</a>
+            </td>
+            <td>6.12.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/ansi-styles">ansi-styles</a>
+            </td>
+            <td>4.3.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/argparse">argparse</a>
+            </td>
+            <td>2.0.1</td>
+            <td>
+                <a href="http://docs.python.org/license.html">Python-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/A11yance/aria-query#readme">aria-query</a>
+            </td>
+            <td>5.3.2</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/array-buffer-byte-length#readme">array-buffer-byte-length</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/array-includes">array-includes</a>
+            </td>
+            <td>3.1.9</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/Array.prototype.findLast#readme">array.prototype.findlast</a>
+            </td>
+            <td>1.2.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/Array.prototype.findLastIndex#readme">array.prototype.findlastindex</a>
+            </td>
+            <td>1.2.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/array.prototype.flat">array.prototype.flat</a>
+            </td>
+            <td>1.3.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/array.prototype.flatmap">array.prototype.flatmap</a>
+            </td>
+            <td>1.3.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/Array.prototype.toSorted#readme">array.prototype.tosorted</a>
+            </td>
+            <td>1.1.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/ArrayBuffer.prototype.slice#readme">arraybuffer.prototype.slice</a>
+            </td>
+            <td>1.0.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/kyldvs/ast-types-flow#readme">ast-types-flow</a>
+            </td>
+            <td>0.0.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/async-function#readme">async-function</a>
+            </td>
+            <td>1.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/available-typed-arrays#readme">available-typed-arrays</a>
+            </td>
+            <td>1.0.7</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.deque.com/axe/">axe-core</a>
+            </td>
+            <td>4.10.3</td>
+            <td>
+                <a href="http://mpl.mozilla.org/2012/01/03/announcing-mpl-2-0/">MPL-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/A11yance/axobject-query#readme">axobject-query</a>
+            </td>
+            <td>4.1.0</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/juliangruber/balanced-match">balanced-match</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/juliangruber/brace-expansion">brace-expansion</a>
+            </td>
+            <td>1.1.12</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/juliangruber/brace-expansion">brace-expansion</a>
+            </td>
+            <td>2.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/micromatch/braces">braces</a>
+            </td>
+            <td>3.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/call-bind-apply-helpers#readme">call-bind-apply-helpers</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/call-bind#readme">call-bind</a>
+            </td>
+            <td>1.0.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/call-bound#readme">call-bound</a>
+            </td>
+            <td>1.0.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/callsites">callsites</a>
+            </td>
+            <td>3.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/caniuse-lite">caniuse-lite</a>
+            </td>
+            <td>1.0.30001735</td>
+            <td>
+                <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/chalk">chalk</a>
+            </td>
+            <td>4.1.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/chownr">chownr</a>
+            </td>
+            <td>3.0.0</td>
+            <td>
+                <a href="https://blueoakcouncil.org/license/1.0.0">BlueOak-1.0.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://reactjs.org/">client-only</a>
+            </td>
+            <td>0.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/color-convert">color-convert</a>
+            </td>
+            <td>2.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/colorjs/color-name">color-name</a>
+            </td>
+            <td>1.1.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/color-string">color-string</a>
+            </td>
+            <td>1.9.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/color">color</a>
+            </td>
+            <td>4.2.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/concat-map">concat-map</a>
+            </td>
+            <td>0.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/moxystudio/node-cross-spawn">cross-spawn</a>
+            </td>
+            <td>7.0.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/frenic/csstype">csstype</a>
+            </td>
+            <td>3.1.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/tad-lispy/node-damerau-levenshtein.git">damerau-levenshtein</a>
+            </td>
+            <td>1.0.8</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/data-view-buffer#readme">data-view-buffer</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/data-view-byte-length#readme">data-view-byte-length</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/data-view-byte-offset#readme">data-view-byte-offset</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/debug">debug</a>
+            </td>
+            <td>3.2.7</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/debug">debug</a>
+            </td>
+            <td>4.4.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="http://github.com/thlorenz/deep-is.git">deep-is</a>
+            </td>
+            <td>0.1.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/define-data-property#readme">define-data-property</a>
+            </td>
+            <td>1.1.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/define-properties">define-properties</a>
+            </td>
+            <td>1.2.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/detect-libc">detect-libc</a>
+            </td>
+            <td>2.0.4</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/doctrine">doctrine</a>
+            </td>
+            <td>2.1.0</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/dunder-proto#readme">dunder-proto</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://mths.be/emoji-regex">emoji-regex</a>
+            </td>
+            <td>9.2.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="http://github.com/webpack/enhanced-resolve">enhanced-resolve</a>
+            </td>
+            <td>5.18.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/es-abstract">es-abstract</a>
+            </td>
+            <td>1.24.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/es-define-property#readme">es-define-property</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/es-errors#readme">es-errors</a>
+            </td>
+            <td>1.3.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/iterator-helpers#readme">es-iterator-helpers</a>
+            </td>
+            <td>1.2.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/es-object-atoms#readme">es-object-atoms</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/es-set-tostringtag#readme">es-set-tostringtag</a>
+            </td>
+            <td>2.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/es-shim-unscopables#readme">es-shim-unscopables</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/es-to-primitive">es-to-primitive</a>
+            </td>
+            <td>1.3.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/escape-string-regexp">escape-string-regexp</a>
+            </td>
+            <td>4.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/import-js/eslint-plugin-import">eslint-import-resolver-node</a>
+            </td>
+            <td>0.3.9</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/import-js/eslint-import-resolver-typescript">eslint-import-resolver-typescript</a>
+            </td>
+            <td>3.10.1</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/import-js/eslint-plugin-import#readme">eslint-module-utils</a>
+            </td>
+            <td>2.12.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/import-js/eslint-plugin-import">eslint-plugin-import</a>
+            </td>
+            <td>2.32.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y">eslint-plugin-jsx-a11y</a>
+            </td>
+            <td>6.10.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://react.dev/">eslint-plugin-react-hooks</a>
+            </td>
+            <td>5.2.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jsx-eslint/eslint-plugin-react">eslint-plugin-react</a>
+            </td>
+            <td>7.37.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/js/blob/main/packages/eslint-scope/README.md">eslint-scope</a>
+            </td>
+            <td>8.4.0</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/eslint-visitor-keys#readme">eslint-visitor-keys</a>
+            </td>
+            <td>3.4.3</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/js/blob/main/packages/eslint-visitor-keys/README.md">eslint-visitor-keys</a>
+            </td>
+            <td>4.2.1</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/eslint/js/blob/main/packages/espree/README.md">espree</a>
+            </td>
+            <td>10.4.0</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/estools/esquery/">esquery</a>
+            </td>
+            <td>1.6.0</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/estools/esrecurse">esrecurse</a>
+            </td>
+            <td>4.3.0</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/estools/estraverse">estraverse</a>
+            </td>
+            <td>5.3.0</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/estools/esutils">esutils</a>
+            </td>
+            <td>2.0.3</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/epoberezkin/fast-deep-equal#readme">fast-deep-equal</a>
+            </td>
+            <td>3.1.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/fast-glob">fast-glob</a>
+            </td>
+            <td>3.3.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/fast-glob">fast-glob</a>
+            </td>
+            <td>3.3.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/epoberezkin/fast-json-stable-stringify">fast-json-stable-stringify</a>
+            </td>
+            <td>2.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/hiddentao/fast-levenshtein.git">fast-levenshtein</a>
+            </td>
+            <td>2.0.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/mcollina/fastq#readme">fastq</a>
+            </td>
+            <td>1.19.1</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/thecodrr/fdir#readme">fdir</a>
+            </td>
+            <td>6.5.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/file-entry-cache">file-entry-cache</a>
+            </td>
+            <td>8.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jonschlinkert/fill-range">fill-range</a>
+            </td>
+            <td>7.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/find-up">find-up</a>
+            </td>
+            <td>5.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/flat-cache">flat-cache</a>
+            </td>
+            <td>4.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/WebReflection/flatted#readme">flatted</a>
+            </td>
+            <td>3.3.3</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/Raynos/for-each">for-each</a>
+            </td>
+            <td>0.3.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/Raynos/function-bind">function-bind</a>
+            </td>
+            <td>1.1.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/function.prototype.name">function.prototype.name</a>
+            </td>
+            <td>1.1.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/functions-have-names#readme">functions-have-names</a>
+            </td>
+            <td>1.2.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/get-intrinsic#readme">get-intrinsic</a>
+            </td>
+            <td>1.3.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/get-proto#readme">get-proto</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/get-symbol-description#readme">get-symbol-description</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/get-tsconfig">get-tsconfig</a>
+            </td>
+            <td>4.10.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/glob-parent">glob-parent</a>
+            </td>
+            <td>5.1.2</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/glob-parent">glob-parent</a>
+            </td>
+            <td>6.0.2</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/globals">globals</a>
+            </td>
+            <td>14.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/globalthis">globalthis</a>
+            </td>
+            <td>1.0.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/gopd#readme">gopd</a>
+            </td>
+            <td>1.2.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/isaacs/node-graceful-fs">graceful-fs</a>
+            </td>
+            <td>4.2.11</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/flmnt/graphemer">graphemer</a>
+            </td>
+            <td>1.4.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/has-bigints#readme">has-bigints</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/has-flag">has-flag</a>
+            </td>
+            <td>4.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/has-property-descriptors#readme">has-property-descriptors</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/has-proto#readme">has-proto</a>
+            </td>
+            <td>1.2.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/has-symbols#readme">has-symbols</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/has-tostringtag#readme">has-tostringtag</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/hasOwn#readme">hasown</a>
+            </td>
+            <td>2.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/ignore">ignore</a>
+            </td>
+            <td>5.3.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/ignore">ignore</a>
+            </td>
+            <td>7.0.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/import-fresh">import-fresh</a>
+            </td>
+            <td>3.3.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jensyt/imurmurhash-js">imurmurhash</a>
+            </td>
+            <td>0.1.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/internal-slot#readme">internal-slot</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-array-buffer#readme">is-array-buffer</a>
+            </td>
+            <td>3.0.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/qix-/node-is-arrayish.git">is-arrayish</a>
+            </td>
+            <td>0.3.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-async-function">is-async-function</a>
+            </td>
+            <td>2.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-bigint#readme">is-bigint</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-boolean-object">is-boolean-object</a>
+            </td>
+            <td>1.2.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/SunsetTechuila/is-bun-module">is-bun-module</a>
+            </td>
+            <td>2.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-callable">is-callable</a>
+            </td>
+            <td>1.2.7</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-core-module">is-core-module</a>
+            </td>
+            <td>2.16.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-data-view#readme">is-data-view</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-date-object">is-date-object</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jonschlinkert/is-extglob">is-extglob</a>
+            </td>
+            <td>2.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-finalizationregistry#readme">is-finalizationregistry</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-generator-function">is-generator-function</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/micromatch/is-glob">is-glob</a>
+            </td>
+            <td>4.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-map#readme">is-map</a>
+            </td>
+            <td>2.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-negative-zero">is-negative-zero</a>
+            </td>
+            <td>2.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-number-object#readme">is-number-object</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jonschlinkert/is-number">is-number</a>
+            </td>
+            <td>7.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-regex">is-regex</a>
+            </td>
+            <td>1.2.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-set#readme">is-set</a>
+            </td>
+            <td>2.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-shared-array-buffer#readme">is-shared-array-buffer</a>
+            </td>
+            <td>1.0.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-string">is-string</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-symbol">is-symbol</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/is-typed-array">is-typed-array</a>
+            </td>
+            <td>1.1.15</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-weakmap#readme">is-weakmap</a>
+            </td>
+            <td>2.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-weakref#readme">is-weakref</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/is-weakset#readme">is-weakset</a>
+            </td>
+            <td>2.0.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/juliangruber/isarray">isarray</a>
+            </td>
+            <td>2.0.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/isaacs/isexe#readme">isexe</a>
+            </td>
+            <td>2.0.0</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/Iterator.prototype#readme">iterator.prototype</a>
+            </td>
+            <td>1.1.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/jiti">jiti</a>
+            </td>
+            <td>2.5.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/js-tokens">js-tokens</a>
+            </td>
+            <td>4.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/js-yaml">js-yaml</a>
+            </td>
+            <td>4.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/dominictarr/json-buffer">json-buffer</a>
+            </td>
+            <td>3.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/epoberezkin/json-schema-traverse#readme">json-schema-traverse</a>
+            </td>
+            <td>0.4.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/samn/json-stable-stringify">json-stable-stringify-without-jsonify</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="http://json5.org/">json5</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jsx-eslint/jsx-ast-utils">jsx-ast-utils</a>
+            </td>
+            <td>3.3.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jaredwray/keyv">keyv</a>
+            </td>
+            <td>4.5.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/mattcg/language-subtag-registry">language-subtag-registry</a>
+            </td>
+            <td>0.3.23</td>
+            <td>
+                <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0-1.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/mattcg/language-tags">language-tags</a>
+            </td>
+            <td>1.0.9</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/gkz/levn">levn</a>
+            </td>
+            <td>0.4.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/parcel-bundler/lightningcss.git">lightningcss-win32-x64-msvc</a>
+            </td>
+            <td>1.30.1</td>
+            <td>
+                <a href="http://mpl.mozilla.org/2012/01/03/announcing-mpl-2-0/">MPL-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/parcel-bundler/lightningcss.git">lightningcss</a>
+            </td>
+            <td>1.30.1</td>
+            <td>
+                <a href="http://mpl.mozilla.org/2012/01/03/announcing-mpl-2-0/">MPL-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/locate-path">locate-path</a>
+            </td>
+            <td>6.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://lodash.com/">lodash.merge</a>
+            </td>
+            <td>4.6.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/zertosh/loose-envify">loose-envify</a>
+            </td>
+            <td>1.4.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/rich-harris/magic-string">magic-string</a>
+            </td>
+            <td>0.30.17</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/math-intrinsics#readme">math-intrinsics</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/teambition/merge2">merge2</a>
+            </td>
+            <td>1.4.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/micromatch/micromatch">micromatch</a>
+            </td>
+            <td>4.0.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/minimatch">minimatch</a>
+            </td>
+            <td>3.1.2</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/minimatch">minimatch</a>
+            </td>
+            <td>9.0.5</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/minimistjs/minimist">minimist</a>
+            </td>
+            <td>1.2.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/isaacs/minipass">minipass</a>
+            </td>
+            <td>7.1.2</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/minizlib">minizlib</a>
+            </td>
+            <td>3.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/isaacs/node-mkdirp.git">mkdirp</a>
+            </td>
+            <td>3.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/ms">ms</a>
+            </td>
+            <td>2.1.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/nanoid">nanoid</a>
+            </td>
+            <td>3.3.11</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/napi-postinstall">napi-postinstall</a>
+            </td>
+            <td>0.3.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/natural-compare">natural-compare</a>
+            </td>
+            <td>1.4.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/object-assign">object-assign</a>
+            </td>
+            <td>4.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/object-inspect">object-inspect</a>
+            </td>
+            <td>1.13.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/object-keys">object-keys</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/object.assign">object.assign</a>
+            </td>
+            <td>4.1.7</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/object.entries">object.entries</a>
+            </td>
+            <td>1.1.9</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/object.fromentries">object.fromentries</a>
+            </td>
+            <td>2.0.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/Object.groupBy#readme">object.groupby</a>
+            </td>
+            <td>1.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/object.values">object.values</a>
+            </td>
+            <td>1.2.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/gkz/optionator">optionator</a>
+            </td>
+            <td>0.9.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/own-keys#readme">own-keys</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/p-limit">p-limit</a>
+            </td>
+            <td>3.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/p-locate">p-locate</a>
+            </td>
+            <td>5.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/parent-module">parent-module</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/path-exists">path-exists</a>
+            </td>
+            <td>4.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/path-key">path-key</a>
+            </td>
+            <td>3.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jbgutierrez/path-parse#readme">path-parse</a>
+            </td>
+            <td>1.0.7</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/picocolors">picocolors</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/micromatch/picomatch">picomatch</a>
+            </td>
+            <td>2.3.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/micromatch/picomatch">picomatch</a>
+            </td>
+            <td>4.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/possible-typed-array-names#readme">possible-typed-array-names</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://postcss.org/">postcss</a>
+            </td>
+            <td>8.5.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="http://preludels.com">prelude-ls</a>
+            </td>
+            <td>1.2.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://facebook.github.io/react/">prop-types</a>
+            </td>
+            <td>15.8.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://mths.be/punycode">punycode</a>
+            </td>
+            <td>2.3.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/feross/queue-microtask">queue-microtask</a>
+            </td>
+            <td>1.2.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://reactjs.org/">react-is</a>
+            </td>
+            <td>16.13.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/Reflect.getPrototypeOf">reflect.getprototypeof</a>
+            </td>
+            <td>1.0.10</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/regexp.prototype.flags">regexp.prototype.flags</a>
+            </td>
+            <td>1.5.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/resolve-from">resolve-from</a>
+            </td>
+            <td>4.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/resolve-pkg-maps">resolve-pkg-maps</a>
+            </td>
+            <td>1.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/resolve">resolve</a>
+            </td>
+            <td>1.22.10</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/resolve">resolve</a>
+            </td>
+            <td>2.0.0-next.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/mcollina/reusify#readme">reusify</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/feross/run-parallel">run-parallel</a>
+            </td>
+            <td>1.2.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/safe-array-concat#readme">safe-array-concat</a>
+            </td>
+            <td>1.1.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/safe-push-apply#readme">safe-push-apply</a>
+            </td>
+            <td>1.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/safe-regex-test#readme">safe-regex-test</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://react.dev/">scheduler</a>
+            </td>
+            <td>0.26.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/npm/node-semver.git">semver</a>
+            </td>
+            <td>6.3.1</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/semver">semver</a>
+            </td>
+            <td>7.7.2</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/set-function-length#readme">set-function-length</a>
+            </td>
+            <td>1.2.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/set-function-name#readme">set-function-name</a>
+            </td>
+            <td>2.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/set-proto#readme">set-proto</a>
+            </td>
+            <td>1.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://sharp.pixelplumbing.com">sharp</a>
+            </td>
+            <td>0.34.3</td>
+            <td>
+                <a href="http://www.apache.org/licenses/">Apache-2.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/shebang-command">shebang-command</a>
+            </td>
+            <td>2.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/shebang-regex">shebang-regex</a>
+            </td>
+            <td>3.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/side-channel-list#readme">side-channel-list</a>
+            </td>
+            <td>1.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/side-channel-map#readme">side-channel-map</a>
+            </td>
+            <td>1.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/side-channel-weakmap#readme">side-channel-weakmap</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/side-channel#readme">side-channel</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/simple-swizzle">simple-swizzle</a>
+            </td>
+            <td>0.2.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/7rulnik/source-map-js">source-map-js</a>
+            </td>
+            <td>1.2.1</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/shuding/stable-hash">stable-hash</a>
+            </td>
+            <td>0.0.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/stop-iteration-iterator#readme">stop-iteration-iterator</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://mths.be/includes">string.prototype.includes</a>
+            </td>
+            <td>2.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/es-shims/String.prototype.matchAll#readme">string.prototype.matchall</a>
+            </td>
+            <td>4.0.12</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://mths.be/repeat">string.prototype.repeat</a>
+            </td>
+            <td>1.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/string.prototype.trim">string.prototype.trim</a>
+            </td>
+            <td>1.2.10</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/string.prototype.trimend">string.prototype.trimend</a>
+            </td>
+            <td>1.0.9</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/string.prototype.trimstart">string.prototype.trimstart</a>
+            </td>
+            <td>1.0.8</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/strip-bom">strip-bom</a>
+            </td>
+            <td>3.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/strip-json-comments">strip-json-comments</a>
+            </td>
+            <td>3.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/styled-jsx">styled-jsx</a>
+            </td>
+            <td>5.1.6</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/supports-color">supports-color</a>
+            </td>
+            <td>7.2.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/node-supports-preserve-symlinks-flag#readme">supports-preserve-symlinks-flag</a>
+            </td>
+            <td>1.0.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/webpack/tapable">tapable</a>
+            </td>
+            <td>2.2.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/isaacs/node-tar.git">tar</a>
+            </td>
+            <td>7.4.3</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/SuperchupuDev/tinyglobby#readme">tinyglobby</a>
+            </td>
+            <td>0.2.14</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/micromatch/to-regex-range">to-regex-range</a>
+            </td>
+            <td>5.0.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/JoshuaKGoldberg/ts-api-utils">ts-api-utils</a>
+            </td>
+            <td>2.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/dividab/tsconfig-paths">tsconfig-paths</a>
+            </td>
+            <td>3.15.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.typescriptlang.org/">tslib</a>
+            </td>
+            <td>2.8.1</td>
+            <td>
+                <a href="http://landley.net/toybox/license.html">0BSD</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/gkz/type-check">type-check</a>
+            </td>
+            <td>0.4.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/typed-array-buffer#readme">typed-array-buffer</a>
+            </td>
+            <td>1.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/typed-array-byte-length#readme">typed-array-byte-length</a>
+            </td>
+            <td>1.0.3</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/typed-array-byte-offset#readme">typed-array-byte-offset</a>
+            </td>
+            <td>1.0.4</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/typed-array-length#readme">typed-array-length</a>
+            </td>
+            <td>1.0.7</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ljharb/unbox-primitive#readme">unbox-primitive</a>
+            </td>
+            <td>1.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://undici.nodejs.org">undici-types</a>
+            </td>
+            <td>6.21.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/unrs/unrs-resolver#readme">unrs-resolver</a>
+            </td>
+            <td>1.11.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/garycourt/uri-js">uri-js</a>
+            </td>
+            <td>4.4.1</td>
+            <td>
+                <a href="http://www.opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/which-boxed-primitive#readme">which-boxed-primitive</a>
+            </td>
+            <td>1.1.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/which-builtin-type#readme">which-builtin-type</a>
+            </td>
+            <td>1.2.1</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/inspect-js/which-collection#readme">which-collection</a>
+            </td>
+            <td>1.0.2</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/which-typed-array">which-typed-array</a>
+            </td>
+            <td>1.1.19</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/which">which</a>
+            </td>
+            <td>2.0.2</td>
+            <td>
+                <a href="https://www.isc.org/licenses/">ISC</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/jonschlinkert/word-wrap">word-wrap</a>
+            </td>
+            <td>1.2.5</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/yallist">yallist</a>
+            </td>
+            <td>5.0.0</td>
+            <td>
+                <a href="https://blueoakcouncil.org/license/1.0.0">BlueOak-1.0.0</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.npmjs.com/package/yocto-queue">yocto-queue</a>
+            </td>
+            <td>0.1.0</td>
+            <td>
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </td>
+        </tr>
+    </table>
+</topic>

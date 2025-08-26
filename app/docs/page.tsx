@@ -69,12 +69,15 @@ export default function DocsPage() {
           <Card>
             <Section spacing="md">
               <Badge style="system">CORE</Badge>
+
               <Heading level={4}>Building Blocks</Heading>
-              <List spacing="sm" className="text-stone-600 dark:text-stone-400">
+
+              <List spacing="sm">
                 <ListItem>Section (Layout)</ListItem>
                 <ListItem>Link (Navigation)</ListItem>
                 <ListItem>Logo (Branding)</ListItem>
               </List>
+
               <Link href="/docs/components/core">
                 <Button size="sm" style="light">VIEW_CORE_DOCS</Button>
               </Link>
@@ -84,12 +87,15 @@ export default function DocsPage() {
           <Card>
             <Section spacing="md">
               <Badge style="system">LAYOUT</Badge>
+
               <Heading level={4}>Page Structure</Heading>
+
               <List spacing="sm" className="text-stone-600 dark:text-stone-400">
                 <ListItem>Header & Footer</ListItem>
                 <ListItem>Navigation</ListItem>
                 <ListItem>Content Areas</ListItem>
               </List>
+
               <Link href="/docs/components/layout">
                 <Button size="sm" style="light">VIEW_LAYOUT_DOCS</Button>
               </Link>
@@ -99,12 +105,15 @@ export default function DocsPage() {
           <Card>
             <Section spacing="md">
               <Badge style="system">UI</Badge>
+
               <Heading level={4}>Interface Elements</Heading>
+
               <List spacing="sm" className="text-stone-600 dark:text-stone-400">
                 <ListItem>Buttons & Forms</ListItem>
                 <ListItem>Cards & Modals</ListItem>
                 <ListItem>Typography</ListItem>
               </List>
+
               <Link href="/docs/components/ui">
                 <Button size="sm" style="light">VIEW_UI_DOCS</Button>
               </Link>
@@ -118,6 +127,7 @@ export default function DocsPage() {
         <Card>
           <Section spacing="lg">
             <Heading level={3}>ROUTING_ARCHITECTURE</Heading>
+
             <Heading level={4}>Multi-Layer Component System</Heading>
             
             <Section spacing="md" className="text-stone-700 dark:text-stone-300 leading-relaxed">
@@ -132,53 +142,61 @@ export default function DocsPage() {
               <Heading level={5}>ARCHITECTURAL_LAYERS</Heading>
               
               {/* Visual Diagram */}
-              <div className="bg-stone-50 dark:bg-stone-900 p-8 rounded-xl border">
+              <Section className="bg-stone-50 dark:bg-stone-900 p-8 rounded-xl border">
                 <Section spacing="lg">
                   {/* Layer 4 - Page Layer */}
-                  <div className="border-2 border-red-400 bg-red-50 dark:bg-red-950/20 p-4 rounded-lg">
+                  <Section className="border-2 border-red-400 bg-red-50 dark:bg-red-950/20 p-4 rounded-lg">
                     <Section spacing="sm">
                       <Badge variant="outline" style="system">LAYER_4</Badge>
+
                       <Heading level={6} className="text-red-700 dark:text-red-400">PAGE_COMPONENTS</Heading>
+
                       <Text className="text-red-600 dark:text-red-400">
                         /app/[route]/components/ → Page-specific UI elements
                       </Text>
                     </Section>
-                  </div>
+                  </Section>
 
                   {/* Layer 3 - Brand Layer */}
-                  <div className="border-2 border-amber-400 bg-amber-50 dark:bg-amber-950/20 p-4 rounded-lg">
+                  <Section className="border-2 border-amber-400 bg-amber-50 dark:bg-amber-950/20 p-4 rounded-lg">
                     <Section spacing="sm">
                       <Badge variant="outline" style="system">LAYER_3</Badge>
+
                       <Heading level={6} className="text-amber-700 dark:text-amber-400">BRAND_COMPONENTS</Heading>
+
                       <Text className="text-amber-600 dark:text-amber-400">
                         /app/components/ → Notto-branded, reusable components
                       </Text>
                     </Section>
-                  </div>
+                  </Section>
 
                   {/* Layer 2 - Business Layer */}
-                  <div className="border-2 border-blue-400 bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg">
+                  <Section className="border-2 border-blue-400 bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg">
                     <Section spacing="sm">
                       <Badge variant="outline" style="system">LAYER_2</Badge>
+
                       <Heading level={6} className="text-blue-700 dark:text-blue-400">BUSINESS_COMPONENTS</Heading>
+
                       <Text className="text-blue-600 dark:text-blue-400">
                         /components/ → Supabase & business logic integrations
                       </Text>
                     </Section>
-                  </div>
+                  </Section>
 
                   {/* Layer 1 - Primitive Layer */}
-                  <div className="border-2 border-stone-400 bg-stone-100 dark:bg-stone-800/50 p-4 rounded-lg">
+                  <Section className="border-2 border-stone-400 bg-stone-100 dark:bg-stone-800/50 p-4 rounded-lg">
                     <Section spacing="sm">
                       <Badge variant="outline" style="system">LAYER_1</Badge>
+
                       <Heading level={6} className="text-stone-700 dark:text-stone-300">PRIMITIVE_COMPONENTS</Heading>
+
                       <Text className="text-stone-600 dark:text-stone-400">
                         /components/ui/ → shadcn/ui unstyled primitives
                       </Text>
                     </Section>
-                  </div>
+                  </Section>
                 </Section>
-              </div>
+              </Section>
             </Section>
 
             <Section spacing="md">
@@ -189,14 +207,17 @@ export default function DocsPage() {
                   <strong>Layer 1 (Primitives):</strong> Raw shadcn/ui components with no styling - 
                   provides accessibility, behavior, and structure foundation
                 </ListItem>
+
                 <ListItem>
                   <strong>Layer 2 (Business):</strong> Supabase integrations and business logic - 
                   handles data fetching, authentication, and external service connections
                 </ListItem>
+
                 <ListItem>
                   <strong>Layer 3 (Brand):</strong> Notto-styled components for maximum reusability - 
                   applies consistent branding, typography, and visual design system
                 </ListItem>
+
                 <ListItem>
                   <strong>Layer 4 (Page):</strong> Page-specific compositions - 
                   combines lower layers into unique page-level functionality
@@ -216,10 +237,12 @@ export default function DocsPage() {
                 <ListItem>
                   <strong>Users see:</strong> Simple, branded components (Button, Heading, Card)
                 </ListItem>
+
                 <ListItem>
                   <strong>Hidden:</strong> Radix UI accessibility implementation, CSS-in-JS styling, 
                   complex state management, responsive breakpoints
                 </ListItem>
+
                 <ListItem>
                   <strong>Benefit:</strong> Developer writes `&lt;Button style=&quot;dark&quot;&gt;CLICK&lt;/Button&gt;` 
                   and gets full accessibility, dark mode, hover states, and consistent branding
@@ -253,15 +276,19 @@ import { Button } from '@/components/ui/button'
                 <ListItem>
                   <strong>Separation of Concerns:</strong> Each layer has a single, clear responsibility
                 </ListItem>
+
                 <ListItem>
                   <strong>Maximum Reusability:</strong> Brand components work across any page or feature
                 </ListItem>
+
                 <ListItem>
                   <strong>Easy Maintenance:</strong> Changes propagate automatically through the hierarchy
                 </ListItem>
+
                 <ListItem>
                   <strong>Clean Abstractions:</strong> Developers work at the appropriate level of detail
                 </ListItem>
+
                 <ListItem>
                   <strong>Scalable Growth:</strong> New features compose existing components rather than rebuilding
                 </ListItem>
@@ -279,6 +306,7 @@ import { Button } from '@/components/ui/button'
             
             <Section spacing="md">
               <Heading level={4}>INSTALLATION</Heading>
+
               <CodeBlock>{`# Clone the repository
 git clone <your-repo-url>
 cd notto
@@ -288,10 +316,12 @@ pnpm install
 
 # Start development server
 pnpm dev`}</CodeBlock>
+
             </Section>
 
             <Section spacing="md">
               <Heading level={4}>BASIC_USAGE</Heading>
+
               <CodeBlock>{`import { Section } from '@/app/components/core/section'
 import { Button } from '@/app/components/ui/button'
 import { Heading } from '@/app/components/ui/heading'

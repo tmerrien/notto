@@ -33,7 +33,7 @@ export default function Home() {
         </Section>
 
         {/* Actions */}
-        <div className="flex gap-2">
+        <Section direction="horizontal" className="flex gap-2">
           <Button size="lg" style="dark" className="w-48">
             INIT_SYSTEM
           </Button>
@@ -41,13 +41,13 @@ export default function Home() {
           <Button size="lg" variant="outline" style="light" className="w-48">
             VIEW_MODULES
           </Button>
-        </div>
+        </Section>
 
         {/* Stats */}
-        <div className="flex gap-2">
+        <Section direction="horizontal" className="flex gap-2">
           <Metric value="47" label="MODULES_LOADED" color="amber" />
           <Metric value="100%" label="ACCESSIBILITY" color="red" />
-        </div>
+        </Section>
     </Section>
   )
 }

@@ -13,7 +13,7 @@ interface ListItemProps {
 }
 
 export function List({ children, variant = 'bullet', spacing = 'md', className = '' }: ListProps) {
-  const baseClasses = "font-mono text-sm list-disc list-inside"
+  const baseClasses = "font-mono text-sm list-disc list-inside text-stone-600 dark:text-stone-400"
   
   const spacingClasses = {
     sm: 'space-y-1',

@@ -1,0 +1,12 @@
+{
+  "cloud" : {
+    "url" : "https://qodana.cloud/projects/Z0gX9/reports/40JPnR",
+    "reportId" : "40JPnR",
+    "projectId" : "Z0gX9",
+    "projectName" : "notto.ca",
+    "host" : "https://qodana.cloud"
+  },
+  "vcs" : {
+    "origin" : "https://github.com/tmerrien/notto.git"
+  }
+}

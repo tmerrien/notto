@@ -38,10 +38,10 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 interface SqlEditorProps {
   projectRef: string
   initialSql?: string
-  queryKey?: any
+  queryKey?: string | number
   label?: string
-  onResults?: (data: any[] | undefined) => void
-  onRowClick?: (row: any, queryKey?: any) => void
+  onResults?: (data: Record<string, unknown>[] | undefined) => void
+  onRowClick?: (row: Record<string, unknown>, queryKey?: string | number) => void
   hideSql?: boolean
   readOnly?: boolean
   runAutomatically?: boolean
@@ -113,9 +113,15 @@ export function SqlEditor({
       const { sql: generatedSql } = await response.json()
       setSql(generatedSql)
       runQuery({ projectRef, query: generatedSql, readOnly: true })
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error(error)
-      setAiError(error.message)
+      // Safely extract error message from unknown error type
+      const errorMessage = error instanceof Error 
+        ? error.message 
+        : typeof error === 'string' 
+        ? error 
+        : 'Failed to generate SQL query'
+      setAiError(errorMessage)
     } finally {
       setIsGeneratingSql(false)
     }
@@ -383,7 +389,7 @@ export function SqlEditor({
   )
 }
 
-function QueryResultChart({ data, xAxis, yAxis }: { data: any[]; xAxis: string; yAxis: string }) {
+function QueryResultChart({ data, xAxis, yAxis }: { data: Record<string, unknown>[]; xAxis: string; yAxis: string }) {
   const chartConfig = {
     [yAxis]: {
       label: yAxis,

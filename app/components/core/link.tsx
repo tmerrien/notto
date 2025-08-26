@@ -1,3 +1,4 @@
+import React from 'react'
 import { brandConfig } from '@/app/components/branding'
 
 interface LinkProps {

@@ -61,7 +61,7 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
         <div>
           {sortedSuggestions.length > 0 ? (
             <div>
-              {sortedSuggestions.map((suggestion: { cache_key: string; title: string; level: 'ERROR' | 'WARN' | 'INFO'; detail: string }) => (
+              {sortedSuggestions.map((suggestion: { cache_key: string; title: string; level: 'ERROR' | 'WARN' | 'INFO'; detail: string; type: 'performance' | 'security' }) => (
                 <div
                   key={suggestion.cache_key}
                   className="py-4 border-b last:border-b-0 group relative"
@@ -86,7 +86,8 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
                     <div className="text-sm text-muted-foreground mt-2 prose prose-sm max-w-none">
                       <ReactMarkdown
                         components={{
-                          code({ inline, children, ...props }: { inline?: boolean; children: React.ReactNode; [key: string]: unknown }) {
+                          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                          code({ inline, children, ...props }: any) {
                             return inline ? (
                               <code className="bg-muted px-1 rounded" {...props}>
                                 {children}
@@ -97,7 +98,8 @@ export function SuggestionsManager({ projectRef }: { projectRef: string }) {
                               </pre>
                             )
                           },
-                        }}
+                        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                        } as any}
                       >
                         {suggestion.detail}
                       </ReactMarkdown>

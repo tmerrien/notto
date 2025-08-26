@@ -29,14 +29,14 @@ function ProviderSettingsView({
   onSuccess,
 }: {
   projectRef: string
-  schema: z.ZodObject<any> | any
+  schema: z.ZodObject<Record<string, z.ZodTypeAny>> | { _def: { schema: z.ZodObject<Record<string, z.ZodTypeAny>> } }
   title: string
-  initialValues: any
+  initialValues: Record<string, unknown>
   onSuccess: () => void
 }) {
   const { mutate: updateAuthConfig, isPending: isUpdatingConfig } = useUpdateAuthConfig()
 
-  const actualSchema = 'shape' in schema ? schema : (schema._def.schema as z.ZodObject<any>)
+  const actualSchema = 'shape' in schema ? schema : (schema._def.schema as z.ZodObject<Record<string, z.ZodTypeAny>>)
 
   const handleUpdateAuthConfig = (formData: z.infer<typeof actualSchema>) => {
     const payload = Object.fromEntries(
@@ -71,7 +71,7 @@ function ProviderSettingsView({
         }
         return acc
       },
-      {} as Record<string, any>
+      {} as Record<string, unknown>
     )
 
     return result
@@ -121,7 +121,7 @@ export function AuthManager({ projectRef }: { projectRef: string }) {
     name: string
     icon: React.ReactNode
     description: string
-    schema: z.ZodObject<any> | any
+    schema: z.ZodObject<Record<string, z.ZodTypeAny>> | { _def: { schema: z.ZodObject<Record<string, z.ZodTypeAny>> } }
   }[] = [
     {
       icon: <Mail className="h-4 w-4 text-muted-foreground" />,
@@ -144,7 +144,7 @@ export function AuthManager({ projectRef }: { projectRef: string }) {
   ]
 
   const handleProviderClick = useCallback(
-    (provider: { name: string; schema: z.ZodObject<any> | any }) => {
+    (provider: { name: string; schema: z.ZodObject<Record<string, z.ZodTypeAny>> | { _def: { schema: z.ZodObject<Record<string, z.ZodTypeAny>> } } }) => {
       push({
         title: `${provider.name} Provider Settings`,
         component: (
@@ -152,7 +152,7 @@ export function AuthManager({ projectRef }: { projectRef: string }) {
             projectRef={projectRef}
             schema={provider.schema}
             title={`${provider.name} Provider Settings`}
-            initialValues={authConfigData}
+            initialValues={authConfigData ?? {}}
             onSuccess={() => pop()}
           />
         ),
@@ -173,7 +173,7 @@ export function AuthManager({ projectRef }: { projectRef: string }) {
         }
         return acc
       },
-      {} as Record<string, any>
+      {} as Record<string, unknown>
     )
   }, [authConfigData])
 

@@ -216,7 +216,7 @@ export function LogsManager({ projectRef }: { projectRef: string }) {
             </TableHeader>
             <TableBody>
               {(logs.result as Record<string, unknown>[]).map((log, index) => (
-                <TableRow key={log.id || index} className="group hover:bg-muted/50 relative">
+                <TableRow key={log.id != null ? String(log.id) : index} className="group hover:bg-muted/50 relative">
                   {Object.keys(logs.result?.[0] ?? []).map((key) => {
                     const value = log[key]
                     const formattedValue = (() => {

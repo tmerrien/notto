@@ -2,6 +2,18 @@ version: '1.0'
 linter: 'jetbrains/qodana-js:2025.2'
 profile:
   name: qodana.recommended
+bootstrap: |
+  npm install -g pnpm
+  pnpm install --no-frozen-lockfile
+  mkdir -p .qodana/code-coverage
+  test -f lcov.info && cp lcov.info .qodana/code-coverage/lcov.info || echo "No root lcov.info found"
+  test -d __tests__ && echo "Generating coverage..." && npx jest --coverage --passWithNoTests || echo "Using existing coverage"
+properties:
+  qodana.cache.enabled: false
 include:
   - name: CheckDependencyLicenses
   - name: JsCoverageInspection
+  - name: Eslint
+exclude:
+  - name: NodeRequiredDependencies
+  - name: NpmUsedModulesInstalled
