@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/schemastore/schemastore/master/src/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "QDJS",
+          "fullName": "Qodana for JS",
+          "version": "251.25781",
+          "rules": [],
+          "taxa": [],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        },
+        "extensions": []
+      },
+      "invocations": [
+        {
+          "startTimeUtc": "2025-08-27T15:47:06.353091578Z",
+          "exitCode": 0,
+          "executionSuccessful": true
+        }
+      ],
+      "language": "en-US",
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/tmerrien/notto.git",
+          "revisionId": "d271df0965a1696b95c506daf9dde6fe4f9f8102",
+          "branch": "master",
+          "properties": {
+            "repoUrl": "https://github.com/tmerrien/notto.git",
+            "lastAuthorName": "tmerrien",
+            "vcsType": "Git",
+            "lastAuthorEmail": "tmerrien@upei.ca"
+          }
+        }
+      ],
+      "results": [],
+      "automationDetails": {
+        "id": "project/qodana/2025-08-27",
+        "guid": "b1b2b037-7e85-428b-9f2b-f7dbce712194",
+        "properties": {
+          "jobUrl": "",
+          "analysisKind": "regular"
+        }
+      },
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ],
+      "properties": {
+        "coverage": {
+          "totalCoverage": 5,
+          "totalLines": 1976,
+          "totalCoveredLines": 108
+        },
+        "configProfile": "recommended",
+        "deviceId": "200820300000000-4655-a402-ae8f-b187e74303a4",
+        "qodanaNewResultSummary": {
+          "high": 512,
+          "critical": 494,
+          "moderate": 8,
+          "total": 1014
+        }
+      }
+    }
+  ]
+}

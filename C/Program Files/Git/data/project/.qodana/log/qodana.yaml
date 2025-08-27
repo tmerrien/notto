@@ -2,7 +2,7 @@ version: '1.0'
 linter: 'jetbrains/qodana-js:2025.1'
 profile:
   name: qodana.recommended
-bootstrap: |
+bootstrap: |-
   npm install -g pnpm
   pnpm install --frozen-lockfile
   mkdir -p .qodana/code-coverage
@@ -10,6 +10,7 @@ bootstrap: |
   test -f lcov.info && cp lcov.info .qodana/code-coverage/ || echo "No root lcov.info found"
   echo "Generating fresh coverage..."
   pnpm test:coverage --passWithNoTests || echo "Coverage generation completed"
+  
 properties:
   qodana.cache.enabled: false
 include:

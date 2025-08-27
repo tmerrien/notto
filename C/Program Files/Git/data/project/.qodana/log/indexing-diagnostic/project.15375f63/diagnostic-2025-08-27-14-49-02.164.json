@@ -1,0 +1,64 @@
+{
+  "appInfo" : {
+    "build" : "252.25440",
+    "buildDate" : "2025-08-27T14:48:35.318Z[Etc/UTC]",
+    "productCode" : "QDJS",
+    "generated" : "2025-08-27T14:49:02.167134747Z",
+    "os" : "Linux 5.15.167.4-microsoft-standard-wsl2",
+    "runtime" : "JetBrains s.r.o. 21.0.8 21.0.8+9-b1038.68"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 5800722432,
+    "numberOfProcessors" : 6,
+    "maxNumberOfIndexingThreads" : 6,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; node, react, jest, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 716069,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 151952,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 349836,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-08-27T14:49:01.612589772Z",
+      "updatingEnd" : "2025-08-27T14:49:01.915157852Z",
+      "totalWallTimeWithPauses" : 302568080,
+      "wallTimeOnPause" : 272536,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 302295544
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; node, react, jest, ...; empty)",
+      "numberOfScannedFiles" : 0,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 0,
+      "totalOneThreadTimeWithPauses" : 716069,
+      "iterationAndScannersApplicationTime" : 151952,
+      "filesCheckTime" : 349836,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

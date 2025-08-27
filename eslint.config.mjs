@@ -18,7 +18,13 @@ const eslintConfig = [
       "dist/",
       "build/",
       "*.min.js",
-      ".qodana/"
+      ".qodana/",
+      "lcov-report/",
+      "coverage/",
+      "jest-html-reporters-attach/",
+      "**/*.html",
+      "**/*.config.js",
+      ".env*"
     ]
   },
   ...compat.extends("next/core-web-vitals", "next/typescript"),

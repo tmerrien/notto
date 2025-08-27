@@ -1,0 +1,50 @@
+{
+  "appInfo" : {
+    "build" : "252.25440",
+    "buildDate" : "2025-08-27T15:36:49.633Z[Etc/UTC]",
+    "productCode" : "QDJS",
+    "generated" : "2025-08-27T15:37:13.40661538Z",
+    "os" : "Linux 5.15.167.4-microsoft-standard-wsl2",
+    "runtime" : "JetBrains s.r.o. 21.0.8 21.0.8+9-b1038.68"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 5800722432,
+    "numberOfProcessors" : 6,
+    "maxNumberOfIndexingThreads" : 6,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; react-dom, node, react, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 0,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 0,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 0,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-08-27T15:37:12.663391647Z",
+      "updatingEnd" : "2025-08-27T15:37:12.715938005Z",
+      "totalWallTimeWithPauses" : 52546358,
+      "wallTimeOnPause" : 286702,
+      "isCancelled" : true,
+      "cancellationReason" : "Full scanning is queued",
+      "totalWallTimeWithoutPauses" : 52259656
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 0,
+      "numberOfScannedFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ ]
+  }
+}

@@ -40,7 +40,11 @@
       "Bash(del \"C:\\Users\\tmerr\\Desktop\\Repositories\\notto\\app\\components\\core\\code-block.tsx\")",
       "Bash(pnpm build:*)",
       "Bash(timeout 5 pnpm:*)",
-      "Bash(pnpm tsc:*)"
+      "Bash(pnpm tsc:*)",
+      "Bash(docker run:*)",
+      "Bash(pnpm list:*)",
+      "WebSearch",
+      "WebFetch(domain:www.jetbrains.com)"
     ],
     "deny": [],
     "ask": []
