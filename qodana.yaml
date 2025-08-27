@@ -1,9 +1,10 @@
 version: '1.0'
-linter: jetbrains/qodana-js:2025.2
+image: jetbrains/qodana-js:2025.2
 profile:
   name: qodana.recommended
 bootstrap: |
-  curl -fsSL https://get.pnpm.io/install.sh | sh -
+  export SHELL=/bin/bash
+  curl -fsSL https://get.pnpm.io/install.sh | SHELL=/bin/bash sh -
   export PATH="$HOME/.local/share/pnpm:$PATH"
   pnpm install --frozen-lockfile
   mkdir -p .qodana/code-coverage

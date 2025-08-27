@@ -1269,3 +1269,8 @@
 [170.809s][info][gc,metaspace] GC(78) Metaspace: 297564K(301248K)->297564K(301248K) NonClass: 258678K(260736K)->258678K(260736K) Class: 38885K(40512K)->38885K(40512K)
 [170.809s][info][gc          ] GC(78) Pause Young (Mixed) (G1 Evacuation Pause) 1397M->738M(1520M) 35.904ms
 [170.809s][info][gc,cpu      ] GC(78) User=0.15s Sys=0.00s Real=0.04s
+[331.810s][info][gc,heap,exit] Heap
+[331.810s][info][gc,heap,exit]  garbage-first heap   total 1556480K, used 1353728K [0x00000006a6400000, 0x0000000800000000)
+[331.810s][info][gc,heap,exit]   region size 4096K, 160 young (655360K), 14 survivors (57344K)
+[331.811s][info][gc,heap,exit]  Metaspace       used 301559K, committed 305216K, reserved 1376256K
+[331.811s][info][gc,heap,exit]   class space    used 39373K, committed 41024K, reserved 1048576K

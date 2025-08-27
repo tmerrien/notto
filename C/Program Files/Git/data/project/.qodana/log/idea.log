@@ -6205,3 +6205,807 @@ Mutually assignable invocations which returned null result: 0
 2025-08-27 15:56:20,948 [ 122747]   INFO - #c.i.l.j.s.JSLanguageServiceQueue - Loading TypeScript project: /data/project/tsconfig.json
 2025-08-27 15:56:21,899 [ 123698]   INFO - STDOUT - Analyzing code 2%
 2025-08-27 15:56:26,594 [ 128393]   INFO - STDOUT - Analyzing code 3%
+2025-08-27 15:56:30,754 [ 132553]   INFO - STDOUT - Analyzing code 4%
+2025-08-27 15:56:32,144 [ 133943]   INFO - #o.j.q.s.i.r.ConsoleLog - Keep running Project analysis ... so far 29s
+2025-08-27 15:56:32,145 [ 133944]   INFO - STDOUT - Keep running Project analysis ... so far 29s
+2025-08-27 15:56:32,423 [ 134222]   INFO - STDOUT - Analyzing code 5%
+2025-08-27 15:56:35,225 [ 137024]   INFO - STDOUT - Analyzing code 6%
+2025-08-27 15:56:35,810 [ 137609]   INFO - STDOUT - Analyzing code 7%
+2025-08-27 15:56:36,208 [ 138007]   INFO - STDOUT - Analyzing code 8%
+2025-08-27 15:56:36,733 [ 138532]   INFO - STDOUT - Analyzing code 9%
+2025-08-27 15:56:36,963 [ 138762]   INFO - STDOUT - Analyzing code 10%
+2025-08-27 15:56:37,701 [ 139500]   INFO - STDOUT - Analyzing code 11%
+2025-08-27 15:56:40,127 [ 141926] SEVERE - #c.i.l.j.s.JSLanguageServiceQueue - [Thread 134] Failed to process command ideGetElementType - timed out
+java.lang.RuntimeException: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 20000 ms
+	at com.intellij.lang.javascript.service.JSLanguageServiceQueueImpl.awaitAnswerCancellable(JSLanguageServiceQueueImpl.kt:246)
+	at com.intellij.lang.javascript.service.JSLanguageServiceQueueImpl.access$awaitAnswerCancellable(JSLanguageServiceQueueImpl.kt:30)
+	at com.intellij.lang.javascript.service.JSLanguageServiceQueueImpl$awaitAnswerCancellable$1.invokeSuspend(JSLanguageServiceQueueImpl.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:36)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:112)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$BuildersKt__BuildersKt(Builders.kt:85)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlockingWithParallelismCompensation(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlockingWithParallelismCompensation(Unknown Source)
+	at kotlinx.coroutines.internal.intellij.IntellijCoroutines.runBlockingWithParallelismCompensation(intellij.kt:48)
+	at com.intellij.openapi.progress.CoroutinesKt.runBlockingCancellable$lambda$0(coroutines.kt:139)
+	at com.intellij.openapi.progress.ContextKt.prepareIndicatorThreadContext$lambda$5(context.kt:109)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.silenceGlobalIndicator(CoreProgressManager.java:1049)
+	at com.intellij.openapi.progress.ContextKt.prepareIndicatorThreadContext(context.kt:107)
+	at com.intellij.openapi.progress.ContextKt.prepareThreadContext(context.kt:78)
+	at com.intellij.openapi.progress.CoroutinesKt.runBlockingCancellable(coroutines.kt:131)
+	at com.intellij.openapi.progress.CoroutinesKt.runBlockingCancellable(coroutines.kt:114)
+	at com.intellij.lang.typescript.tsc.ComputeInCoroutineKt.computeInCoroutine$executeAsBlocking(computeInCoroutine.kt:23)
+	at com.intellij.lang.typescript.tsc.ComputeInCoroutineKt.computeInCoroutine(computeInCoroutine.kt:49)
+	at com.intellij.lang.typescript.tsc.TypeScriptServiceEvaluationSupportBase.executeCommand(TypeScriptServiceEvaluationSupportBase.kt:406)
+	at com.intellij.lang.typescript.tsc.TypeScriptServiceEvaluationSupportBase.sendGetElementTypeCommandAndDeserializeResponse(TypeScriptServiceEvaluationSupportBase.kt:147)
+	at com.intellij.lang.typescript.tsc.TypeScriptServiceEvaluationSupportBase.sendGetElementTypeCommandAndDeserializeToJSType(TypeScriptServiceEvaluationSupportBase.kt:194)
+	at com.intellij.lang.typescript.tsc.TypeScriptServiceEvaluationSupportBase.getElementType$lambda$0(TypeScriptServiceEvaluationSupportBase.kt:69)
+	at com.intellij.lang.javascript.service.JSLanguageServiceTracerUtilKt.withServiceTraceSpan(JSLanguageServiceTracerUtil.kt:42)
+	at com.intellij.lang.typescript.tsc.TypeScriptServiceEvaluationSupportBase.getElementType(TypeScriptServiceEvaluationSupportBase.kt:66)
+	at com.intellij.lang.typescript.compiler.languageService.TypeScriptServerServiceImpl$TypeScriptCompilerServiceEvaluationSupport.getElementType$lambda$0(TypeScriptServerServiceImpl.kt:1369)
+	at com.intellij.lang.javascript.evaluation.JSQuickTypeService.passQuickTypeContext(JSQuickTypeService.kt:88)
+	at com.intellij.lang.typescript.compiler.languageService.TypeScriptServerServiceImpl$TypeScriptCompilerServiceEvaluationSupport.getElementType(TypeScriptServerServiceImpl.kt:1368)
+	at com.intellij.lang.typescript.tsc.TypeScriptCompilerEvaluationFacadeImpl.getTypeFromService(TypeScriptCompilerEvaluationFacadeImpl.kt:187)
+	at com.intellij.lang.typescript.tsc.TypeScriptCompilerEvaluationFacadeImpl.getTypeFromService(TypeScriptCompilerEvaluationFacadeImpl.kt:170)
+	at com.intellij.lang.typescript.tsc.TypeScriptCompilerEvaluationFacadeImpl.getContextualTypeFromService(TypeScriptCompilerEvaluationFacadeImpl.kt:88)
+	at com.intellij.lang.javascript.psi.TypeScriptExpectedTypeEvaluator.getContextualTypeFromService(TypeScriptExpectedTypeEvaluator.java:198)
+	at com.intellij.lang.javascript.psi.TypeScriptExpectedTypeEvaluator.getContextualTypeFromService(TypeScriptExpectedTypeEvaluator.java:183)
+	at com.intellij.lang.javascript.psi.TypeScriptExpectedTypeEvaluator.computeExpectedType(TypeScriptExpectedTypeEvaluator.java:170)
+	at com.intellij.lang.javascript.psi.ExpectedTypeEvaluator.findExpectedType(ExpectedTypeEvaluator.java:101)
+	at com.intellij.lang.javascript.psi.resolve.JSInheritanceUtil.lambda$findSuperMembersFromContextType$23(JSInheritanceUtil.java:766)
+	at com.intellij.lang.javascript.evaluation.JSTypeEvaluationLocationProvider.withTypeEvaluationLocation(JSTypeEvaluationLocationProvider.kt:33)
+	at com.intellij.lang.javascript.psi.resolve.JSInheritanceUtil.findSuperMembersFromContextType(JSInheritanceUtil.java:765)
+	at com.intellij.lang.javascript.inspections.JSDeprecatedSymbolsInspection$1.isDeprecatedFromHierarchy(JSDeprecatedSymbolsInspection.java:255)
+	at com.intellij.lang.javascript.inspections.JSDeprecatedSymbolsInspection$1.visitJSProperty(JSDeprecatedSymbolsInspection.java:87)
+	at com.intellij.lang.javascript.psi.impl.JSPropertyImpl.accept(JSPropertyImpl.java:394)
+	at com.intellij.lang.javascript.inspections.JSInspectionVisitor.visitElement$lambda$0(JSInspection.kt:116)
+	at com.intellij.lang.javascript.evaluation.JSTypeEvaluationLocationProvider.withTypeEvaluationLocation(JSTypeEvaluationLocationProvider.kt:33)
+	at com.intellij.lang.javascript.inspections.JSInspectionVisitor.visitElement(JSInspection.kt:115)
+	at com.intellij.lang.javascript.psi.impl.JSPropertyImpl.accept(JSPropertyImpl.java:397)
+	at com.intellij.codeInsight.daemon.impl.InspectionVisitorOptimizer.lambda$acceptElements$1(InspectionVisitorOptimizer.java:196)
+	at com.intellij.codeInsight.daemon.impl.InspectionVisitorOptimizer.acceptElements(InspectionVisitorOptimizer.java:217)
+	at com.intellij.codeInsight.daemon.impl.InspectionVisitorOptimizer.acceptElements(InspectionVisitorOptimizer.java:196)
+	at com.intellij.codeInspection.InspectionEngine.lambda$inspectElements$8(InspectionEngine.java:331)
+	at com.intellij.concurrency.ApplierCompleter.processArrayItem(ApplierCompleter.java:121)
+	at com.intellij.concurrency.ApplierCompleter.processArray(ApplierCompleter.java:219)
+	at com.intellij.concurrency.ApplierCompleter.execAll(ApplierCompleter.java:171)
+	at com.intellij.concurrency.JobLauncherImpl.lambda$invokeConcurrentlyUnderProgressAsync$3(JobLauncherImpl.java:108)
+	at com.intellij.platform.locking.impl.NestedLocksThreadingSupport.tryRunReadAction(NestedLocksThreadingSupport.kt:826)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1221)
+	at com.intellij.concurrency.ApplierCompleter.lambda$wrapInReadActionAndIndicator$2(ApplierCompleter.java:153)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$14(CoreProgressManager.java:681)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:756)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:712)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:680)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.concurrency.ApplierCompleter.wrapInReadActionAndIndicator(ApplierCompleter.java:164)
+	at com.intellij.concurrency.ApplierCompleter.wrapAndRun(ApplierCompleter.java:148)
+	at com.intellij.concurrency.JobLauncherImpl.lambda$invokeConcurrentlyUnderProgressAsync$4(JobLauncherImpl.java:108)
+	at com.intellij.concurrency.JobLauncherImpl.safeIterate(JobLauncherImpl.java:176)
+	at com.intellij.concurrency.JobLauncherImpl.invokeConcurrentlyUnderProgressAsync(JobLauncherImpl.java:105)
+	at com.intellij.concurrency.JobLauncherImpl.invokeConcurrentlyUnderProgress(JobLauncherImpl.java:53)
+	at com.intellij.concurrency.JobLauncher.invokeConcurrentlyUnderProgress(JobLauncher.java:51)
+	at com.intellij.codeInspection.InspectionEngine.lambda$inspectElements$9(InspectionEngine.java:371)
+	at com.intellij.codeInspection.InspectionEngine.withSession(InspectionEngine.java:251)
+	at com.intellij.codeInspection.InspectionEngine.inspectElements(InspectionEngine.java:292)
+	at com.intellij.codeInspection.InspectionEngine.inspectElements(InspectionEngine.java:235)
+	at com.intellij.codeInspection.InspectionEngine.inspectEx(InspectionEngine.java:126)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextImpl.runInspectionEngine(GlobalInspectionContextImpl.java:1265)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextImpl.lambda$inspectFile$16(GlobalInspectionContextImpl.java:546)
+	at com.intellij.codeInspection.ex.InspectionProfileWrapper.runWithCustomInspectionWrapper(InspectionProfileWrapper.java:93)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextImpl.lambda$inspectFile$17(GlobalInspectionContextImpl.java:543)
+	at com.intellij.codeInsight.daemon.impl.HighlightingSessionImpl.runInsideHighlightingSession(HighlightingSessionImpl.java:192)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextImpl.inspectFile(GlobalInspectionContextImpl.java:542)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextImpl.lambda$buildProcessor$6(GlobalInspectionContextImpl.java:423)
+	at com.intellij.openapi.project.DumbService.runReadActionInSmartMode$lambda$0(DumbService.kt:132)
+	at com.intellij.openapi.project.DumbService.runReadActionInSmartMode$lambda$2(DumbService.kt:204)
+	at com.intellij.openapi.application.impl.AppImplKt$rethrowCheckedExceptions$2.invoke(appImpl.kt:106)
+	at com.intellij.platform.locking.impl.NestedLocksThreadingSupport.runReadAction(NestedLocksThreadingSupport.kt:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:1043)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:66)
+	at com.intellij.openapi.project.DumbService.runReadActionInSmartMode(DumbService.kt:197)
+	at com.intellij.openapi.project.DumbService.runReadActionInSmartMode(DumbService.kt:132)
+	at com.intellij.openapi.project.DumbService.tryRunReadActionInSmartMode(DumbService.kt:164)
+	at com.intellij.codeInspection.ex.GlobalInspectionContextImpl.lambda$buildProcessor$10(GlobalInspectionContextImpl.java:433)
+	at com.intellij.concurrency.JobLauncherImpl$1MyProcessQueueTask.lambda$call$0(JobLauncherImpl.java:388)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$14(CoreProgressManager.java:681)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:756)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:712)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:680)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.concurrency.JobLauncherImpl$1MyProcessQueueTask.call(JobLauncherImpl.java:373)
+	at com.intellij.concurrency.JobLauncherImpl$1MyProcessQueueTask.call(JobLauncherImpl.java:359)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedInterruptibleCallable.compute(ForkJoinTask.java:1689)
+	at java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1641)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 20000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:189)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:157)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:505)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-27 15:56:40,131 [ 141930] SEVERE - #c.i.l.j.s.JSLanguageServiceQueue - Qodana for JS 2025.2 RC  Build #QDJS-252.25440
+2025-08-27 15:56:40,132 [ 141931] SEVERE - #c.i.l.j.s.JSLanguageServiceQueue - JDK: 21.0.8; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2025-08-27 15:56:40,132 [ 141931] SEVERE - #c.i.l.j.s.JSLanguageServiceQueue - OS: Linux
+2025-08-27 15:56:40,133 [ 141932] SEVERE - #c.i.l.j.s.JSLanguageServiceQueue - Plugin to blame: JavaScript and TypeScript version: 252.25440.0
+2025-08-27 15:56:40,135 [ 141934] SEVERE - #c.i.l.j.s.JSLanguageServiceQueue - Last Action: 
+2025-08-27 15:56:46,889 [ 148688]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - TypeScript server evaluation was used
+2025-08-27 15:56:47,150 [ 148949]   INFO - STDOUT - Analyzing code 12%
+2025-08-27 15:56:47,517 [ 149316]   INFO - STDOUT - Analyzing code 13%
+2025-08-27 15:56:47,879 [ 149678]   INFO - STDOUT - Analyzing code 14%
+2025-08-27 15:56:48,112 [ 149911]   INFO - STDOUT - Analyzing code 15%
+2025-08-27 15:56:48,354 [ 150153]   INFO - STDOUT - Analyzing code 16%
+2025-08-27 15:56:48,561 [ 150360]   INFO - STDOUT - Analyzing code 17%
+2025-08-27 15:56:48,978 [ 150777]   INFO - STDOUT - Analyzing code 18%
+2025-08-27 15:56:49,358 [ 151157]   INFO - STDOUT - Analyzing code 19%
+2025-08-27 15:56:49,997 [ 151796]   INFO - STDOUT - Analyzing code 20%
+2025-08-27 15:56:49,967 [ 151766]   INFO - STDOUT - Analyzing code 21%
+2025-08-27 15:56:50,532 [ 152331]   INFO - STDOUT - Analyzing code 22%
+2025-08-27 15:56:51,329 [ 153128]   INFO - STDOUT - Analyzing code 23%
+2025-08-27 15:56:52,137 [ 153936]   INFO - STDOUT - Analyzing code 24%
+2025-08-27 15:56:52,158 [ 153957]   INFO - STDOUT - Analyzing code 25%
+2025-08-27 15:56:52,178 [ 153977]   INFO - STDOUT - Analyzing code 26%
+2025-08-27 15:56:52,192 [ 153991]   INFO - STDOUT - Analyzing code 27%
+2025-08-27 15:56:52,212 [ 154011]   INFO - STDOUT - Analyzing code 28%
+2025-08-27 15:56:52,213 [ 154012]   INFO - STDOUT - Analyzing code 28%
+2025-08-27 15:56:52,215 [ 154014]   INFO - STDOUT - Analyzing code 28%
+2025-08-27 15:56:52,224 [ 154023]   INFO - STDOUT - Analyzing code 29%
+2025-08-27 15:56:52,232 [ 154031]   INFO - STDOUT - Analyzing code 30%
+2025-08-27 15:56:52,233 [ 154032]   INFO - STDOUT - Analyzing code 30%
+2025-08-27 15:56:52,241 [ 154040]   INFO - STDOUT - Analyzing code 31%
+2025-08-27 15:56:52,250 [ 154049]   INFO - STDOUT - Analyzing code 32%
+2025-08-27 15:56:52,258 [ 154057]   INFO - STDOUT - Analyzing code 33%
+2025-08-27 15:56:52,258 [ 154057]   INFO - STDOUT - Analyzing code 33%
+2025-08-27 15:56:52,263 [ 154062]   INFO - STDOUT - Analyzing code 34%
+2025-08-27 15:56:52,271 [ 154070]   INFO - STDOUT - Analyzing code 35%
+2025-08-27 15:56:52,275 [ 154074]   INFO - STDOUT - Analyzing code 36%
+2025-08-27 15:56:52,276 [ 154075]   INFO - STDOUT - Analyzing code 36%
+2025-08-27 15:56:52,282 [ 154081]   INFO - STDOUT - Analyzing code 37%
+2025-08-27 15:56:52,288 [ 154087]   INFO - STDOUT - Analyzing code 38%
+2025-08-27 15:56:52,294 [ 154093]   INFO - STDOUT - Analyzing code 39%
+2025-08-27 15:56:52,299 [ 154098]   INFO - STDOUT - Analyzing code 40%
+2025-08-27 15:56:52,306 [ 154105]   INFO - STDOUT - Analyzing code 41%
+2025-08-27 15:56:52,306 [ 154105]   INFO - STDOUT - Analyzing code 41%
+2025-08-27 15:56:52,307 [ 154106]   INFO - STDOUT - Analyzing code 41%
+2025-08-27 15:56:52,308 [ 154107]   INFO - STDOUT - Analyzing code 41%
+2025-08-27 15:56:52,313 [ 154112]   INFO - STDOUT - Analyzing code 42%
+2025-08-27 15:56:52,320 [ 154119]   INFO - STDOUT - Analyzing code 43%
+2025-08-27 15:56:52,326 [ 154125]   INFO - STDOUT - Analyzing code 44%
+2025-08-27 15:56:52,327 [ 154126]   INFO - STDOUT - Analyzing code 44%
+2025-08-27 15:56:52,332 [ 154131]   INFO - STDOUT - Analyzing code 45%
+2025-08-27 15:56:52,332 [ 154131]   INFO - STDOUT - Analyzing code 45%
+2025-08-27 15:56:52,332 [ 154131]   INFO - STDOUT - Analyzing code 45%
+2025-08-27 15:56:52,337 [ 154136]   INFO - STDOUT - Analyzing code 46%
+2025-08-27 15:56:52,343 [ 154142]   INFO - STDOUT - Analyzing code 47%
+2025-08-27 15:56:52,348 [ 154147]   INFO - STDOUT - Analyzing code 48%
+2025-08-27 15:56:52,353 [ 154152]   INFO - STDOUT - Analyzing code 49%
+2025-08-27 15:56:52,359 [ 154158]   INFO - STDOUT - Analyzing code 50%
+2025-08-27 15:56:52,361 [ 154160]   INFO - STDOUT - Analyzing code 50%
+2025-08-27 15:56:52,365 [ 154164]   INFO - STDOUT - Analyzing code 51%
+2025-08-27 15:56:52,372 [ 154171]   INFO - STDOUT - Analyzing code 52%
+2025-08-27 15:56:52,373 [ 154172]   INFO - STDOUT - Analyzing code 52%
+2025-08-27 15:56:52,378 [ 154177]   INFO - STDOUT - Analyzing code 53%
+2025-08-27 15:56:52,378 [ 154177]   INFO - STDOUT - Analyzing code 53%
+2025-08-27 15:56:52,379 [ 154178]   INFO - STDOUT - Analyzing code 53%
+2025-08-27 15:56:52,379 [ 154178]   INFO - STDOUT - Analyzing code 53%
+2025-08-27 15:56:52,385 [ 154184]   INFO - STDOUT - Analyzing code 54%
+2025-08-27 15:56:52,385 [ 154184]   INFO - STDOUT - Analyzing code 54%
+2025-08-27 15:56:52,385 [ 154184]   INFO - STDOUT - Analyzing code 54%
+2025-08-27 15:56:52,394 [ 154193]   INFO - STDOUT - Analyzing code 55%
+2025-08-27 15:56:52,576 [ 154375]   INFO - STDOUT - Analyzing code 56%
+2025-08-27 15:56:53,301 [ 155100]   INFO - STDOUT - Analyzing code 57%
+2025-08-27 15:56:54,220 [ 156019]   INFO - STDOUT - Analyzing code 58%
+2025-08-27 15:56:54,981 [ 156780]   INFO - STDOUT - Analyzing code 59%
+2025-08-27 15:56:56,379 [ 158178]   INFO - STDOUT - Analyzing code 60%
+2025-08-27 15:56:57,256 [ 159055]   INFO - STDOUT - Analyzing code 61%
+2025-08-27 15:56:57,960 [ 159759]   INFO - STDOUT - Analyzing code 62%
+2025-08-27 15:56:58,139 [ 159938]   INFO - #c.i.o.u.i.ExternalUpdateManager - update manager: -
+2025-08-27 15:56:58,152 [ 159951]   INFO - #c.i.o.w.i.X11UiUtil - Cannot get icon theme: Cannot run program "gsettings": error=2, No such file or directory
+2025-08-27 15:56:58,742 [ 160541]   INFO - STDOUT - Analyzing code 63%
+2025-08-27 15:56:59,220 [ 161019]   INFO - STDOUT - Analyzing code 64%
+2025-08-27 15:57:00,449 [ 162248]   INFO - STDOUT - Analyzing code 65%
+2025-08-27 15:57:01,071 [ 162870]   INFO - STDOUT - Analyzing code 66%
+2025-08-27 15:57:01,317 [ 163116]   INFO - #o.j.q.s.i.r.ConsoleLog - Keep running Project analysis ... so far 58s
+2025-08-27 15:57:01,317 [ 163116]   INFO - STDOUT - Keep running Project analysis ... so far 58s
+2025-08-27 15:57:01,576 [ 163375]   INFO - STDOUT - Analyzing code 67%
+2025-08-27 15:57:02,279 [ 164078]   INFO - STDOUT - Analyzing code 68%
+2025-08-27 15:57:02,341 [ 164140]   INFO - STDOUT - Analyzing code 69%
+2025-08-27 15:57:02,364 [ 164163]   INFO - STDOUT - Analyzing code 70%
+2025-08-27 15:57:02,374 [ 164173]   INFO - STDOUT - Analyzing code 71%
+2025-08-27 15:57:02,386 [ 164185]   INFO - STDOUT - Analyzing code 72%
+2025-08-27 15:57:02,386 [ 164185]   INFO - STDOUT - Analyzing code 72%
+2025-08-27 15:57:02,391 [ 164190]   INFO - STDOUT - Analyzing code 73%
+2025-08-27 15:57:02,397 [ 164196]   INFO - STDOUT - Analyzing code 74%
+2025-08-27 15:57:02,397 [ 164196]   INFO - STDOUT - Analyzing code 74%
+2025-08-27 15:57:02,401 [ 164200]   INFO - STDOUT - Analyzing code 75%
+2025-08-27 15:57:02,408 [ 164207]   INFO - STDOUT - Analyzing code 76%
+2025-08-27 15:57:02,408 [ 164207]   INFO - STDOUT - Analyzing code 76%
+2025-08-27 15:57:02,409 [ 164208]   INFO - STDOUT - Analyzing code 76%
+2025-08-27 15:57:02,417 [ 164216]   INFO - STDOUT - Analyzing code 77%
+2025-08-27 15:57:02,418 [ 164217]   INFO - STDOUT - Analyzing code 77%
+2025-08-27 15:57:02,418 [ 164217]   INFO - STDOUT - Analyzing code 77%
+2025-08-27 15:57:02,423 [ 164222]   INFO - STDOUT - Analyzing code 78%
+2025-08-27 15:57:02,428 [ 164227]   INFO - STDOUT - Analyzing code 79%
+2025-08-27 15:57:02,434 [ 164233]   INFO - STDOUT - Analyzing code 80%
+2025-08-27 15:57:02,440 [ 164239]   INFO - STDOUT - Analyzing code 81%
+2025-08-27 15:57:05,024 [ 166823]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project analysis stage completed in 1m 2s
+2025-08-27 15:57:05,027 [ 166826]   INFO - STDOUT - The Project analysis stage completed in 1m 2s
+2025-08-27 15:57:05,588 [ 167387]   WARN - #o.j.q.s.i.r.g.DuplicatesProblem - Can't find duplicate problem in db, file://$PROJECT_DIR$/.qodana/code-coverage/base.css:1:0
+2025-08-27 15:57:05,588 [ 167387]   WARN - #o.j.q.s.i.r.g.DuplicatesProblem - Can't find duplicate problem in db, file://$PROJECT_DIR$/.qodana/code-coverage/block-navigation.js:1:0
+2025-08-27 15:57:05,589 [ 167388]   WARN - #o.j.q.s.i.r.g.DuplicatesProblem - Can't find duplicate problem in db, file://$PROJECT_DIR$/.qodana/code-coverage/lcov-report/sorter.js:1:0
+2025-08-27 15:59:30,492 [ 312291]   INFO - #c.i.u.i.p.ProjectIndexableFilesFilterHealthCheck - Following files are NOT indexable but they were found in filter. Errors count: 650. Examples:
+file id=59 path=/data/project/.next
+file id=65 path=/data/project/node_modules
+file id=70 path=/data/project/.pnpm-store
+file id=797 path=/data/project/.next/export-marker.json
+file id=798 path=/data/project/.next/server
+...
+2025-08-27 15:59:39,275 [ 321074]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-logs.ts, line: 7, column: 7, length: 7
+2025-08-27 15:59:39,276 [ 321075]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 9, column: 7, length: 19
+2025-08-27 15:59:39,276 [ 321075]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 610, column: 31, length: 7
+2025-08-27 15:59:39,277 [ 321076]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-user-counts.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,277 [ 321076]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/server.ts, line: 16, column: 9, length: 6
+2025-08-27 15:59:39,278 [ 321077]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 96, column: 14, length: 16
+2025-08-27 15:59:39,278 [ 321077]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/secrets.ts, line: 1, column: 1, length: 19
+2025-08-27 15:59:39,279 [ 321078]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/suggestions.tsx, line: 26, column: 9, length: 15
+2025-08-27 15:59:39,279 [ 321078]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/suggestions.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,280 [ 321079]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/dialog.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,280 [ 321079]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 110, column: 5, length: 15
+2025-08-27 15:59:39,280 [ 321079]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 178, column: 26, length: 37
+2025-08-27 15:59:39,280 [ 321079]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 171, column: 32, length: 7
+2025-08-27 15:59:39,281 [ 321080]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-tables.ts, line: 8, column: 7, length: 10
+2025-08-27 15:59:39,281 [ 321080]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/dialog.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,281 [ 321080]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 104, column: 9, length: 27
+2025-08-27 15:59:39,282 [ 321081]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 49, column: 9, length: 9
+2025-08-27 15:59:39,282 [ 321081]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 162, column: 23, length: 13
+2025-08-27 15:59:39,282 [ 321081]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 204, column: 60, length: 20
+2025-08-27 15:59:39,282 [ 321081]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 65, column: 5, length: 7
+2025-08-27 15:59:39,283 [ 321082]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/client.ts, line: 3, column: 17, length: 12
+2025-08-27 15:59:39,283 [ 321082]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-user-counts.ts, line: 7, column: 7, length: 18
+2025-08-27 15:59:39,284 [ 321083]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-storage.ts, line: 25, column: 5, length: 7
+2025-08-27 15:59:39,285 [ 321084]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 172, column: 13, length: 7
+2025-08-27 15:59:39,285 [ 321084]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 72, column: 9, length: 11
+2025-08-27 15:59:39,286 [ 321085]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 64, column: 5, length: 7
+2025-08-27 15:59:39,286 [ 321085]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-presence-room.ts, line: 30, column: 40, length: 20
+2025-08-27 15:59:39,287 [ 321086]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/aspect-ratio.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,287 [ 321086]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 131, column: 38, length: 7
+2025-08-27 15:59:39,288 [ 321087]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-storage.ts, line: 32, column: 7, length: 11
+2025-08-27 15:59:39,288 [ 321087]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 32, column: 55, length: 14
+2025-08-27 15:59:39,289 [ 321088]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/forgot-password-form.tsx, line: 18, column: 17, length: 18
+2025-08-27 15:59:39,290 [ 321089]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/input.tsx, line: 9, column: 3, length: 61
+2025-08-27 15:59:39,290 [ 321089]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 84, column: 39, length: 27
+2025-08-27 15:59:39,291 [ 321090]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 56, column: 48, length: 48
+2025-08-27 15:59:39,292 [ 321091]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 65, column: 7, length: 15
+2025-08-27 15:59:39,292 [ 321091]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/server.ts, line: 21, column: 34, length: 29
+2025-08-27 15:59:39,293 [ 321092]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/index.ts, line: 47, column: 14, length: 19
+2025-08-27 15:59:39,294 [ 321093]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-mobile.ts, line: 8, column: 19, length: 7
+2025-08-27 15:59:39,294 [ 321093]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 156, column: 24, length: 11
+2025-08-27 15:59:39,294 [ 321093]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/results-table.tsx, line: 38, column: 21, length: 20
+2025-08-27 15:59:39,295 [ 321094]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 145, column: 14, length: 32
+2025-08-27 15:59:39,295 [ 321094]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/forgot-password-form.tsx, line: 24, column: 9, length: 20
+2025-08-27 15:59:39,295 [ 321094]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 177, column: 9, length: 15
+2025-08-27 15:59:39,296 [ 321095]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/scroll-area.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,296 [ 321095]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/logs.ts, line: 41, column: 14, length: 15
+2025-08-27 15:59:39,296 [ 321095]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sign-up-form.tsx, line: 27, column: 9, length: 12
+2025-08-27 15:59:39,296 [ 321095]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/branding/brand-utils.ts, line: 74, column: 17, length: 8
+2025-08-27 15:59:39,297 [ 321096]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 119, column: 13, length: 11
+2025-08-27 15:59:39,297 [ 321096]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 140, column: 13, length: 7
+2025-08-27 15:59:39,297 [ 321096]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,298 [ 321097]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/text.tsx, line: 10, column: 17, length: 4
+2025-08-27 15:59:39,298 [ 321097]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/current-user-avatar.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,299 [ 321098]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-storage.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,299 [ 321098]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 43, column: 11, length: 16
+2025-08-27 15:59:39,300 [ 321099]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 90, column: 23, length: 24
+2025-08-27 15:59:39,302 [ 321101]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 61, column: 5, length: 9
+2025-08-27 15:59:39,302 [ 321101]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 9, column: 7, length: 13
+2025-08-27 15:59:39,302 [ 321101]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 98, column: 9, length: 9
+2025-08-27 15:59:39,303 [ 321102]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,303 [ 321102]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 126, column: 26, length: 6
+2025-08-27 15:59:39,303 [ 321102]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/logs.ts, line: 17, column: 7, length: 19
+2025-08-27 15:59:39,303 [ 321102]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 10, column: 7, length: 10
+2025-08-27 15:59:39,304 [ 321103]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer-link.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,304 [ 321103]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/users-growth-chart.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,305 [ 321104]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 130, column: 9, length: 13
+2025-08-27 15:59:39,305 [ 321104]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 154, column: 10, length: 7
+2025-08-27 15:59:39,305 [ 321104]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/core/link.tsx, line: 13, column: 17, length: 4
+2025-08-27 15:59:39,306 [ 321105]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 127, column: 12, length: 7
+2025-08-27 15:59:39,306 [ 321105]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 28, column: 5, length: 7
+2025-08-27 15:59:39,306 [ 321105]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 143, column: 5, length: 9
+2025-08-27 15:59:39,306 [ 321105]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 44, column: 7, length: 20
+2025-08-27 15:59:39,307 [ 321106]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 26, column: 17, length: 14
+2025-08-27 15:59:39,307 [ 321106]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/progress.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,307 [ 321106]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 255, column: 17, length: 16
+2025-08-27 15:59:39,308 [ 321107]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/update-password-form.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,308 [ 321107]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/dropdown-menu.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,308 [ 321107]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,308 [ 321107]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/pg-meta.ts, line: 1, column: 1, length: 54
+2025-08-27 15:59:39,309 [ 321108]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/code-block.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,309 [ 321108]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 163, column: 10, length: 16
+2025-08-27 15:59:39,309 [ 321108]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 98, column: 25, length: 19
+2025-08-27 15:59:39,310 [ 321109]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-logs.ts, line: 37, column: 14, length: 10
+2025-08-27 15:59:39,310 [ 321109]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 417, column: 10, length: 18
+2025-08-27 15:59:39,310 [ 321109]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 32, column: 7, length: 8
+2025-08-27 15:59:39,311 [ 321110]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/avatar-stack.tsx, line: 26, column: 7, length: 11
+2025-08-27 15:59:39,312 [ 321111]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-avatar-stack.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,312 [ 321111]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,313 [ 321112]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-suggestions.ts, line: 49, column: 5, length: 7
+2025-08-27 15:59:39,314 [ 321113]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 147, column: 48, length: 30
+2025-08-27 15:59:39,315 [ 321114]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/toggle-group.tsx, line: 43, column: 10, length: 15
+2025-08-27 15:59:39,315 [ 321114]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/users-growth-chart.tsx, line: 23, column: 17, length: 16
+2025-08-27 15:59:39,317 [ 321116]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 228, column: 24, length: 35
+2025-08-27 15:59:39,318 [ 321117]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 56, column: 10, length: 15
+2025-08-27 15:59:39,319 [ 321118]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-suggestions.ts, line: 7, column: 7, length: 14
+2025-08-27 15:59:39,319 [ 321118]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logout-button.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,320 [ 321119]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 24, column: 10, length: 20
+2025-08-27 15:59:39,322 [ 321121]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 132, column: 14, length: 19
+2025-08-27 15:59:39,322 [ 321121]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 36, column: 10, length: 17
+2025-08-27 15:59:39,322 [ 321121]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 158, column: 32, length: 11
+2025-08-27 15:59:39,322 [ 321121]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/list.tsx, line: 15, column: 17, length: 4
+2025-08-27 15:59:39,323 [ 321122]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/branding/brand-utils.ts, line: 1, column: 1, length: 61
+2025-08-27 15:59:39,323 [ 321122]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-storage.ts, line: 7, column: 7, length: 10
+2025-08-27 15:59:39,324 [ 321123]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 77, column: 5, length: 24
+2025-08-27 15:59:39,324 [ 321123]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-storage.ts, line: 22, column: 14, length: 13
+2025-08-27 15:59:39,324 [ 321123]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,324 [ 321123]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/cursor.tsx, line: 1, column: 1, length: 32
+2025-08-27 15:59:39,325 [ 321124]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-name.ts, line: 4, column: 14, length: 18
+2025-08-27 15:59:39,325 [ 321124]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/forgot-password-form.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,325 [ 321124]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/toggle-group.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,325 [ 321124]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/breadcrumb.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,326 [ 321125]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer-info.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,326 [ 321125]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/slider.tsx, line: 52, column: 47, length: 15
+2025-08-27 15:59:39,327 [ 321126]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-tables.ts, line: 17, column: 14, length: 13
+2025-08-27 15:59:39,327 [ 321126]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-mobile.ts, line: 5, column: 17, length: 11
+2025-08-27 15:59:39,327 [ 321126]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/index.ts, line: 29, column: 44, length: 15
+2025-08-27 15:59:39,328 [ 321127]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/label.tsx, line: 7, column: 17, length: 5
+2025-08-27 15:59:39,328 [ 321127]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 278, column: 20, length: 11
+2025-08-27 15:59:39,328 [ 321127]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 308, column: 10, length: 27
+2025-08-27 15:59:39,329 [ 321128]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 50, column: 10, length: 10
+2025-08-27 15:59:39,329 [ 321128]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-user-counts.ts, line: 43, column: 5, length: 7
+2025-08-27 15:59:39,329 [ 321128]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 84, column: 10, length: 11
+2025-08-27 15:59:39,330 [ 321129]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 253, column: 10, length: 18
+2025-08-27 15:59:39,330 [ 321129]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,330 [ 321129]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 147, column: 5, length: 150
+2025-08-27 15:59:39,330 [ 321129]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 132, column: 13, length: 7
+2025-08-27 15:59:39,331 [ 321130]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/schemas/secrets.ts, line: 1, column: 1, length: 23
+2025-08-27 15:59:39,331 [ 321130]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 98, column: 11, length: 13
+2025-08-27 15:59:39,332 [ 321131]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 224, column: 26, length: 15
+2025-08-27 15:59:39,332 [ 321131]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/index.ts, line: 40, column: 17, length: 17
+2025-08-27 15:59:39,332 [ 321131]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 399, column: 37, length: 8
+2025-08-27 15:59:39,333 [ 321132]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 143, column: 45, length: 30
+2025-08-27 15:59:39,337 [ 321136]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/core/link.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,337 [ 321136]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/current-user-avatar.tsx, line: 7, column: 14, length: 17
+2025-08-27 15:59:39,339 [ 321138]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/users-growth-chart.tsx, line: 78, column: 35, length: 12
+2025-08-27 15:59:39,339 [ 321138]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 220, column: 60, length: 10
+2025-08-27 15:59:39,339 [ 321138]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/forgot-password-form.tsx, line: 78, column: 31, length: 31
+2025-08-27 15:59:39,340 [ 321139]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 243, column: 9, length: 11
+2025-08-27 15:59:39,340 [ 321139]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 35, column: 18, length: 19
+2025-08-27 15:59:39,340 [ 321139]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 50, column: 29, length: 7
+2025-08-27 15:59:39,341 [ 321140]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 123, column: 29, length: 34
+2025-08-27 15:59:39,341 [ 321140]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 106, column: 39, length: 34
+2025-08-27 15:59:39,341 [ 321140]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer-column.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,341 [ 321140]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 31, column: 28, length: 22
+2025-08-27 15:59:39,342 [ 321141]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,342 [ 321141]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 204, column: 10, length: 12
+2025-08-27 15:59:39,342 [ 321141]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/drawer.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,342 [ 321141]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/results-table.tsx, line: 18, column: 17, length: 12
+2025-08-27 15:59:39,343 [ 321142]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/list.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,343 [ 321142]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 74, column: 5, length: 44
+2025-08-27 15:59:39,343 [ 321142]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 92, column: 43, length: 7
+2025-08-27 15:59:39,343 [ 321142]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/content.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,344 [ 321143]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-name.ts, line: 7, column: 13, length: 7
+2025-08-27 15:59:39,344 [ 321143]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/switch.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,345 [ 321144]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 112, column: 41, length: 34
+2025-08-27 15:59:39,345 [ 321144]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 93, column: 37, length: 15
+2025-08-27 15:59:39,345 [ 321144]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 149, column: 55, length: 13
+2025-08-27 15:59:39,345 [ 321144]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 36, column: 14, length: 11
+2025-08-27 15:59:39,346 [ 321145]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/index.ts, line: 15, column: 17, length: 13
+2025-08-27 15:59:39,346 [ 321145]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/calendar.tsx, line: 138, column: 9, length: 7
+2025-08-27 15:59:39,346 [ 321145]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 107, column: 10, length: 19
+2025-08-27 15:59:39,346 [ 321145]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-tables.ts, line: 20, column: 5, length: 7
+2025-08-27 15:59:39,347 [ 321146]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 145, column: 26, length: 37
+2025-08-27 15:59:39,347 [ 321146]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/results-table.tsx, line: 41, column: 24, length: 23
+2025-08-27 15:59:39,347 [ 321146]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer-text.tsx, line: 1, column: 1, length: 47
+2025-08-27 15:59:39,347 [ 321146]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sign-up-form.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,348 [ 321147]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-mobile.ts, line: 15, column: 12, length: 49
+2025-08-27 15:59:39,348 [ 321147]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/skeleton.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,348 [ 321147]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-run-query.ts, line: 40, column: 5, length: 7
+2025-08-27 15:59:39,348 [ 321147]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/server.ts, line: 1, column: 1, length: 50
+2025-08-27 15:59:39,349 [ 321148]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 100, column: 18, length: 16
+2025-08-27 15:59:39,349 [ 321148]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-presence-room.ts, line: 48, column: 12, length: 7
+2025-08-27 15:59:39,349 [ 321148]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/users.tsx, line: 27, column: 58, length: 38
+2025-08-27 15:59:39,349 [ 321148]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/select.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,350 [ 321149]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/users-growth-chart.tsx, line: 59, column: 30, length: 12
+2025-08-27 15:59:39,350 [ 321149]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/popover.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,350 [ 321149]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 97, column: 19, length: 7
+2025-08-27 15:59:39,350 [ 321149]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,351 [ 321150]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/table.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,351 [ 321150]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,352 [ 321151]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/menubar.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,355 [ 321154]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 93, column: 28, length: 21
+2025-08-27 15:59:39,356 [ 321155]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/logs.ts, line: 1, column: 13, length: 13
+2025-08-27 15:59:39,356 [ 321155]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 8, column: 11, length: 6
+2025-08-27 15:59:39,357 [ 321156]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-chat-scroll.tsx, line: 3, column: 17, length: 13
+2025-08-27 15:59:39,357 [ 321156]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 170, column: 7, length: 15
+2025-08-27 15:59:39,358 [ 321157]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 43, column: 39, length: 34
+2025-08-27 15:59:39,358 [ 321157]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 72, column: 7, length: 10
+2025-08-27 15:59:39,358 [ 321157]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/card.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,359 [ 321158]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 42, column: 9, length: 19
+2025-08-27 15:59:39,359 [ 321158]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 164, column: 37, length: 7
+2025-08-27 15:59:39,359 [ 321158]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-suggestions.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,359 [ 321158]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 53, column: 7, length: 78
+2025-08-27 15:59:39,360 [ 321159]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/tooltip.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,360 [ 321159]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 1, column: 1, length: 43
+2025-08-27 15:59:39,361 [ 321160]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/core/logo.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,361 [ 321160]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 37, column: 10, length: 14
+2025-08-27 15:59:39,362 [ 321161]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-avatar-stack.tsx, line: 7, column: 14, length: 19
+2025-08-27 15:59:39,363 [ 321162]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/types.ts, line: 1, column: 1, length: 23
+2025-08-27 15:59:39,363 [ 321162]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 73, column: 5, length: 25
+2025-08-27 15:59:39,363 [ 321162]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,364 [ 321163]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 218, column: 63, length: 17
+2025-08-27 15:59:39,364 [ 321163]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 84, column: 17, length: 50
+2025-08-27 15:59:39,364 [ 321163]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/input.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,364 [ 321163]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 396, column: 10, length: 17
+2025-08-27 15:59:39,365 [ 321164]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 91, column: 19, length: 7
+2025-08-27 15:59:39,365 [ 321164]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 25, column: 14, length: 13
+2025-08-27 15:59:39,365 [ 321164]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 98, column: 30, length: 7
+2025-08-27 15:59:39,366 [ 321165]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/alert.tsx, line: 11, column: 17, length: 5
+2025-08-27 15:59:39,366 [ 321165]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logout-button.tsx, line: 7, column: 17, length: 12
+2025-08-27 15:59:39,366 [ 321165]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/avatar-stack.tsx, line: 73, column: 32, length: 22
+2025-08-27 15:59:39,367 [ 321166]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 43, column: 12, length: 7
+2025-08-27 15:59:39,368 [ 321167]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 91, column: 47, length: 23
+2025-08-27 15:59:39,369 [ 321168]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 250, column: 25, length: 21
+2025-08-27 15:59:39,370 [ 321169]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/hover-card.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,370 [ 321169]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 104, column: 13, length: 7
+2025-08-27 15:59:39,370 [ 321169]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer-legal.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,371 [ 321170]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 113, column: 32, length: 13
+2025-08-27 15:59:39,371 [ 321170]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 32, column: 7, length: 16
+2025-08-27 15:59:39,371 [ 321170]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/radio-group.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,372 [ 321171]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 35, column: 10, length: 11
+2025-08-27 15:59:39,372 [ 321171]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 109, column: 12, length: 58
+2025-08-27 15:59:39,373 [ 321172]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 212, column: 62, length: 22
+2025-08-27 15:59:39,373 [ 321172]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/form.tsx, line: 107, column: 10, length: 11
+2025-08-27 15:59:39,373 [ 321172]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/alert.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,374 [ 321173]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 10, column: 14, length: 11
+2025-08-27 15:59:39,374 [ 321173]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 222, column: 10, length: 16
+2025-08-27 15:59:39,375 [ 321174]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 102, column: 12, length: 7
+2025-08-27 15:59:39,375 [ 321174]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 79, column: 5, length: 49
+2025-08-27 15:59:39,375 [ 321174]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,375 [ 321174]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-cursors.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,376 [ 321175]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 135, column: 10, length: 15
+2025-08-27 15:59:39,376 [ 321175]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 107, column: 37, length: 39
+2025-08-27 15:59:39,376 [ 321175]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-suggestions.ts, line: 46, column: 14, length: 17
+2025-08-27 15:59:39,376 [ 321175]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 220, column: 7, length: 18
+2025-08-27 15:59:39,377 [ 321176]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/current-user-avatar.tsx, line: 12, column: 11, length: 17
+2025-08-27 15:59:39,377 [ 321176]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 62, column: 37, length: 7
+2025-08-27 15:59:39,377 [ 321176]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/avatar-stack.tsx, line: 53, column: 25, length: 17
+2025-08-27 15:59:39,377 [ 321176]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 106, column: 5, length: 7
+2025-08-27 15:59:39,378 [ 321177]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/auth/login/page.tsx, line: 1, column: 1, length: 37
+2025-08-27 15:59:39,378 [ 321177]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 100, column: 5, length: 9
+2025-08-27 15:59:39,378 [ 321177]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 151, column: 33, length: 19
+2025-08-27 15:59:39,378 [ 321177]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 85, column: 13, length: 7
+2025-08-27 15:59:39,378 [ 321177]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 89, column: 8, length: 24
+2025-08-27 15:59:39,379 [ 321178]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-image.ts, line: 7, column: 13, length: 7
+2025-08-27 15:59:39,379 [ 321178]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 82, column: 5, length: 61
+2025-08-27 15:59:39,379 [ 321178]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/form.tsx, line: 76, column: 10, length: 8
+2025-08-27 15:59:39,379 [ 321178]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/form.tsx, line: 45, column: 7, length: 12
+2025-08-27 15:59:39,380 [ 321179]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/calendar.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,380 [ 321179]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/avatar.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,380 [ 321179]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,381 [ 321180]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/text.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,381 [ 321180]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 62, column: 19, length: 34
+2025-08-27 15:59:39,381 [ 321180]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-cursors.tsx, line: 8, column: 14, length: 15
+2025-08-27 15:59:39,381 [ 321180]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 42, column: 7, length: 19
+2025-08-27 15:59:39,381 [ 321180]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 85, column: 14, length: 11
+2025-08-27 15:59:39,382 [ 321181]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 142, column: 5, length: 8
+2025-08-27 15:59:39,382 [ 321181]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/management-api.ts, line: 1, column: 1, length: 40
+2025-08-27 15:59:39,382 [ 321181]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 17, column: 6, length: 11
+2025-08-27 15:59:39,382 [ 321181]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 47, column: 10, length: 10
+2025-08-27 15:59:39,383 [ 321182]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 49, column: 31, length: 7
+2025-08-27 15:59:39,383 [ 321182]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 47, column: 14, length: 34
+2025-08-27 15:59:39,383 [ 321182]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 70, column: 40, length: 7
+2025-08-27 15:59:39,383 [ 321182]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/pagination.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,384 [ 321183]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-suggestions.ts, line: 35, column: 63, length: 12
+2025-08-27 15:59:39,384 [ 321183]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 132, column: 30, length: 19
+2025-08-27 15:59:39,384 [ 321183]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-avatar-stack.tsx, line: 9, column: 27, length: 7
+2025-08-27 15:59:39,384 [ 321183]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/tooltip.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,385 [ 321184]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 80, column: 27, length: 7
+2025-08-27 15:59:39,385 [ 321184]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/slider.tsx, line: 8, column: 10, length: 6
+2025-08-27 15:59:39,386 [ 321185]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/input-otp.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,386 [ 321185]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 117, column: 5, length: 8
+2025-08-27 15:59:39,386 [ 321185]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/index.ts, line: 1, column: 1, length: 41
+2025-08-27 15:59:39,386 [ 321185]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/storage.tsx, line: 11, column: 17, length: 14
+2025-08-27 15:59:39,387 [ 321186]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/login-form.tsx, line: 19, column: 9, length: 17
+2025-08-27 15:59:39,387 [ 321186]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 186, column: 17, length: 11
+2025-08-27 15:59:39,387 [ 321186]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/context-menu.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,388 [ 321187]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/breadcrumb.tsx, line: 34, column: 10, length: 14
+2025-08-27 15:59:39,388 [ 321187]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-user-counts.ts, line: 40, column: 14, length: 21
+2025-08-27 15:59:39,388 [ 321187]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 27, column: 10, length: 8
+2025-08-27 15:59:39,388 [ 321187]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-storage.ts, line: 57, column: 14, length: 14
+2025-08-27 15:59:39,389 [ 321188]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-suggestions.ts, line: 39, column: 57, length: 12
+2025-08-27 15:59:39,389 [ 321188]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/checkbox.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,389 [ 321188]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 71, column: 29, length: 7
+2025-08-27 15:59:39,389 [ 321188]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 55, column: 7, length: 17
+2025-08-27 15:59:39,390 [ 321189]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 108, column: 23, length: 32
+2025-08-27 15:59:39,390 [ 321189]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 152, column: 13, length: 7
+2025-08-27 15:59:39,391 [ 321190]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/input-otp.tsx, line: 39, column: 10, length: 12
+2025-08-27 15:59:39,391 [ 321190]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/collapsible.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,391 [ 321190]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 33, column: 21, length: 57
+2025-08-27 15:59:39,392 [ 321191]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/calendar.tsx, line: 175, column: 10, length: 17
+2025-08-27 15:59:39,392 [ 321191]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/calendar.tsx, line: 184, column: 19, length: 7
+2025-08-27 15:59:39,392 [ 321191]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 282, column: 10, length: 11
+2025-08-27 15:59:39,393 [ 321192]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-name.ts, line: 1, column: 1, length: 43
+2025-08-27 15:59:39,393 [ 321192]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 156, column: 10, length: 12
+2025-08-27 15:59:39,393 [ 321192]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 175, column: 13, length: 7
+2025-08-27 15:59:39,393 [ 321192]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/sql.ts, line: 1, column: 1, length: 27
+2025-08-27 15:59:39,394 [ 321193]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 29, column: 38, length: 7
+2025-08-27 15:59:39,394 [ 321193]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-run-query.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,398 [ 321197]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 17, column: 5, length: 22
+2025-08-27 15:59:39,399 [ 321198]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 77, column: 5, length: 53
+2025-08-27 15:59:39,399 [ 321198]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 165, column: 30, length: 34
+2025-08-27 15:59:39,399 [ 321198]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-mobile.ts, line: 10, column: 11, length: 8
+2025-08-27 15:59:39,399 [ 321198]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/slider.tsx, line: 17, column: 5, length: 5
+2025-08-27 15:59:39,402 [ 321201]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 67, column: 5, length: 7
+2025-08-27 15:59:39,403 [ 321202]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 156, column: 13, length: 7
+2025-08-27 15:59:39,403 [ 321202]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/results-table.tsx, line: 44, column: 28, length: 13
+2025-08-27 15:59:39,404 [ 321203]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 172, column: 5, length: 39
+2025-08-27 15:59:39,404 [ 321203]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/login-form.tsx, line: 15, column: 17, length: 9
+2025-08-27 15:59:39,404 [ 321203]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 22, column: 14, length: 16
+2025-08-27 15:59:39,404 [ 321203]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sign-up-form.tsx, line: 74, column: 29, length: 31
+2025-08-27 15:59:39,405 [ 321204]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 89, column: 9, length: 6
+2025-08-27 15:59:39,405 [ 321204]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/label.tsx, line: 1, column: 1, length: 47
+2025-08-27 15:59:39,405 [ 321204]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-chat-scroll.tsx, line: 1, column: 1, length: 43
+2025-08-27 15:59:39,406 [ 321205]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 262, column: 17, length: 15
+2025-08-27 15:59:39,406 [ 321205]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-logs.ts, line: 49, column: 5, length: 7
+2025-08-27 15:59:39,406 [ 321205]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/slider.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,406 [ 321205]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 117, column: 36, length: 45
+2025-08-27 15:59:39,406 [ 321205]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 77, column: 7, length: 14
+2025-08-27 15:59:39,407 [ 321206]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 45, column: 10, length: 8
+2025-08-27 15:59:39,407 [ 321206]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 27, column: 6, length: 9
+2025-08-27 15:59:39,407 [ 321206]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 32, column: 14, length: 25
+2025-08-27 15:59:39,407 [ 321206]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,408 [ 321207]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer-nav.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,408 [ 321207]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 68, column: 7, length: 15
+2025-08-27 15:59:39,409 [ 321208]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 137, column: 12, length: 7
+2025-08-27 15:59:39,409 [ 321208]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 20, column: 17, length: 23
+2025-08-27 15:59:39,409 [ 321208]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 45, column: 29, length: 20
+2025-08-27 15:59:39,410 [ 321209]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 1, column: 1, length: 43
+2025-08-27 15:59:39,410 [ 321209]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 56, column: 5, length: 42
+2025-08-27 15:59:39,411 [ 321210]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/alert.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,411 [ 321210]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 222, column: 45, length: 7
+2025-08-27 15:59:39,411 [ 321210]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/update-password-form.tsx, line: 60, column: 29, length: 34
+2025-08-27 15:59:39,412 [ 321211]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 72, column: 10, length: 11
+2025-08-27 15:59:39,412 [ 321211]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 140, column: 26, length: 8
+2025-08-27 15:59:39,412 [ 321211]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/form.tsx, line: 138, column: 10, length: 11
+2025-08-27 15:59:39,413 [ 321212]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/schemas/auth.ts, line: 1, column: 1, length: 23
+2025-08-27 15:59:39,413 [ 321212]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 147, column: 33, length: 14
+2025-08-27 15:59:39,413 [ 321212]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-mobile.ts, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,414 [ 321213]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/avatar-stack.tsx, line: 1, column: 1, length: 32
+2025-08-27 15:59:39,414 [ 321213]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 114, column: 20, length: 11
+2025-08-27 15:59:39,414 [ 321213]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,414 [ 321213]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-run-query.ts, line: 37, column: 14, length: 11
+2025-08-27 15:59:39,414 [ 321213]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 122, column: 29, length: 39
+2025-08-27 15:59:39,414 [ 321213]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/pg-meta.ts, line: 1, column: 14, length: 13
+2025-08-27 15:59:39,415 [ 321214]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/core/logo.tsx, line: 11, column: 17, length: 4
+2025-08-27 15:59:39,415 [ 321214]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/results-table.tsx, line: 30, column: 26, length: 13
+2025-08-27 15:59:39,415 [ 321214]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 57, column: 14, length: 16
+2025-08-27 15:59:39,415 [ 321214]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 548, column: 10, length: 17
+2025-08-27 15:59:39,415 [ 321214]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 35, column: 27, length: 7
+2025-08-27 15:59:39,415 [ 321214]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/command.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,415 [ 321214]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/calendar.tsx, line: 14, column: 10, length: 8
+2025-08-27 15:59:39,416 [ 321215]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/toggle.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,416 [ 321215]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 93, column: 64, length: 15
+2025-08-27 15:59:39,416 [ 321215]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,416 [ 321215]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-chat-scroll.tsx, line: 6, column: 38, length: 7
+2025-08-27 15:59:39,416 [ 321215]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 669, column: 10, length: 20
+2025-08-27 15:59:39,416 [ 321215]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 49, column: 5, length: 28
+2025-08-27 15:59:39,417 [ 321216]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/login-form.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,417 [ 321216]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-presence-room.ts, line: 37, column: 18, length: 19
+2025-08-27 15:59:39,417 [ 321216]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 256, column: 10, length: 14
+2025-08-27 15:59:39,417 [ 321216]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logo-supabase.tsx, line: 1, column: 1, length: 95
+2025-08-27 15:59:39,417 [ 321216]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/server.ts, line: 8, column: 23, length: 12
+2025-08-27 15:59:39,417 [ 321216]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-presence-room.ts, line: 16, column: 14, length: 23
+2025-08-27 15:59:39,417 [ 321216]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 41, column: 9, length: 22
+2025-08-27 15:59:39,418 [ 321217]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-cursors.tsx, line: 13, column: 33, length: 9
+2025-08-27 15:59:39,418 [ 321217]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 74, column: 7, length: 13
+2025-08-27 15:59:39,418 [ 321217]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 158, column: 13, length: 7
+2025-08-27 15:59:39,418 [ 321217]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 602, column: 10, length: 19
+2025-08-27 15:59:39,418 [ 321217]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/suggestions.tsx, line: 64, column: 38, length: 139
+2025-08-27 15:59:39,419 [ 321218]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/branding/brand-utils.ts, line: 29, column: 3, length: 9
+2025-08-27 15:59:39,419 [ 321218]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,419 [ 321218]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 146, column: 13, length: 7
+2025-08-27 15:59:39,420 [ 321219]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 93, column: 9, length: 8
+2025-08-27 15:59:39,420 [ 321219]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/chat-message.tsx, line: 1, column: 1, length: 32
+2025-08-27 15:59:39,421 [ 321220]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 498, column: 10, length: 17
+2025-08-27 15:59:39,422 [ 321221]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 166, column: 44, length: 34
+2025-08-27 15:59:39,423 [ 321222]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/suggestions.tsx, line: 13, column: 17, length: 18
+2025-08-27 15:59:39,424 [ 321223]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/nav-link.tsx, line: 1, column: 1, length: 25
+2025-08-27 15:59:39,425 [ 321224]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-image.ts, line: 4, column: 14, length: 19
+2025-08-27 15:59:39,428 [ 321227]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 25, column: 5, length: 7
+2025-08-27 15:59:39,429 [ 321228]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/actions.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,429 [ 321228]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sidebar.tsx, line: 270, column: 16, length: 12
+2025-08-27 15:59:39,429 [ 321228]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logs.tsx, line: 104, column: 17, length: 11
+2025-08-27 15:59:39,430 [ 321229]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-run-query.ts, line: 9, column: 14, length: 8
+2025-08-27 15:59:39,431 [ 321230]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sheet.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,431 [ 321230]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/secrets.tsx, line: 56, column: 9, length: 18
+2025-08-27 15:59:39,431 [ 321230]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/storage.tsx, line: 39, column: 24, length: 100
+2025-08-27 15:59:39,431 [ 321230]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 54, column: 14, length: 19
+2025-08-27 15:59:39,432 [ 321231]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/avatar-stack.tsx, line: 45, column: 25, length: 29
+2025-08-27 15:59:39,432 [ 321231]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 64, column: 38, length: 23
+2025-08-27 15:59:39,432 [ 321231]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 182, column: 22, length: 18
+2025-08-27 15:59:39,432 [ 321231]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/results-table.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,432 [ 321231]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 101, column: 39, length: 27
+2025-08-27 15:59:39,432 [ 321231]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/footer-legal-links.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,432 [ 321231]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 53, column: 58, length: 26
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 117, column: 9, length: 73
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/logout-button.tsx, line: 10, column: 9, length: 6
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 109, column: 47, length: 44
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/sonner.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 164, column: 34, length: 11
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/form.tsx, line: 125, column: 10, length: 15
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/calendar.tsx, line: 39, column: 9, length: 19
+2025-08-27 15:59:39,433 [ 321232]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/update-password-form.tsx, line: 18, column: 17, length: 18
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sign-up-form.tsx, line: 98, column: 29, length: 40
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sign-up-form.tsx, line: 19, column: 17, length: 10
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 218, column: 58, length: 29
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 74, column: 40, length: 7
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/form.tsx, line: 90, column: 10, length: 9
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/chart.tsx, line: 86, column: 13, length: 22
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 57, column: 7, length: 13
+2025-08-27 15:59:39,434 [ 321233]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 174, column: 10, length: 16
+2025-08-27 15:59:39,435 [ 321234]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-cursors.ts, line: 61, column: 14, length: 18
+2025-08-27 15:59:39,435 [ 321234]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-presence-room.ts, line: 26, column: 42, length: 7
+2025-08-27 15:59:39,435 [ 321234]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 96, column: 30, length: 30
+2025-08-27 15:59:39,435 [ 321234]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 35, column: 7, length: 13
+2025-08-27 15:59:39,435 [ 321234]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-presence-room.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,435 [ 321234]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,435 [ 321234]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-tables.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,436 [ 321235]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-name.ts, line: 8, column: 11, length: 16
+2025-08-27 15:59:39,436 [ 321235]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 53, column: 17, length: 9
+2025-08-27 15:59:39,436 [ 321235]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-presence-room.ts, line: 22, column: 13, length: 7
+2025-08-27 15:59:39,436 [ 321235]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/database.tsx, line: 124, column: 5, length: 40
+2025-08-27 15:59:39,436 [ 321235]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 127, column: 36, length: 11
+2025-08-27 15:59:39,436 [ 321235]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 53, column: 9, length: 24
+2025-08-27 15:59:39,436 [ 321235]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/index.ts, line: 31, column: 55, length: 15
+2025-08-27 15:59:39,437 [ 321236]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/form.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,437 [ 321236]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/update-password-form.tsx, line: 24, column: 9, length: 20
+2025-08-27 15:59:39,437 [ 321236]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/textarea.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,437 [ 321236]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 61, column: 13, length: 7
+2025-08-27 15:59:39,437 [ 321236]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:contexts/SheetNavigationContext.tsx, line: 63, column: 17, length: 18
+2025-08-27 15:59:39,437 [ 321236]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/header.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,437 [ 321236]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 91, column: 9, length: 29
+2025-08-27 15:59:39,438 [ 321237]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-secrets.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,438 [ 321237]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-image.ts, line: 1, column: 1, length: 43
+2025-08-27 15:59:39,438 [ 321237]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/logs.ts, line: 1, column: 1, length: 27
+2025-08-27 15:59:39,438 [ 321237]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/suggestions.tsx, line: 19, column: 34, length: 49
+2025-08-27 15:59:39,438 [ 321237]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/card.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,438 [ 321237]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/tabs.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,438 [ 321237]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/client.ts, line: 1, column: 1, length: 51
+2025-08-27 15:59:39,439 [ 321238]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-storage.ts, line: 60, column: 5, length: 7
+2025-08-27 15:59:39,439 [ 321238]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:lib/server.ts, line: 19, column: 9, length: 6
+2025-08-27 15:59:39,440 [ 321239]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/navigation-menu.tsx, line: 1, column: 1, length: 30
+2025-08-27 15:59:39,440 [ 321239]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-auth.ts, line: 58, column: 5, length: 9
+2025-08-27 15:59:39,440 [ 321239]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/users.tsx, line: 14, column: 17, length: 12
+2025-08-27 15:59:39,441 [ 321240]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 28, column: 13, length: 7
+2025-08-27 15:59:39,441 [ 321240]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/accordion.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,441 [ 321240]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-current-user-image.ts, line: 8, column: 11, length: 14
+2025-08-27 15:59:39,441 [ 321240]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-infinite-query.ts, line: 135, column: 9, length: 10
+2025-08-27 15:59:39,442 [ 321241]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 67, column: 13, length: 7
+2025-08-27 15:59:39,442 [ 321241]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 128, column: 25, length: 17
+2025-08-27 15:59:39,442 [ 321241]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sign-up-form.tsx, line: 86, column: 29, length: 34
+2025-08-27 15:59:39,442 [ 321241]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-realtime-chat.tsx, line: 22, column: 17, length: 15
+2025-08-27 15:59:39,442 [ 321241]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 30, column: 14, length: 12
+2025-08-27 15:59:39,442 [ 321241]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/storage.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,443 [ 321242]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/label.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,443 [ 321242]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 52, column: 7, length: 9
+2025-08-27 15:59:39,444 [ 321243]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-supabase-upload.ts, line: 118, column: 40, length: 13
+2025-08-27 15:59:39,444 [ 321243]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dynamic-form.tsx, line: 99, column: 17, length: 11
+2025-08-27 15:59:39,445 [ 321244]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/carousel.tsx, line: 96, column: 19, length: 7
+2025-08-27 15:59:39,446 [ 321245]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/suggestions.tsx, line: 16, column: 37, length: 7
+2025-08-27 15:59:39,447 [ 321246]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/dropzone.tsx, line: 185, column: 7, length: 18
+2025-08-27 15:59:39,447 [ 321246]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/resizable.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,448 [ 321247]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/ui/alert-dialog.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,448 [ 321247]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/index.tsx, line: 219, column: 24, length: 45
+2025-08-27 15:59:39,450 [ 321249]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/auth.tsx, line: 94, column: 17, length: 11
+2025-08-27 15:59:39,451 [ 321250]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/sql-editor.tsx, line: 130, column: 38, length: 7
+2025-08-27 15:59:39,451 [ 321250]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/users.tsx, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,455 [ 321254]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-chat.tsx, line: 121, column: 21, length: 36
+2025-08-27 15:59:39,456 [ 321255]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:components/realtime-avatar-stack.tsx, line: 10, column: 40, length: 12
+2025-08-27 15:59:39,457 [ 321256]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/ui/input.tsx, line: 1, column: 1, length: 47
+2025-08-27 15:59:39,458 [ 321257]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:app/components/layout/nav.tsx, line: 1, column: 1, length: 33
+2025-08-27 15:59:39,459 [ 321258]   INFO - STDERR - Duplicates of problems was found. inspectionId: JsCoverageInspection, file:hooks/use-logs.ts, line: 1, column: 1, length: 12
+2025-08-27 15:59:39,459 [ 321258]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Running Dependency Analysis project describer
+2025-08-27 15:59:39,459 [ 321258]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/thirdPartySoftwareList.csv
+2025-08-27 15:59:39,460 [ 321259]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/thirdPartySoftwareList.xml
+2025-08-27 15:59:39,460 [ 321259]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/thirdPartySoftwareList.html
+2025-08-27 15:59:39,460 [ 321259]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/qodana.spdx.json
+2025-08-27 15:59:39,460 [ 321259]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/thirdPartySoftwareList.md
+2025-08-27 15:59:39,461 [ 321260]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/licenseRules.json
+2025-08-27 15:59:39,461 [ 321260]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/projectMetadata.json
+2025-08-27 15:59:39,461 [ 321260]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/third-party-libraries.json
+2025-08-27 15:59:39,461 [ 321260]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/thirdPartySoftwareList.json
+2025-08-27 15:59:39,461 [ 321260]   INFO - #c.i.d.c.m.DependencyAnalysisDescriber - Writing file: C:/Program Files/Git/data/project/.qodana/projectStructure/licenseDict.json
+2025-08-27 15:59:39,495 [ 321294]   INFO - #o.j.q.s.s.n.RuntimeNotificationCollector$NotificationReportContributor - No tool errors to report to sarif file
+2025-08-27 15:59:39,835 [ 321634]   INFO - #o.j.q.s.i.r.ExitStatus - Invocation already has an exit code, not updating
+2025-08-27 15:59:40,038 [ 321837] SEVERE - #o.j.q.s.i.r.QodanaInspectionApplication - [SQLITE_ERROR] SQL error or missing database (no such table: results)
+org.jetbrains.sqlite.SqliteException: [SQLITE_ERROR] SQL error or missing database (no such table: results)
+	at org.jetbrains.sqlite.SqliteDbKt.newException(SqliteDb.kt:268)
+	at org.jetbrains.sqlite.SqliteDbKt.newException$default(SqliteDb.kt:257)
+	at org.jetbrains.sqlite.SqliteDb.throwex(SqliteDb.kt:223)
+	at org.jetbrains.sqlite.NativeDB.prepare_utf8(Native Method)
+	at org.jetbrains.sqlite.SqlitePreparedStatement.<init>(SqlitePreparedStatement.kt:18)
+	at org.jetbrains.sqlite.SqliteConnection.prepareStatement(SqliteConnection.kt:109)
+	at org.jetbrains.sqlite.SqliteConnection.prepareStatement(SqliteConnection.kt:105)
+	at org.jetbrains.qodana.staticAnalysis.inspections.runner.QodanaToolResultDatabase.select(tool-result-database.kt:109)
+	at org.jetbrains.qodana.staticAnalysis.sarif.Result_database_flowKt$uniqueResultsFlow$1.invokeSuspend(result-database-flow.kt:37)
+	at org.jetbrains.qodana.staticAnalysis.sarif.Result_database_flowKt$uniqueResultsFlow$1.invoke(result-database-flow.kt)
+	at org.jetbrains.qodana.staticAnalysis.sarif.Result_database_flowKt$uniqueResultsFlow$1.invoke(result-database-flow.kt)
+	at kotlinx.coroutines.flow.SafeFlow.collectSafely(Builders.kt:57)
+	at kotlinx.coroutines.flow.AbstractFlow.collect(Flow.kt:226)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperatorImpl.flowCollect(ChannelFlow.kt:191)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:153)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1183)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+2025-08-27 15:59:40,039 [ 321838] SEVERE - #o.j.q.s.i.r.QodanaInspectionApplication - Qodana for JS 2025.2 RC  Build #QDJS-252.25440
+2025-08-27 15:59:40,039 [ 321838] SEVERE - #o.j.q.s.i.r.QodanaInspectionApplication - JDK: 21.0.8; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2025-08-27 15:59:40,040 [ 321839] SEVERE - #o.j.q.s.i.r.QodanaInspectionApplication - OS: Linux
+2025-08-27 15:59:40,040 [ 321839] SEVERE - #o.j.q.s.i.r.QodanaInspectionApplication - Last Action: 
+2025-08-27 15:59:40,040 [ 321839]   INFO - #o.j.q.s.i.r.QodanaInspectionApplication - sessionId: 25082715-dccb9bd9f973
+2025-08-27 15:59:40,139 [ 321938]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=project, containerState=COMPONENT_CREATED, componentStore=/data/project)ProjectDependenciesModelState took 19 ms
+2025-08-27 15:59:40,208 [ 322007]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 0. Index: 0 Path: /data/cache/idea/252/index/dirty-file-queues/15375f63
+2025-08-27 15:59:40,217 [ 322016]   INFO - #c.i.p.p.ProjectEntitiesStorage - Project ProjectId(id=dsan8f0l1am688a2fpb8) is disposed, removing entity
+2025-08-27 15:59:40,230 [ 322029]   INFO - #c.i.c.e.GlobalInspectionContextBase - Cancelling inspection progress
+2025-08-27 15:59:40,280 [ 322079]   WARN - #o.j.q.s.i.r.QodanaInspectionApplication - Suppressed a frequent exception logged for the 2nd time: [SQLITE_ERROR] SQL error or missing database (no such table: results)
+2025-08-27 15:59:40,281 [ 322080]   INFO - STDERR - org.jetbrains.sqlite.SqliteException: [SQLITE_ERROR] SQL error or missing database (no such table: results)
+2025-08-27 15:59:40,281 [ 322080]   INFO - STDERR - 	at org.jetbrains.sqlite.SqliteDbKt.newException(SqliteDb.kt:268)
+2025-08-27 15:59:40,283 [ 322082]   INFO - STDERR - 	at org.jetbrains.sqlite.SqliteDbKt.newException$default(SqliteDb.kt:257)
+2025-08-27 15:59:40,284 [ 322083]   INFO - STDERR - 	at org.jetbrains.sqlite.SqliteDb.throwex(SqliteDb.kt:223)
+2025-08-27 15:59:40,284 [ 322083]   INFO - STDERR - 	at org.jetbrains.sqlite.NativeDB.prepare_utf8(Native Method)
+2025-08-27 15:59:40,286 [ 322085]   INFO - STDERR - 	at org.jetbrains.sqlite.SqlitePreparedStatement.<init>(SqlitePreparedStatement.kt:18)
+2025-08-27 15:59:40,286 [ 322085]   INFO - STDERR - 	at org.jetbrains.sqlite.SqliteConnection.prepareStatement(SqliteConnection.kt:109)
+2025-08-27 15:59:40,286 [ 322085]   INFO - STDERR - 	at org.jetbrains.sqlite.SqliteConnection.prepareStatement(SqliteConnection.kt:105)
+2025-08-27 15:59:40,287 [ 322086]   INFO - STDERR - 	at org.jetbrains.qodana.staticAnalysis.inspections.runner.QodanaToolResultDatabase.select(tool-result-database.kt:109)
+2025-08-27 15:59:40,287 [ 322086]   INFO - STDERR - 	at org.jetbrains.qodana.staticAnalysis.sarif.Result_database_flowKt$uniqueResultsFlow$1.invokeSuspend(result-database-flow.kt:37)
+2025-08-27 15:59:40,289 [ 322088]   INFO - STDERR - 	at org.jetbrains.qodana.staticAnalysis.sarif.Result_database_flowKt$uniqueResultsFlow$1.invoke(result-database-flow.kt)
+2025-08-27 15:59:40,290 [ 322089]   INFO - STDERR - 	at org.jetbrains.qodana.staticAnalysis.sarif.Result_database_flowKt$uniqueResultsFlow$1.invoke(result-database-flow.kt)
+2025-08-27 15:59:40,290 [ 322089]   INFO - STDERR - 	at kotlinx.coroutines.flow.SafeFlow.collectSafely(Builders.kt:57)
+2025-08-27 15:59:40,290 [ 322089]   INFO - STDERR - 	at kotlinx.coroutines.flow.AbstractFlow.collect(Flow.kt:226)
+2025-08-27 15:59:40,290 [ 322089]   INFO - STDERR - 	at kotlinx.coroutines.flow.internal.ChannelFlowOperatorImpl.flowCollect(ChannelFlow.kt:191)
+2025-08-27 15:59:40,292 [ 322091]   INFO - STDERR - 	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:153)
+2025-08-27 15:59:40,295 [ 322094]   INFO - STDERR - 	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+2025-08-27 15:59:40,296 [ 322095]   INFO - STDERR - 	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:56)
+2025-08-27 15:59:40,296 [ 322095]   INFO - STDERR - 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+2025-08-27 15:59:40,297 [ 322096]   INFO - STDERR - 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+2025-08-27 15:59:40,297 [ 322096]   INFO - STDERR - 	at kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+2025-08-27 15:59:40,297 [ 322096]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+2025-08-27 15:59:40,297 [ 322096]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+2025-08-27 15:59:40,297 [ 322096]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1183)
+2025-08-27 15:59:40,298 [ 322097]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+2025-08-27 15:59:40,298 [ 322097]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+2025-08-27 15:59:40,298 [ 322097]   INFO - STDERR - 
+2025-08-27 15:59:40,298 [ 322097]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2025-08-27 15:59:40,298 [ 322097]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 74. Index: 74 Path: /data/cache/idea/252/index/dirty-file-ids
+2025-08-27 15:59:40,304 [ 322103]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2025-08-27 15:59:40,305 [ 322104]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /data/cache/idea/252/index/rep.names
+2025-08-27 15:59:40,306 [ 322105]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /data/cache/idea/252/index/rep.names
+2025-08-27 15:59:40,310 [ 322109]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 27ms.
+2025-08-27 15:59:40,311 [ 322110]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2025-08-27 15:59:40,311 [ 322110]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2025-08-27 15:59:40,313 [ 322112]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 2 ms.
+2025-08-27 15:59:40,345 [ 322144]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
