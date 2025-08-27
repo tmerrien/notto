@@ -1,9 +1,8 @@
 version: '1.0'
-linter: 'jetbrains/qodana-js:2025.1'
 profile:
   name: qodana.recommended
 bootstrap: |-
-  npm install -g pnpm
+  npm install -g pnpm --unsafe-perm=true --allow-root
   pnpm install --frozen-lockfile
   mkdir -p .qodana/code-coverage
   test -f coverage/lcov.info && cp coverage/lcov.info .qodana/code-coverage/ || echo "No coverage/lcov.info found"
@@ -20,7 +19,8 @@ include:
 exclude:
   - name: NodeRequiredDependencies
   - name: NpmUsedModulesInstalled
-  - paths:
+  - name: All
+    paths:
       - .next
       - node_modules
       - out
@@ -29,3 +29,5 @@ exclude:
       - .qodana
       - lcov-report
       - coverage
+      - '**/*.html'
+      - '**/*.min.js'
