@@ -1,7 +1,7 @@
 {
   "pageCacheStats" : {
     "cachedChannelsStatistics" : {
-      "hit" : 322,
+      "hit" : 319,
       "miss" : 0,
       "load" : 128,
       "capacity" : 400
@@ -11,12 +11,12 @@
     "maxCacheSizeInBytes" : 516947968,
     "totalCachedSizeInBytes" : 516947968,
     "pageHits" : 0,
-    "pageFastCacheHits" : 354604,
+    "pageFastCacheHits" : 357060,
     "pageLoadsAboveSizeThreshold" : 0,
     "regularPageLoads" : 496,
     "disposedBuffers" : 3,
-    "totalPageDisposalUs" : 2003,
-    "totalPageLoadUs" : 1180103,
+    "totalPageDisposalUs" : 13381,
+    "totalPageLoadUs" : 4294249,
     "totalPagesLoaded" : 496,
     "capacityInBytes" : 629145600
   },
@@ -68,78 +68,53 @@
           }
         }
       },
-      "Css.attr" : {
+      "Css.ampersand.selector" : {
         "statsPerPhm" : {
-          "Css.attr.storage" : {
+          "Css.ampersand.selector.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 13,
-              "dataFileSizeInBytes" : 134,
-              "storageSizeInBytes" : 232,
+              "values" : 0,
+              "dataFileSizeInBytes" : -1,
+              "storageSizeInBytes" : 96,
               "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 13,
-                "height" : 1,
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 25,
+                "searchRequests" : 0,
                 "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          }
+        }
+      },
+      "Css.class" : {
+        "statsPerPhm" : {
+          "Css.class.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 1907,
+              "dataFileSizeInBytes" : 35166,
+              "storageSizeInBytes" : 15408,
+              "btreeStatistics" : {
+                "pages" : 1,
+                "elements" : 1907,
+                "height" : 1,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 7,
+                "searchRequests" : 3813,
+                "searchSteps" : 1358,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 120
-          }
-        }
-      },
-      "Css.custom.mixin" : {
-        "statsPerPhm" : {
-          "Css.custom.mixin.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
-          }
-        }
-      },
-      "Css.custom.property" : {
-        "statsPerPhm" : {
-          "Css.custom.property.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
+            "valueStorageSizeInBytes" : 12361
           }
         }
       },
@@ -164,7 +139,7 @@
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 4957
+            "valueStorageSizeInBytes" : 5011
           },
           "CssIndex_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -174,18 +149,18 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 28,
+                "elements" : 36,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 722,
+                "searchRequests" : 746,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 9377
+            "valueStorageSizeInBytes" : 10033
           }
         }
       },
@@ -337,9 +312,9 @@
                 "height" : 2,
                 "moves" : 0,
                 "leafPages" : 2,
-                "maxSearchStepsInRequest" : 38,
-                "searchRequests" : 16542,
-                "searchSteps" : 16160,
+                "maxSearchStepsInRequest" : 47,
+                "searchRequests" : 16538,
+                "searchSteps" : 16312,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 98304
               }
@@ -384,13 +359,13 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 63,
+                "searchRequests" : 54,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 2177
+            "valueStorageSizeInBytes" : 2180
           },
           "HtmlScriptSrcIndex_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -405,7 +380,7 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 1916,
+                "searchRequests" : 1918,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
@@ -436,7 +411,7 @@
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 4301
+            "valueStorageSizeInBytes" : 4579
           },
           "HtmlTagIdIndex_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -446,18 +421,18 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 652,
+                "elements" : 660,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 1959,
+                "searchRequests" : 1983,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 28878
+            "valueStorageSizeInBytes" : 31718
           }
         }
       },
@@ -476,7 +451,7 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 61,
+                "searchRequests" : 60,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
@@ -491,19 +466,19 @@
               "dataFileSizeInBytes" : -1,
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
-                "pages" : 31,
-                "elements" : 71013,
+                "pages" : 29,
+                "elements" : 73030,
                 "height" : 2,
-                "moves" : 207,
-                "leafPages" : 30,
-                "maxSearchStepsInRequest" : 71,
-                "searchRequests" : 254422,
-                "searchSteps" : 401056,
+                "moves" : 187,
+                "leafPages" : 28,
+                "maxSearchStepsInRequest" : 63,
+                "searchRequests" : 251877,
+                "searchSteps" : 404430,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 1015808
+                "sizeInBytes" : 950272
               }
             },
-            "valueStorageSizeInBytes" : 1302183
+            "valueStorageSizeInBytes" : 1345958
           },
           "IdIndex_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -513,43 +488,68 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 1214,
+                "elements" : 1243,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 3780,
+                "searchRequests" : 3869,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 1531049
+            "valueStorageSizeInBytes" : 1600229
           }
         }
       },
-      "JS.framework.markers.index" : {
+      "JS.class.implements" : {
         "statsPerPhm" : {
-          "JS.framework.markers.index.storage" : {
+          "JS.class.implements.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 1,
-              "dataFileSizeInBytes" : 20,
-              "storageSizeInBytes" : 136,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          }
+        }
+      },
+      "JS.class.super" : {
+        "statsPerPhm" : {
+          "JS.class.super.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 5,
+              "dataFileSizeInBytes" : 73,
+              "storageSizeInBytes" : 168,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 1,
+                "elements" : 5,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 247,
+                "searchRequests" : 9,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 54
+            "valueStorageSizeInBytes" : 74
           }
         }
       },
@@ -785,7 +785,7 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 27,
+                "searchRequests" : 25,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
@@ -801,18 +801,18 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 854,
+                "elements" : 862,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 3203,
+                "searchRequests" : 3137,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 1176198
+            "valueStorageSizeInBytes" : 1193286
           },
           "amd.baseurl.index/amd.baseUrl.index.storage" : {
             "persistentEnumeratorStatistics" : {
@@ -877,7 +877,7 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "angular2.ivy.module.index/angular2.ivy.module.index.storage" : {
+          "angular2.ivy.pipe.index/angular2.ivy.pipe.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -898,7 +898,7 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "angular2.js.css.custom-property.index/angular2.js.css.custom-property.index.storage" : {
+          "angular2.metadata.classname.index/angular2.metadata.className.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -919,7 +919,7 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "angular2.metadata.directive.index/angular2.metadata.directive.index.storage" : {
+          "angular2.metadata.function.index/angular2.metadata.function.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -940,7 +940,7 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "angular2.metadata.pipe.index/angular2.metadata.pipe.index.storage" : {
+          "angular2.metadata.node.index/angular2.metadata.node.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -1003,6 +1003,27 @@
             },
             "valueStorageSizeInBytes" : 0
           },
+          "angular2.symbol.index/angular2.symbol.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          },
           "angular2.templateurl.index/angular2.templateUrl.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
@@ -1024,11 +1045,32 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "css.ampersand.selector/Css.ampersand.selector.storage" : {
+          "css.attr/Css.attr.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 13,
+              "dataFileSizeInBytes" : 134,
+              "storageSizeInBytes" : 232,
+              "btreeStatistics" : {
+                "pages" : 1,
+                "elements" : 13,
+                "height" : 1,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 25,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 32768
+              }
+            },
+            "valueStorageSizeInBytes" : 120
+          },
+          "css.custom.mixin/Css.custom.mixin.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
-              "dataFileSizeInBytes" : -1,
+              "dataFileSizeInBytes" : 0,
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 0,
@@ -1045,26 +1087,26 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "css.class/Css.class.storage" : {
+          "css.custom.property/Css.custom.property.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 1907,
-              "dataFileSizeInBytes" : 35166,
-              "storageSizeInBytes" : 15408,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
               "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 1907,
-                "height" : 1,
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
                 "moves" : 0,
                 "leafPages" : 1,
-                "maxSearchStepsInRequest" : 7,
-                "searchRequests" : 3813,
-                "searchSteps" : 1358,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
+                "sizeInBytes" : 0
               }
             },
-            "valueStorageSizeInBytes" : 12190
+            "valueStorageSizeInBytes" : 0
           },
           "css.custom.variable/Css.custom.variable.storage" : {
             "persistentEnumeratorStatistics" : {
@@ -1150,33 +1192,12 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "es6.side.effect.import.index/es6.side.effect.import.index.storage" : {
+          "es6.assignment.index/es6.assignment.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 2,
-              "dataFileSizeInBytes" : 44,
-              "storageSizeInBytes" : 144,
-              "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 2,
-                "height" : 1,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 3,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
-              }
-            },
-            "valueStorageSizeInBytes" : 58
-          },
-          "jade.mixin/jade.mixin.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
+              "values" : 1,
+              "dataFileSizeInBytes" : 1,
+              "storageSizeInBytes" : 136,
               "btreeStatistics" : {
                 "pages" : 0,
                 "elements" : 0,
@@ -1190,9 +1211,30 @@
                 "sizeInBytes" : 0
               }
             },
-            "valueStorageSizeInBytes" : 0
+            "valueStorageSizeInBytes" : 60
           },
-          "js.amd.modules/js.amd.modules.storage" : {
+          "es6.exported.index/es6.exported.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 407,
+              "dataFileSizeInBytes" : 5877,
+              "storageSizeInBytes" : 3384,
+              "btreeStatistics" : {
+                "pages" : 1,
+                "elements" : 407,
+                "height" : 1,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 1,
+                "searchRequests" : 813,
+                "searchSteps" : 50,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 32768
+              }
+            },
+            "valueStorageSizeInBytes" : 2409
+          },
+          "jade.mixin/jade.mixin.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -1234,48 +1276,6 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "js.class.implements/JS.class.implements.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
-          },
-          "js.class.super/JS.class.super.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 5,
-              "dataFileSizeInBytes" : 73,
-              "storageSizeInBytes" : 168,
-              "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 5,
-                "height" : 1,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 9,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
-              }
-            },
-            "valueStorageSizeInBytes" : 74
-          },
           "js.doc.modules/js.doc.modules.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
@@ -1310,8 +1310,8 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 3,
-                "searchRequests" : 2331,
-                "searchSteps" : 229,
+                "searchRequests" : 1944,
+                "searchSteps" : 189,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
@@ -1339,47 +1339,47 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "js.gcl.modules/js.gcl.modules.storage" : {
+          "js.exported.index/js.exported.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
+              "values" : 2,
+              "dataFileSizeInBytes" : 8,
+              "storageSizeInBytes" : 144,
               "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
+                "pages" : 1,
+                "elements" : 2,
+                "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
+                "searchRequests" : 3,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 0
+                "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 0
+            "valueStorageSizeInBytes" : 229
           },
-          "js.generics.index/js.generics.index.storage" : {
+          "js.framework.markers.index/JS.framework.markers.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
+              "values" : 1,
+              "dataFileSizeInBytes" : 20,
+              "storageSizeInBytes" : 136,
               "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
+                "pages" : 1,
+                "elements" : 1,
+                "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
+                "searchRequests" : 216,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 0
+                "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 0
+            "valueStorageSizeInBytes" : 54
           },
           "js.global.qualified.elements/JS.global.qualified.elements.storage" : {
             "persistentEnumeratorStatistics" : {
@@ -1394,34 +1394,13 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 520,
+                "searchRequests" : 331,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
             "valueStorageSizeInBytes" : 77
-          },
-          "js.global.symbol.index/js.global.symbol.index.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 529,
-              "dataFileSizeInBytes" : 7682,
-              "storageSizeInBytes" : 4368,
-              "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 529,
-                "height" : 1,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 3,
-                "searchRequests" : 6144,
-                "searchSteps" : 753,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
-              }
-            },
-            "valueStorageSizeInBytes" : 3035
           },
           "js.imported.bindings.index/js.imported.bindings.index.storage" : {
             "persistentEnumeratorStatistics" : {
@@ -1442,7 +1421,7 @@
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 2509
+            "valueStorageSizeInBytes" : 2511
           },
           "js.lazy.packages/js.lazy.packages.storage" : {
             "persistentEnumeratorStatistics" : {
@@ -1465,27 +1444,6 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "js.local.namespace.members.index/js.local.namespace.members.index.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 37,
-              "dataFileSizeInBytes" : 451,
-              "storageSizeInBytes" : 424,
-              "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 37,
-                "height" : 1,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 1,
-                "searchRequests" : 73,
-                "searchSteps" : 2,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
-              }
-            },
-            "valueStorageSizeInBytes" : 329
-          },
           "js.namespace.index/js.namespace.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
@@ -1499,34 +1457,34 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 8,
-                "searchRequests" : 3607,
+                "searchRequests" : 3603,
                 "searchSteps" : 1161,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 10157
+            "valueStorageSizeInBytes" : 10167
           },
-          "js.nonglobal.symbol.index/js.nonglobal.symbol.index.storage" : {
+          "js.qualified.shortname/js.qualified.shortName.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 1359,
-              "dataFileSizeInBytes" : 22419,
-              "storageSizeInBytes" : 11016,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
               "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 1359,
-                "height" : 1,
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
                 "moves" : 0,
                 "leafPages" : 1,
-                "maxSearchStepsInRequest" : 6,
-                "searchRequests" : 3354,
-                "searchSteps" : 966,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
+                "sizeInBytes" : 0
               }
             },
-            "valueStorageSizeInBytes" : 9766
+            "valueStorageSizeInBytes" : 0
           },
           "js.subclass.stub.index/JS.subclass.stub.index.storage" : {
             "persistentEnumeratorStatistics" : {
@@ -1549,26 +1507,26 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "js.symbol.index2/js.symbol.index2.storage" : {
+          "js.symbol.qualified.names.index/js.symbol.qualified.names.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 2072,
-              "dataFileSizeInBytes" : 33039,
-              "storageSizeInBytes" : 16736,
+              "values" : 0,
+              "dataFileSizeInBytes" : -1,
+              "storageSizeInBytes" : 96,
               "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 2072,
-                "height" : 1,
+                "pages" : 3,
+                "elements" : 6700,
+                "height" : 2,
                 "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 7,
-                "searchRequests" : 4151,
-                "searchSteps" : 1804,
+                "leafPages" : 2,
+                "maxSearchStepsInRequest" : 37,
+                "searchRequests" : 20580,
+                "searchSteps" : 38656,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
+                "sizeInBytes" : 98304
               }
             },
-            "valueStorageSizeInBytes" : 14210
+            "valueStorageSizeInBytes" : 37061
           },
           "js.typedef.index2/js.typedef.index2.storage" : {
             "persistentEnumeratorStatistics" : {
@@ -1613,6 +1571,27 @@
             "valueStorageSizeInBytes" : 0
           },
           "less.mixins/Less.mixins.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          },
+          "postcss.custom.media/postcss.custom.media.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -1696,27 +1675,6 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "sql.names/sql.names.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 85,
-              "dataFileSizeInBytes" : 1269,
-              "storageSizeInBytes" : 808,
-              "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 85,
-                "height" : 1,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 1,
-                "searchRequests" : 169,
-                "searchSteps" : 2,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 32768
-              }
-            },
-            "valueStorageSizeInBytes" : 535
-          },
           "ts.embedded.content.index/ts.embedded.content.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
@@ -1738,7 +1696,7 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "ts.external.module.name.index/ts.external.module.name.index.storage" : {
+          "ts.external.module.index/ts.external.module.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -1759,7 +1717,7 @@
             },
             "valueStorageSizeInBytes" : 0
           },
-          "ts.local.classes/ts.local.classes.storage" : {
+          "ts.external.module.name.index/ts.external.module.name.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -1802,6 +1760,27 @@
             "valueStorageSizeInBytes" : 0
           },
           "vue.composition.app.index/vue.composition.app.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          },
+          "vue.extends.binding.index/vue.extends.binding.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -1906,6 +1885,27 @@
             },
             "valueStorageSizeInBytes" : 0
           },
+          "vue.url.index/vue.url.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          },
           "vuex.store.index/vuex.store.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
@@ -1985,18 +1985,18 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 23,
-                "elements" : 49261,
+                "elements" : 49292,
                 "height" : 2,
-                "moves" : 88,
+                "moves" : 82,
                 "leafPages" : 22,
-                "maxSearchStepsInRequest" : 382,
-                "searchRequests" : 182064,
-                "searchSteps" : 438091,
+                "maxSearchStepsInRequest" : 381,
+                "searchRequests" : 181837,
+                "searchSteps" : 427000,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 753664
               }
             },
-            "valueStorageSizeInBytes" : 1333681
+            "valueStorageSizeInBytes" : 1368761
           },
           "Trigram.Index_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -2006,18 +2006,18 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 1227,
+                "elements" : 1256,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 3814,
+                "searchRequests" : 3903,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 1149363
+            "valueStorageSizeInBytes" : 1199151
           }
         }
       },
@@ -2297,9 +2297,34 @@
           }
         }
       },
-      "angular2.ivy.pipe.index" : {
+      "angular2.ivy.module.index" : {
         "statsPerPhm" : {
-          "angular2.ivy.pipe.index.storage" : {
+          "angular2.ivy.module.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          }
+        }
+      },
+      "angular2.js.css.custom-property.index" : {
+        "statsPerPhm" : {
+          "angular2.js.css.custom-property.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -2347,34 +2372,9 @@
           }
         }
       },
-      "angular2.metadata.className.index" : {
+      "angular2.metadata.directive.index" : {
         "statsPerPhm" : {
-          "angular2.metadata.className.index.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
-          }
-        }
-      },
-      "angular2.metadata.function.index" : {
-        "statsPerPhm" : {
-          "angular2.metadata.function.index.storage" : {
+          "angular2.metadata.directive.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -2422,9 +2422,9 @@
           }
         }
       },
-      "angular2.metadata.node.index" : {
+      "angular2.metadata.pipe.index" : {
         "statsPerPhm" : {
-          "angular2.metadata.node.index.storage" : {
+          "angular2.metadata.pipe.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -2472,31 +2472,6 @@
           }
         }
       },
-      "angular2.symbol.index" : {
-        "statsPerPhm" : {
-          "angular2.symbol.index.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
-          }
-        }
-      },
       "css.template.selectors" : {
         "statsPerPhm" : {
           "css.template.selectors.storage" : {
@@ -2518,7 +2493,7 @@
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 122268
+            "valueStorageSizeInBytes" : 123647
           },
           "css.template.selectors_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -2528,18 +2503,18 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 654,
+                "elements" : 662,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 1963,
+                "searchRequests" : 1987,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 545804
+            "valueStorageSizeInBytes" : 555404
           }
         }
       },
@@ -2589,53 +2564,28 @@
           }
         }
       },
-      "es6.assignment.index" : {
+      "es6.side.effect.import.index" : {
         "statsPerPhm" : {
-          "es6.assignment.index.storage" : {
+          "es6.side.effect.import.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 1,
-              "dataFileSizeInBytes" : 1,
-              "storageSizeInBytes" : 136,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 60
-          }
-        }
-      },
-      "es6.exported.index" : {
-        "statsPerPhm" : {
-          "es6.exported.index.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 407,
-              "dataFileSizeInBytes" : 5877,
-              "storageSizeInBytes" : 3384,
+              "values" : 2,
+              "dataFileSizeInBytes" : 44,
+              "storageSizeInBytes" : 144,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 407,
+                "elements" : 2,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
-                "maxSearchStepsInRequest" : 1,
-                "searchRequests" : 813,
-                "searchSteps" : 50,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 3,
+                "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 2408
+            "valueStorageSizeInBytes" : 58
           }
         }
       },
@@ -2681,7 +2631,7 @@
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 15363
+            "valueStorageSizeInBytes" : 15371
           },
           "fileIncludes_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -2696,7 +2646,7 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 3779,
+                "searchRequests" : 3753,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
@@ -2727,7 +2677,7 @@
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 428
+            "valueStorageSizeInBytes" : 437
           },
           "html5.custom.attributes.index_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -2737,18 +2687,18 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 74,
+                "elements" : 82,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 803,
+                "searchRequests" : 827,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 3350
+            "valueStorageSizeInBytes" : 3454
           }
         }
       },
@@ -2936,6 +2886,31 @@
           }
         }
       },
+      "js.amd.modules" : {
+        "statsPerPhm" : {
+          "js.amd.modules.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          }
+        }
+      },
       "js.class.index2" : {
         "statsPerPhm" : {
           "js.class.index2.storage" : {
@@ -3007,28 +2982,78 @@
           }
         }
       },
-      "js.exported.index" : {
+      "js.gcl.modules" : {
         "statsPerPhm" : {
-          "js.exported.index.storage" : {
+          "js.gcl.modules.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 2,
-              "dataFileSizeInBytes" : 8,
-              "storageSizeInBytes" : 144,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
               "btreeStatistics" : {
-                "pages" : 1,
-                "elements" : 2,
-                "height" : 1,
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 3,
+                "searchRequests" : 0,
                 "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          }
+        }
+      },
+      "js.generics.index" : {
+        "statsPerPhm" : {
+          "js.generics.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 0,
+              "dataFileSizeInBytes" : 0,
+              "storageSizeInBytes" : 96,
+              "btreeStatistics" : {
+                "pages" : 0,
+                "elements" : 0,
+                "height" : 0,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 0,
+                "searchRequests" : 0,
+                "searchSteps" : 0,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 0
+              }
+            },
+            "valueStorageSizeInBytes" : 0
+          }
+        }
+      },
+      "js.global.symbol.index" : {
+        "statsPerPhm" : {
+          "js.global.symbol.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 529,
+              "dataFileSizeInBytes" : 7682,
+              "storageSizeInBytes" : 4368,
+              "btreeStatistics" : {
+                "pages" : 1,
+                "elements" : 529,
+                "height" : 1,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 3,
+                "searchRequests" : 4412,
+                "searchSteps" : 557,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 228
+            "valueStorageSizeInBytes" : 3044
           }
         }
       },
@@ -3047,13 +3072,13 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 8,
-                "searchRequests" : 2650,
-                "searchSteps" : 486,
+                "searchRequests" : 2331,
+                "searchSteps" : 368,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 508823
+            "valueStorageSizeInBytes" : 508833
           },
           "js.implicit.elements.index_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -3068,13 +3093,63 @@
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 1916,
+                "searchRequests" : 1918,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
             "valueStorageSizeInBytes" : 2361538
+          }
+        }
+      },
+      "js.local.namespace.members.index" : {
+        "statsPerPhm" : {
+          "js.local.namespace.members.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 37,
+              "dataFileSizeInBytes" : 451,
+              "storageSizeInBytes" : 424,
+              "btreeStatistics" : {
+                "pages" : 1,
+                "elements" : 37,
+                "height" : 1,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 1,
+                "searchRequests" : 73,
+                "searchSteps" : 2,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 32768
+              }
+            },
+            "valueStorageSizeInBytes" : 329
+          }
+        }
+      },
+      "js.nonglobal.symbol.index" : {
+        "statsPerPhm" : {
+          "js.nonglobal.symbol.index.storage" : {
+            "persistentEnumeratorStatistics" : {
+              "collisions" : 0,
+              "values" : 1359,
+              "dataFileSizeInBytes" : 22419,
+              "storageSizeInBytes" : 11016,
+              "btreeStatistics" : {
+                "pages" : 1,
+                "elements" : 1359,
+                "height" : 1,
+                "moves" : 0,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 6,
+                "searchRequests" : 3232,
+                "searchSteps" : 916,
+                "pageCapacity" : 32768,
+                "sizeInBytes" : 32768
+              }
+            },
+            "valueStorageSizeInBytes" : 9769
           }
         }
       },
@@ -3106,31 +3181,6 @@
               "collisions" : 0,
               "values" : 0,
               "dataFileSizeInBytes" : -1,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
-          }
-        }
-      },
-      "js.qualified.shortName" : {
-        "statsPerPhm" : {
-          "js.qualified.shortName.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 0,
@@ -3195,28 +3245,28 @@
           }
         }
       },
-      "js.symbol.qualified.names.index" : {
+      "js.symbol.index2" : {
         "statsPerPhm" : {
-          "js.symbol.qualified.names.index.storage" : {
+          "js.symbol.index2.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : -1,
-              "storageSizeInBytes" : 96,
+              "values" : 2072,
+              "dataFileSizeInBytes" : 33039,
+              "storageSizeInBytes" : 16736,
               "btreeStatistics" : {
-                "pages" : 3,
-                "elements" : 6700,
-                "height" : 2,
+                "pages" : 1,
+                "elements" : 2072,
+                "height" : 1,
                 "moves" : 0,
-                "leafPages" : 2,
-                "maxSearchStepsInRequest" : 37,
-                "searchRequests" : 22290,
-                "searchSteps" : 45742,
+                "leafPages" : 1,
+                "maxSearchStepsInRequest" : 7,
+                "searchRequests" : 4152,
+                "searchSteps" : 1803,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 98304
+                "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 37037
+            "valueStorageSizeInBytes" : 14233
           }
         }
       },
@@ -3333,7 +3383,7 @@
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 526
+            "valueStorageSizeInBytes" : 586
           },
           "json.file.root.values_inputs" : {
             "persistentEnumeratorStatistics" : {
@@ -3343,43 +3393,43 @@
               "storageSizeInBytes" : 96,
               "btreeStatistics" : {
                 "pages" : 1,
-                "elements" : 92,
+                "elements" : 112,
                 "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
                 "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 656910,
+                "searchRequests" : 1593750,
                 "searchSteps" : 0,
                 "pageCapacity" : 32768,
                 "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 7117
+            "valueStorageSizeInBytes" : 8683
           }
         }
       },
-      "postcss.custom.media" : {
+      "sql.names" : {
         "statsPerPhm" : {
-          "postcss.custom.media.storage" : {
+          "sql.names.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
+              "values" : 85,
+              "dataFileSizeInBytes" : 1269,
+              "storageSizeInBytes" : 808,
               "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
+                "pages" : 1,
+                "elements" : 85,
+                "height" : 1,
                 "moves" : 0,
                 "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
+                "maxSearchStepsInRequest" : 1,
+                "searchRequests" : 169,
+                "searchSteps" : 2,
                 "pageCapacity" : 32768,
-                "sizeInBytes" : 0
+                "sizeInBytes" : 32768
               }
             },
-            "valueStorageSizeInBytes" : 0
+            "valueStorageSizeInBytes" : 535
           }
         }
       },
@@ -3500,31 +3550,6 @@
           }
         }
       },
-      "ts.external.module.index" : {
-        "statsPerPhm" : {
-          "ts.external.module.index.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
-          }
-        }
-      },
       "ts.global.exported.index" : {
         "statsPerPhm" : {
           "ts.global.exported.index.storage" : {
@@ -3550,9 +3575,9 @@
           }
         }
       },
-      "vue.extends.binding.index" : {
+      "ts.local.classes" : {
         "statsPerPhm" : {
-          "vue.extends.binding.index.storage" : {
+          "ts.local.classes.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -3578,31 +3603,6 @@
       "vue.id.index" : {
         "statsPerPhm" : {
           "vue.id.index.storage" : {
-            "persistentEnumeratorStatistics" : {
-              "collisions" : 0,
-              "values" : 0,
-              "dataFileSizeInBytes" : 0,
-              "storageSizeInBytes" : 96,
-              "btreeStatistics" : {
-                "pages" : 0,
-                "elements" : 0,
-                "height" : 0,
-                "moves" : 0,
-                "leafPages" : 1,
-                "maxSearchStepsInRequest" : 0,
-                "searchRequests" : 0,
-                "searchSteps" : 0,
-                "pageCapacity" : 32768,
-                "sizeInBytes" : 0
-              }
-            },
-            "valueStorageSizeInBytes" : 0
-          }
-        }
-      },
-      "vue.url.index" : {
-        "statsPerPhm" : {
-          "vue.url.index.storage" : {
             "persistentEnumeratorStatistics" : {
               "collisions" : 0,
               "values" : 0,
@@ -3851,7 +3851,7 @@
               "moves" : 0,
               "leafPages" : 1,
               "maxSearchStepsInRequest" : 0,
-              "searchRequests" : 856,
+              "searchRequests" : 735,
               "searchSteps" : 0,
               "pageCapacity" : 32768,
               "sizeInBytes" : 32768
@@ -5178,7 +5178,7 @@
             "moves" : 0,
             "leafPages" : 1,
             "maxSearchStepsInRequest" : 0,
-            "searchRequests" : 543,
+            "searchRequests" : 525,
             "searchSteps" : 0,
             "pageCapacity" : 32768,
             "sizeInBytes" : 32768
@@ -5872,7 +5872,7 @@
             "leafPages" : 1,
             "maxSearchStepsInRequest" : 13,
             "searchRequests" : 6674,
-            "searchSteps" : 5011,
+            "searchSteps" : 5005,
             "pageCapacity" : 32768,
             "sizeInBytes" : 32768
           }
@@ -6040,7 +6040,7 @@
             "leafPages" : 9,
             "maxSearchStepsInRequest" : 84,
             "searchRequests" : 85234,
-            "searchSteps" : 109234,
+            "searchSteps" : 109231,
             "pageCapacity" : 32768,
             "sizeInBytes" : 327680
           }
@@ -7462,7 +7462,7 @@
           "moves" : 0,
           "leafPages" : 1,
           "maxSearchStepsInRequest" : 2,
-          "searchRequests" : 10968,
+          "searchRequests" : 11149,
           "searchSteps" : 326,
           "pageCapacity" : 32768,
           "sizeInBytes" : 32768

@@ -1,0 +1,26 @@
+<root>
+<duplicate cost="1" hash="0">
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/base.css" line="1" start="0" end="5394" />
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/lcov-report/base.css" line="1" start="0" end="5394" />
+  <fragment file="file://$PROJECT_DIR$/base.css" line="1" start="0" end="5394" />
+  <fragment file="file://$PROJECT_DIR$/lcov-report/base.css" line="1" start="0" end="5394" />
+</duplicate>
+<duplicate cost="1" hash="0">
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/block-navigation.js" line="1" start="0" end="2655" />
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/block-navigation.js" line="2" start="21" end="2654" />
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/lcov-report/block-navigation.js" line="1" start="0" end="2655" />
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/lcov-report/block-navigation.js" line="2" start="21" end="2654" />
+  <fragment file="file://$PROJECT_DIR$/block-navigation.js" line="1" start="0" end="2636" />
+  <fragment file="file://$PROJECT_DIR$/lcov-report/block-navigation.js" line="1" start="0" end="2636" />
+  <fragment file="file://$PROJECT_DIR$/lcov-report/block-navigation.js" line="2" start="2" end="2635" />
+</duplicate>
+<duplicate cost="1" hash="0">
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/lcov-report/sorter.js" line="1" start="0" end="6731" />
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/lcov-report/sorter.js" line="2" start="21" end="6730" />
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/sorter.js" line="1" start="0" end="6731" />
+  <fragment file="file://$PROJECT_DIR$/.qodana/code-coverage/sorter.js" line="2" start="21" end="6730" />
+  <fragment file="file://$PROJECT_DIR$/lcov-report/sorter.js" line="1" start="0" end="6731" />
+  <fragment file="file://$PROJECT_DIR$/lcov-report/sorter.js" line="2" start="21" end="6730" />
+  <fragment file="file://$PROJECT_DIR$/sorter.js" line="1" start="0" end="6731" />
+</duplicate>
+</root>

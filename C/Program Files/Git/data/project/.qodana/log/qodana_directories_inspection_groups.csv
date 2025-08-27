@@ -1,54 +1,38 @@
 Directory;Absolute Time spent on Inspection Group 'all', s;Percent of Time spent on Inspection Group 'all';Inspections Problem Count in Group 'all';Times Inspection from Group 'all' was Performed
-/data/project;55.95;100.00%;1022;65198
-/data/project/components;14.43;25.80%;424;18688
-/data/project/components/ui;7.42;13.27%;199;11904
-/data/project/lcov-report;9.94;17.76%;164;20474
-/data/project/lcov-report/components;6.16;11.01%;74;9472
-/data/project/lcov-report/components/ui;3.64;6.50%;47;6016
-/data/project/lcov-report/app;1.90;3.39%;49;6272
-/data/project/lcov-report/app/components;1.80;3.22%;45;5760
-/data/project/lcov-report/app/components/ui;0.65;1.16%;15;1920
-/data/project/lcov-report/app/components/layout;0.50;0.89%;15;1920
-/data/project/lcov-report/app/components/branding;0.46;0.83%;11;1408
-/data/project/lcov-report/app/components/branding/components;0.17;0.30%;3;384
-/data/project/lcov-report/app/components/branding/tokens;0.12;0.22%;4;512
-/data/project/lcov-report/app/components/core;0.19;0.34%;4;512
-/data/project/lcov-report/app/auth/login;0.03;0.06%;2;256
-/data/project/lcov-report/hooks;0.75;1.34%;18;2304
-/data/project/lcov-report/lib;0.53;0.94%;14;1792
-/data/project/lcov-report/lib/schemas;0.07;0.13%;3;384
-/data/project/lcov-report/contexts;0.07;0.12%;2;256
-/data/project/app;9.60;17.16%;135;12497
-/data/project/app/components;4.77;8.52%;122;10953
-/data/project/app/components/ui;2.89;5.16%;43;3705
-/data/project/app/components/layout;0.74;1.32%;43;3840
-/data/project/app/components/branding;0.69;1.24%;24;2376
-/data/project/app/components/branding/components;0.19;0.34%;5;626
-/data/project/app/components/branding/tokens;0.18;0.32%;7;875
-/data/project/app/components/core;0.45;0.80%;12;1024
-/data/project/app/docs;1.88;3.36%;5;640
-/data/project/app/docs/components;1.83;3.27%;4;512
-/data/project/app/docs/components/core;1.73;3.10%;2;256
-/data/project/app/docs/components/core/components;0.08;0.15%;1;128
-/data/project/app/docs/components/layout;0.05;0.09%;1;128
-/data/project/app/docs/components/ui;0.05;0.08%;1;128
-/data/project/app/auth/login;0.03;0.05%;4;384
-/data/project/C:/Program Files/Git/data/project/.qodana;3.33;5.96%;37;1982
-/data/project/C:/Program Files/Git/data/project/.qodana/log;3.08;5.51%;37;1823
-/data/project/C:/Program Files/Git/data/project/.qodana/log/indexing-diagnostic;0.64;1.14%;19;1430
-/data/project/C:/Program Files/Git/data/project/.qodana/log/indexing-diagnostic/project.15375f63;0.41;0.74%;19;1390
+/data/project;129.49;100.00%;865;46160
+/data/project/app;51.15;39.50%;135;12742
+/data/project/app/docs;28.62;22.10%;5;650
+/data/project/app/docs/components;28.52;22.03%;4;520
+/data/project/app/docs/components/core;28.33;21.88%;2;260
+/data/project/app/docs/components/core/components;20.71;15.99%;1;130
+/data/project/app/docs/components/ui;0.15;0.12%;1;130
+/data/project/app/docs/components/layout;0.04;0.03%;1;130
+/data/project/app/components;20.58;15.89%;122;11170
+/data/project/app/components/ui;12.47;9.63%;43;3778
+/data/project/app/components/branding;3.18;2.46%;24;2425
+/data/project/app/components/branding/components;0.75;0.58%;5;639
+/data/project/app/components/branding/tokens;0.70;0.54%;7;893
+/data/project/app/components/core;3.00;2.32%;12;1044
+/data/project/app/components/layout;1.93;1.49%;43;3915
+/data/project/app/auth/login;0.81;0.63%;4;392
+/data/project/components;34.54;26.67%;425;19054
+/data/project/components/ui;16.49;12.73%;199;12137
+/data/project/C:/Program Files/Git/data/project/.qodana;12.08;9.33%;41;2645
+/data/project/C:/Program Files/Git/data/project/.qodana/log;11.80;9.11%;41;2486
+/data/project/C:/Program Files/Git/data/project/.qodana/log/indexing-diagnostic;2.69;2.08%;27;2044
+/data/project/C:/Program Files/Git/data/project/.qodana/log/indexing-diagnostic/project.15375f63;2.03;1.57%;27;1984
 /data/project/C:/Program Files/Git/data/project/.qodana/log/qodana;0.00;0.00%;0;8
-/data/project/C:/Program Files/Git/data/project/.qodana/projectStructure;0.19;0.34%;0;139
-/data/project/lib;3.12;5.57%;53;3486
-/data/project/lib/schemas;0.22;0.38%;7;626
-/data/project/lib/supabase;0.00;0.00%;1;121
-/data/project/hooks;3.05;5.45%;170;4361
-/data/project/scripts;0.28;0.50%;1;153
-/data/project/__tests__;0.15;0.26%;4;256
-/data/project/contexts;0.13;0.23%;14;384
-/data/project/docs;0.04;0.07%;0;8
-/data/project/.claude;0.04;0.07%;0;10
-/data/project/supabase;0.01;0.02%;0;56
-/data/project/supabase/migrations;0.01;0.02%;0;40
-/data/project/.github/workflows;0.01;0.01%;0;8
+/data/project/C:/Program Files/Git/data/project/.qodana/projectStructure;0.14;0.11%;0;139
+/data/project/hooks;9.08;7.01%;170;4449
+/data/project/lib;7.73;5.97%;53;3556
+/data/project/lib/schemas;1.43;1.11%;7;639
+/data/project/lib/supabase;0.03;0.02%;1;123
+/data/project/scripts;1.42;1.09%;1;155
+/data/project/contexts;0.28;0.22%;14;392
+/data/project/__tests__;0.25;0.19%;4;260
+/data/project/docs;0.11;0.08%;0;8
+/data/project/.claude;0.08;0.06%;0;10
+/data/project/.github/workflows;0.03;0.02%;0;8
+/data/project/supabase;0.02;0.02%;0;56
+/data/project/supabase/migrations;0.02;0.02%;0;40
 /data/project/.cursor/rules;0.00;0.00%;0;40

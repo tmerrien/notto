@@ -7,7 +7,7 @@
         "driver": {
           "name": "QDJS",
           "fullName": "Qodana for JS",
-          "version": "251.25781",
+          "version": "252.25440",
           "rules": [],
           "taxa": [],
           "language": "en-US",
@@ -21,7 +21,7 @@
       },
       "invocations": [
         {
-          "startTimeUtc": "2025-08-27T15:47:06.353091578Z",
+          "startTimeUtc": "2025-08-27T15:53:01.616307014Z",
           "exitCode": 0,
           "executionSuccessful": true
         }
@@ -30,7 +30,7 @@
       "versionControlProvenance": [
         {
           "repositoryUri": "https://github.com/tmerrien/notto.git",
-          "revisionId": "d271df0965a1696b95c506daf9dde6fe4f9f8102",
+          "revisionId": "56daf84638210f1eb0b217cf2d0229e9e2e6968b",
           "branch": "master",
           "properties": {
             "repoUrl": "https://github.com/tmerrien/notto.git",
@@ -43,7 +43,7 @@
       "results": [],
       "automationDetails": {
         "id": "project/qodana/2025-08-27",
-        "guid": "b1b2b037-7e85-428b-9f2b-f7dbce712194",
+        "guid": "7617b850-8c21-45a6-a28c-b0c213bc8360",
         "properties": {
           "jobUrl": "",
           "analysisKind": "regular"
@@ -59,13 +59,14 @@
           "totalLines": 1976,
           "totalCoveredLines": 108
         },
+        "qodana.coverage.files.provided": true,
         "configProfile": "recommended",
         "deviceId": "200820300000000-4655-a402-ae8f-b187e74303a4",
         "qodanaNewResultSummary": {
           "high": 512,
-          "critical": 494,
+          "critical": 338,
           "moderate": 8,
-          "total": 1014
+          "total": 858
         }
       }
     }
