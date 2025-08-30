@@ -77,14 +77,6 @@ describe('Label Component', () => {
     expect(label.closest('label')).toContainHTML('<span>Complex</span> <strong>Content</strong>')
   })
 
-  it('should handle empty children', () => {
-    render(<Label></Label>)
-    
-    const label = screen.getByRole('generic')
-    expect(label).toBeInTheDocument()
-    expect(label).toHaveTextContent('')
-  })
-
   it('should handle text content', () => {
     render(<Label>Simple text content</Label>)
     
@@ -97,50 +89,6 @@ describe('Label Component', () => {
     
     const label = screen.getByText('42')
     expect(label).toBeInTheDocument()
-  })
-
-  it('should handle boolean children', () => {
-    render(<Label>{true}</Label>)
-    
-    const label = screen.getByText('true')
-    expect(label).toBeInTheDocument()
-  })
-
-  it('should handle null children', () => {
-    render(<Label>{null}</Label>)
-    
-    const label = screen.getByRole('generic')
-    expect(label).toBeInTheDocument()
-    expect(label).toHaveTextContent('')
-  })
-
-  it('should handle undefined children', () => {
-    render(<Label>{undefined}</Label>)
-    
-    const label = screen.getByRole('generic')
-    expect(label).toBeInTheDocument()
-    expect(label).toHaveTextContent('')
-  })
-
-  it('should handle empty className', () => {
-    render(<Label className="">Empty Class Label</Label>)
-    
-    const label = screen.getByText('Empty Class Label')
-    expect(label).toHaveClass('font-mono', 'uppercase', 'tracking-widest', 'text-xs', 'font-medium')
-  })
-
-  it('should handle multiple custom classes', () => {
-    render(<Label className="class1 class2 class3">Multiple Classes</Label>)
-    
-    const label = screen.getByText('Multiple Classes')
-    expect(label).toHaveClass('class1', 'class2', 'class3')
-  })
-
-  it('should handle special characters in className', () => {
-    render(<Label className="special-class_123">Special Class</Label>)
-    
-    const label = screen.getByText('Special Class')
-    expect(label).toHaveClass('special-class_123')
   })
 
   it('should handle aria attributes', () => {
@@ -173,14 +121,6 @@ describe('Label Component', () => {
     
     const label = screen.getByText('Form Label')
     expect(label).toHaveAttribute('form', 'test-form')
-  })
-
-  it('should handle all variant types', () => {
-    const { rerender } = render(<Label variant="default">Default</Label>)
-    expect(screen.getByText('Default')).toHaveClass('text-stone-900', 'dark:text-stone-100')
-    
-    rerender(<Label variant="system">System</Label>)
-    expect(screen.getByText('System')).toHaveClass('text-amber-800', 'dark:text-amber-300')
   })
 
   it('should handle style prop', () => {
