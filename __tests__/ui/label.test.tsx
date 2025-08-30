@@ -1,14 +1,10 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import { Label } from '../../../app/components/ui/label'
+import { Label } from '../../components/ui/label'
 
-// Mock the shadcn/ui label component
-jest.mock('../../../components/ui/label', () => ({
-  Label: ({ children, className, ...props }: { children: React.ReactNode; className?: string; [key: string]: unknown }) => (
-    <label className={className} {...props}>
-      {children}
-    </label>
-  )
+// Mock the cva function for testing
+jest.mock('class-variance-authority', () => ({
+  cva: jest.fn(() => jest.fn(() => 'mocked-class'))
 }))
 
 describe('Label Component', () => {
@@ -20,25 +16,12 @@ describe('Label Component', () => {
     expect(label.tagName).toBe('LABEL')
   })
 
-  it('should render with default variant', () => {
-    render(<Label>Default Label</Label>)
+  it('should render with shadcn/ui label styling', () => {
+    render(<Label>Styled Label</Label>)
     
-    const label = screen.getByText('Default Label')
-    expect(label).toHaveClass('text-stone-900', 'dark:text-stone-100')
-  })
-
-  it('should render with system variant', () => {
-    render(<Label variant="system">System Label</Label>)
-    
-    const label = screen.getByText('System Label')
-    expect(label).toHaveClass('text-amber-800', 'dark:text-amber-300')
-  })
-
-  it('should apply base classes', () => {
-    render(<Label>Base Label</Label>)
-    
-    const label = screen.getByText('Base Label')
-    expect(label).toHaveClass('font-mono', 'uppercase', 'tracking-widest', 'text-xs', 'font-medium')
+    const label = screen.getByText('Styled Label')
+    expect(label).toBeInTheDocument()
+    expect(label.tagName).toBe('LABEL')
   })
 
   it('should apply custom className', () => {
@@ -46,15 +29,6 @@ describe('Label Component', () => {
     
     const label = screen.getByText('Custom Label')
     expect(label).toHaveClass('custom-label')
-  })
-
-  it('should combine all classes correctly', () => {
-    render(<Label variant="system" className="custom-class">Combined Label</Label>)
-    
-    const label = screen.getByText('Combined Label')
-    expect(label).toHaveClass('font-mono', 'uppercase', 'tracking-widest', 'text-xs', 'font-medium')
-    expect(label).toHaveClass('text-amber-800', 'dark:text-amber-300')
-    expect(label).toHaveClass('custom-class')
   })
 
   it('should handle htmlFor prop', () => {

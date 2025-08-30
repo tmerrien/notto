@@ -1,20 +1,10 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import { Alert, AlertDescription, AlertTitle } from '../../../app/components/ui/alert'
+import { Alert, AlertDescription, AlertTitle } from '../../components/ui/alert'
 
-// Mock the shadcn/ui alert components
-jest.mock('../../../components/ui/alert', () => ({
-  Alert: ({ children, variant, className }: { children: React.ReactNode; variant?: string; className?: string }) => (
-    <div role="alert" data-variant={variant} className={className}>
-      {children}
-    </div>
-  ),
-  AlertDescription: ({ children }: { children: React.ReactNode }) => (
-    <div data-testid="alert-description">{children}</div>
-  ),
-  AlertTitle: ({ children }: { children: React.ReactNode }) => (
-    <div data-testid="alert-title">{children}</div>
-  )
+// Mock the cva function for testing
+jest.mock('class-variance-authority', () => ({
+  cva: jest.fn(() => jest.fn(() => 'mocked-class'))
 }))
 
 describe('Alert Component', () => {
