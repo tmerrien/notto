@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+*.lock
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Test outputs
+coverage/
+lcov-report/
+*.lcov
+
+# Logs and diagnostics
+*.log
+*.log.*
+**/*diagnostic*.html
+**/*.debug
+
+# Cache directories
+.qodana/
+.cache/
+.npm/
+
+# Generated files
+*.min.js
+*.min.css
+*.map
+
+# HTML files (should not be linted by ESLint)
+**/*.html
+index.html
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env*
+!.env.example
+
+# Next.js generated files
+next-env.d.ts
+
+# Large media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Documentation files
+*.md
+!README.md
+
+# Config files that don't need deep analysis
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+next.config.*
+tailwind.config.*
+postcss.config.*

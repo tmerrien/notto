@@ -262,6 +262,7 @@ function TableRecordsView({ projectRef, table }: { projectRef: string; table: Ta
 export function DatabaseManager({ projectRef }: { projectRef: string }) {
   const { push } = useSheetNavigation()
   const { data: tables, isLoading, isError } = useListTables(projectRef, ['public'])
+  const typedTables = tables as TableType[] | undefined
 
   const handleTableClick = useCallback(
     (table: TableType) => {
@@ -319,9 +320,9 @@ export function DatabaseManager({ projectRef }: { projectRef: string }) {
         </div>
       )}
 
-      {tables && tables.length > 0 ? (
+      {typedTables && typedTables.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-          {tables.map((table: TableType) => (
+          {typedTables.map((table: TableType) => (
             <Button
               variant="outline"
               key={table.id}
@@ -337,7 +338,7 @@ export function DatabaseManager({ projectRef }: { projectRef: string }) {
             </Button>
           ))}
         </div>
-      ) : !isLoading && (!tables || tables.length === 0) ? (
+      ) : !isLoading && (!typedTables || typedTables.length === 0) ? (
         <Alert className="mt-8">
           <Table className="h-4 w-4" />
           <AlertTitle>No database tables</AlertTitle>

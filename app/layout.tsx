@@ -13,7 +13,7 @@ import { FooterInfo } from '@/app/components/layout/footer-info'
 import { FooterText } from '@/app/components/layout/footer-text'
 import { FooterLegalLinks } from '@/app/components/layout/footer-legal-links'
 import { Content } from '@/app/components/layout/content'
-import { Layout } from '@/app/components/layout/layout'
+import Layout from '@/app/components/layout/layout'
 import { Separator } from '@/app/components/ui/separator'
 
 export { metadata } from '@/app/components/layout/layout'

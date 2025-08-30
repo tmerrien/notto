@@ -24,7 +24,11 @@ const eslintConfig = [
       "jest-html-reporters-attach/",
       "**/*.html",
       "**/*.config.js",
-      ".env*"
+      ".env*",
+      "next-env.d.ts",
+      "next.config.*",
+      "tailwind.config.*",
+      "postcss.config.*"
     ]
   },
   ...compat.extends("next/core-web-vitals", "next/typescript"),

@@ -16,7 +16,7 @@ const getBuckets = async (projectRef: string) => {
     throw error
   }
 
-  return data
+  return data as unknown as unknown[]
 }
 
 export const useGetBuckets = (projectRef: string) => {
@@ -51,7 +51,7 @@ const listObjects = async ({ projectRef, bucketId }: { projectRef: string; bucke
     throw error
   }
 
-  return data as any
+  return data as unknown as unknown[]
 }
 
 export const useListObjects = (projectRef: string, bucketId: string) => {

@@ -1,9 +1,7 @@
 // Middleware disabled - home page is directly accessible
 // No authentication checks or redirects
 
-import { type NextRequest } from 'next/server'
-
-export async function middleware(request: NextRequest) {
+export async function middleware() {
   // No middleware logic - all routes are accessible
   return
 }

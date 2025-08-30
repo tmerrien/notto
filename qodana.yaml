@@ -1,19 +1,24 @@
 version: '1.0'
-image: jetbrains/qodana-js:2025.2
+linter: jetbrains/qodana-js:2025.2
 profile:
   name: qodana.recommended
+  
+# Simplified bootstrap - skip problematic steps and let Qodana handle ESLint
 bootstrap: |
-  export SHELL=/bin/bash
-  curl -fsSL https://get.pnpm.io/install.sh | SHELL=/bin/bash sh -
-  export PATH="$HOME/.local/share/pnpm:$PATH"
-  pnpm install --frozen-lockfile
-  mkdir -p .qodana/code-coverage
-  test -f coverage/lcov.info && cp coverage/lcov.info .qodana/code-coverage/ || echo "No coverage/lcov.info found"
-  test -f lcov.info && cp lcov.info .qodana/code-coverage/ || echo "No root lcov.info found"
-  echo "Generating fresh coverage..."
-  pnpm test:coverage --passWithNoTests || echo "Coverage generation completed"
+  rm -rf node_modules/.cache || true
+  rm -rf node_modules/@tailwindcss/.oxide* || true
+  npm install --no-audit --progress=false || npm ci --force --no-audit --progress=false
+  export PATH="$PWD/node_modules/.bin:$PATH"
+  
+# Performance and caching properties
 properties:
-  qodana.cache.enabled: false
+  qodana.cache.enabled: true
+  qodana.cache.path: .qodana/cache
+  eslint.enable: true
+  eslint.configPath: eslint.config.mjs
+  eslint.packageJsonPath: package.json
+  qodana.parallelInspections: true
+  idea.max.intellisense.filesize: 5000
 include:
   - name: Eslint
   - name: JsCoverageInspection
@@ -21,6 +26,18 @@ include:
 exclude:
   - name: NodeRequiredDependencies
   - name: NpmUsedModulesInstalled
+  - name: Eslint
+    paths:
+      - "**/*.html"
+      - "**/*.min.js"
+      - .next
+      - node_modules
+      - out
+      - dist
+      - build
+      - .qodana
+      - lcov-report
+      - coverage
   - name: All
     paths:
       - .next

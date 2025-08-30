@@ -5,7 +5,9 @@
  * Usage: node scripts/extract-qodana-issues.js [--filter=category] [--count=N]
  */
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const fs = require('fs');
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const path = require('path');
 
 const args = process.argv.slice(2);

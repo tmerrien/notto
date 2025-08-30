@@ -15,7 +15,7 @@ const listTables = ({ projectRef, schemas }: { projectRef: string; schemas?: str
 }
 
 export const useListTables = (projectRef: string, schemas?: string[]) => {
-  return useQuery({
+  return useQuery<unknown[]>({
     queryKey: ['tables', projectRef, schemas],
     queryFn: () => listTables({ projectRef, schemas }),
     enabled: !!projectRef,

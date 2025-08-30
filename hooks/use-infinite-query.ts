@@ -19,9 +19,9 @@ type Database =
         U,
         {
           public: {
-            Tables: Record<string, any>
-            Views: Record<string, any>
-            Functions: Record<string, any>
+            Tables: Record<string, Record<string, unknown>>
+            Views: Record<string, Record<string, unknown>>
+            Functions: Record<string, Record<string, unknown>>
           }
         },
         U
@@ -37,16 +37,16 @@ type SupabaseTableName = keyof DatabaseSchema['Tables']
 // Extracts the table definition from the database type
 type SupabaseTableData<T extends SupabaseTableName> = DatabaseSchema['Tables'][T]['Row']
 
-type SupabaseSelectBuilder<T extends SupabaseTableName> = ReturnType<
+type SupabaseSelectBuilder = ReturnType<
   ReturnType<typeof supabase['from']>['select']
 >
 
 // A function that modifies the query. Can be used to sort, filter, etc. If .range is used, it will be overwritten.
-type SupabaseQueryHandler<T extends SupabaseTableName> = (
-  query: SupabaseSelectBuilder<T>
-) => SupabaseSelectBuilder<T>
+type SupabaseQueryHandler = (
+  query: SupabaseSelectBuilder
+) => SupabaseSelectBuilder
 
-interface UseInfiniteQueryProps<T extends SupabaseTableName, Query extends string = '*'> {
+interface UseInfiniteQueryProps<T extends SupabaseTableName> {
   // The table name to query
   tableName: T
   // The columns to select, defaults to `*`
@@ -54,7 +54,7 @@ interface UseInfiniteQueryProps<T extends SupabaseTableName, Query extends strin
   // The number of items to fetch per page, defaults to `20`
   pageSize?: number
   // A function that modifies the query. Can be used to sort, filter, etc. If .range is used, it will be overwritten.
-  trailingQuery?: SupabaseQueryHandler<T>
+  trailingQuery?: SupabaseQueryHandler
 }
 
 interface StoreState<TData> {
@@ -102,7 +102,7 @@ function createStore<TData extends SupabaseTableData<T>, T extends SupabaseTable
 
     let query = supabase
       .from(tableName)
-      .select(columns, { count: 'exact' }) as unknown as SupabaseSelectBuilder<T>
+      .select(columns, { count: 'exact' }) as unknown as SupabaseSelectBuilder
 
     if (trailingQuery) {
       query = trailingQuery(query)
@@ -114,7 +114,7 @@ function createStore<TData extends SupabaseTableData<T>, T extends SupabaseTable
       setState({ error })
     } else {
       const deduplicatedData = ((newData || []) as TData[]).filter(
-        (item) => !state.data.find((old) => (old as any).id === (item as any).id)
+        (item) => !state.data.find((old) => (old as Record<string, unknown>).id === (item as Record<string, unknown>).id)
       )
 
       setState({
@@ -150,7 +150,7 @@ function createStore<TData extends SupabaseTableData<T>, T extends SupabaseTable
 }
 
 // Empty initial state to avoid hydration errors.
-const initialState: any = {
+const initialState: StoreState<Record<string, unknown>> = {
   data: [],
   count: 0,
   isSuccess: false,
@@ -186,7 +186,7 @@ function useInfiniteQuery<
     if (!state.hasInitialFetch && typeof window !== 'undefined') {
       storeRef.current.initialize()
     }
-  }, [props.tableName, props.columns, props.pageSize, state.hasInitialFetch])
+  }, [props, state.hasInitialFetch])
 
   return {
     data: state.data,

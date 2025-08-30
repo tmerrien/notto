@@ -8,6 +8,14 @@ import { AlertTriangle, Folder } from 'lucide-react'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 
+interface StorageBucket {
+  id: string;
+  name: string;
+  created_at: string;
+  updated_at: string;
+  public: boolean;
+}
+
 export function StorageManager({ projectRef }: { projectRef: string }) {
   const { data: buckets, isLoading, isError } = useGetBuckets(projectRef)
 
@@ -36,7 +44,7 @@ export function StorageManager({ projectRef }: { projectRef: string }) {
 
       {buckets && buckets.length > 0 ? (
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {buckets.map((bucket: { id: string; name: string; created_at: string; updated_at: string; public: boolean }) => (
+          {(buckets as StorageBucket[]).map((bucket: StorageBucket) => (
             <Tooltip key={bucket.id}>
               <TooltipTrigger asChild>
                 <Button

@@ -31,7 +31,7 @@ export const runQuery = async ({
     throw error
   }
 
-  return data as any
+  return data as unknown as unknown[]
 }
 
 export const useRunQuery = () => {

@@ -71,6 +71,7 @@ export function SqlEditor({
   )
   const [naturalLanguageQuery, setNaturalLanguageQuery] = useState('')
   const { mutate: runQuery, data, isPending, error } = useRunQuery()
+  const typedData = data as Record<string, unknown>[] | undefined
   const [isGeneratingSql, setIsGeneratingSql] = useState(false)
   const [aiError, setAiError] = useState<string | null>(null)
   const [isChartVisible, setIsChartVisible] = useState(false)
@@ -78,9 +79,9 @@ export function SqlEditor({
   const [yAxisColumn, setYAxisColumn] = useState<string | null>(null)
 
   const columns = useMemo(() => {
-    if (!data || data.length === 0) return []
-    return Object.keys(data[0])
-  }, [data])
+    if (!typedData || typedData.length === 0) return []
+    return Object.keys(typedData[0])
+  }, [typedData])
 
   useEffect(() => {
     if (initialSql) {
@@ -151,16 +152,16 @@ export function SqlEditor({
 
   useEffect(() => {
     if (onResults) {
-      onResults(data)
+      onResults(typedData)
     }
-  }, [data, onResults])
+  }, [typedData, onResults])
 
   useEffect(() => {
-    const noResults = !data || (Array.isArray(data) && data.length === 0)
+    const noResults = !typedData || (Array.isArray(typedData) && typedData.length === 0)
     if (noResults && !isSqlVisible && !isNaturalLanguageMode && !readOnly && !isPending) {
       setIsSqlVisible(true)
     }
-  }, [data, isSqlVisible, isNaturalLanguageMode, isPending, readOnly])
+  }, [typedData, isSqlVisible, isNaturalLanguageMode, isPending, readOnly])
 
   const serverErrorMessage = (error as { response?: { data?: { message?: string } } })?.response?.data?.message || ''
   const isReadOnlyError =
@@ -374,15 +375,15 @@ export function SqlEditor({
         </div>
       )}
 
-      {!hideChartOption && data && isChartVisible && xAxisColumn && yAxisColumn && (
+      {!hideChartOption && typedData && isChartVisible && xAxisColumn && yAxisColumn && (
         <div className="px-8 mt-8 mb-4">
-          <QueryResultChart data={data} xAxis={xAxisColumn} yAxis={yAxisColumn} />
+          <QueryResultChart data={typedData} xAxis={xAxisColumn} yAxis={yAxisColumn} />
         </div>
       )}
 
-      {data && (
+      {typedData && (
         <div>
-          <ResultsTable data={data} onRowClick={(row) => onRowClick?.(row, queryKey)} />
+          <ResultsTable data={typedData} onRowClick={(row) => onRowClick?.(row, queryKey)} />
         </div>
       )}
     </div>
